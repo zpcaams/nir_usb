@@ -5,4 +5,5 @@
 !*.SchDoc
 !*.SchLib
 !*.PcbLib
+!*.PcbDoc
 
