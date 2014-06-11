@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : TR19X23X05-D.dra                              )
+(    Software Version : 16.5P002                                      )
+(    Date/Time        : Sun Jun 08 21:50:12 2014                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: FLASH
+    Directory = D:/fhx-footprint
+    Name      = tr19x23x05-d.fsm
+    User      = uuy
+    Machine   = WEWEWE-PC
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : 0805.dra                                      )
+(    Software Version : 16.5P002                                      )
+(    Date/Time        : Sun Jun 08 10:23:46 2014                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = D:/fhx-footprint
+    Name      = 0805.psm
+    User      = uuy
+    Machine   = WEWEWE-PC
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

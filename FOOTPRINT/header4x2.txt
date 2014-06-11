@@ -1,0 +1,13 @@
+(DEVICE FILE: header4x2)
+
+PACKAGE header4x2
+CLASS IO
+PINCOUNT 8
+
+PINORDER header4x2  1 2 3 4 5 6 7 8
+
+PINSWAP header4x2  1 2 3 4 5 6 7 8
+
+FUNCTION header4x2 header4x2  1 2 3 4 5 6 7 8
+
+END

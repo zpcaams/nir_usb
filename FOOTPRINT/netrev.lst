@@ -1,0 +1,148 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : nir_brd.brd                                   )
+(    Software Version : 16.5P002                                      )
+(    Date/Time        : Mon Jun 09 10:51:47 2014                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------
+
+RIPUP_ETCH FALSE;
+RIPUP_DELETE_FIRST_SEGMENT FALSE;
+RIPUP_RETAIN_BONDWIRE FALSE;
+RIPUP_SYMBOLS ALWAYS;
+Missing symbol has error FALSE;
+SCHEMATIC_DIRECTORY 'E:/Mywork/ALLEGRO';
+BOARD_DIRECTORY '';
+OLD_BOARD_NAME 'D:/fhx-footprint/nir_brd.brd';
+NEW_BOARD_NAME 'D:/fhx-footprint/nir_brd.brd';
+
+CmdLine: netrev -$ -i E:/Mywork/ALLEGRO -y 1 D:/fhx-footprint/#Taaaaaa06592.tmp
+
+------ Preparing to read pst files ------
+
+Starting to read E:/Mywork/ALLEGRO/pstchip.dat 
+   Finished reading E:/Mywork/ALLEGRO/pstchip.dat (00:00:00.04)
+Starting to read E:/Mywork/ALLEGRO/pstxprt.dat 
+   Finished reading E:/Mywork/ALLEGRO/pstxprt.dat (00:00:00.00)
+Starting to read E:/Mywork/ALLEGRO/pstxnet.dat 
+   Finished reading E:/Mywork/ALLEGRO/pstxnet.dat (00:00:00.00)
+
+------ Oversights/Warnings/Errors ------
+
+
+#1   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-337): Unable to load symbol 'XCS200A' for device 'XC3S200A-VQ100_XCS200A_XC3S200A': WARNING(SPMHUT-127): Could not find padstack B150_30. [help]
+
+#2   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-337): Unable to load symbol 'HEADER1' for device 'HEADER1_HEADER1_HEADER1': WARNING(SPMHUT-127): Could not find padstack S135H85T135_165_45. [help]
+
+#3   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'SMB' for device 'BNC_SMB_BNC' not found in PSMPATH or must be "dbdoctor"ed.
+
+#4   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-337): Unable to load symbol 'AD7961' for device 'AD7961_AD7961_**': WARNING(SPMHUT-127): Could not find padstack D85_30. [help]
+
+#5   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-337): Unable to load symbol 'M25P80' for device 'M25P80_M25P80_M25P80': WARNING(SPMHUT-127): Could not find padstack B160_60. [help]
+
+#6   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-337): Unable to load symbol '93C46' for device '93C46_93C46_93C46': WARNING(SPMHUT-127): Could not find padstack R145_45. [help]
+
+#7   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-337): Unable to load symbol 'FT232H' for device 'FT232H_FT232H_FT232H': WARNING(SPMHUT-127): Could not find padstack R150_30. [help]
+
+#8   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'USB-B' for device 'USB-B_USB-B_USB-B' not found in PSMPATH or must be "dbdoctor"ed.
+
+#9   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-337): Unable to load symbol 'CO4305' for device 'CO4305-12M_CO4305_CO4305-12M': WARNING(SPMHUT-127): Could not find padstack R165_160. [help]
+
+#10  WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-337): Unable to load symbol 'ADA4932' for device 'ADA4932_ADA4932_ADA4932': WARNING(SPMHUT-127): Could not find padstack D85_30. [help]
+
+#11  WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-337): Unable to load symbol 'SOIC127P600X175-8N' for device 'MIC5209BM_SOIC127P600X175-8N_MI': WARNING(SPMHUT-127): Could not find padstack R155_60. [help]
+
+#12  WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-337): Unable to load symbol 'SOIC127P600X175-8N' for device 'REF5040_SOIC127P600X175-8N_REF5': WARNING(SPMHUT-127): Could not find padstack R155_60. [help]
+
+#13  WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-337): Unable to load symbol 'SOIC127P600X175-8N' for device 'TPS54331_SOIC127P600X175-8N_TPS': WARNING(SPMHUT-127): Could not find padstack R155_60. [help]
+
+#14  WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-337): Unable to load symbol 'AMS1117' for device 'AMS1117_AMS1117_AMS1117': WARNING(SPMHUT-127): Could not find padstack R145_90. [help]
+
+------ Library Paths ------
+MODULEPATH =  . 
+           D:/Cadence/SPB_16.5/share/local/pcb/modules 
+
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           D:/Cadence/SPB_16.5/share/local/pcb/symbols 
+           D:/Cadence/SPB_16.5/share/pcb/pcb_lib/symbols 
+           D:/Cadence/SPB_16.5/share/pcb/allegrolib/symbols 
+           D:\fhx-footprint\ 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           D:/Cadence/SPB_16.5/share/local/pcb/padstacks 
+           D:/Cadence/SPB_16.5/share/pcb/pcb_lib/symbols 
+           D:/Cadence/SPB_16.5/share/pcb/allegrolib/symbols 
+           D:\fhx-footprint\PADS\ 
+           D:\fhx-footprint\flash\ 
+
+
+------ Summary Statistics ------
+
+
+netrev run on Jun 9 10:51:47 2014
+   DESIGN NAME : 'NIR'
+   PACKAGING ON Apr 21 2011 10:02:30
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+ 14 warnings detected
+
+cpu time      0:00:34
+elapsed time  0:00:01
+

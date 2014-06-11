@@ -1,0 +1,27 @@
+\t (00:18:18) allegro 16.5 P003 (v16-5-13C) i86
+\t (00:18:18)     Journal start - Tue Jun 10 23:42:54 2014
+\t (00:18:18)         Host=WEWEWE-PC User=uuy Pid=2872 CPUs=4
+\t (00:18:18) 
+\d (00:18:18) Database opened: E:/Mywork/NIR/FOOTPRINT/header2.dra
+\i (00:18:18) generaledit 
+\i (00:18:24) open 
+\i (00:18:33) fillin "header4x1.dra"
+\t (00:18:33) Opening existing design...
+\i (00:18:33) trapsize 882
+\d (00:18:33) Database opened: E:/Mywork/NIR/FOOTPRINT/header4x1.dra
+\i (00:18:33) generaledit 
+\i (00:18:34) pick grid 5.0791 -3.2802
+\t (00:18:34) last pick:  5.0800  -3.3020
+\i (00:18:37) open 
+\i (00:18:48) fillin "menu_cancel"
+\i (00:18:48) generaledit 
+\i (00:19:26) open 
+\i (00:19:35) fillin "E:\Mywork\NIR\DSN\NIR_USB.brd"
+\i (00:19:35) cd "E:\Mywork\NIR\DSN"
+\t (00:19:35) Opening existing design...
+\i (00:19:36) trapsize 646
+\i (00:19:36) trapsize 631
+\i (00:19:36) trapsize 646
+\i (00:19:36) trapsize 653
+\i (00:19:36) trapsize 653
+\t (00:19:36)     Journal end - Tue Jun 10 23:44:12 2014

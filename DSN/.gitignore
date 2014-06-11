@@ -1,4 +1,5 @@
 *
+!*.gitignore
 !*.DSN
 !*.OLB
 !*.opj
@@ -6,7 +7,5 @@
 !*.dra
 !*.psm
 !*.pad
-!*.pdf
-!*.gitignore
 !*.txt
 !*.log

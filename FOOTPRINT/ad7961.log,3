@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : AD7961.dra                                    )
+(    Software Version : 16.5P002                                      )
+(    Date/Time        : Tue Jun 10 16:22:39 2014                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = E:/Mywork/NIR_BRD/FOOTPRINT
+    Name      = ad7961.psm
+    User      = uuy
+    Machine   = WEWEWE-PC
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+
