@@ -1,0 +1,12 @@
+*
+!*.DSN
+!*.OLB
+!*.opj
+!*.brd
+!*.dra
+!*.psm
+!*.pad
+!*.pdf
+!*.gitignore
+!*.txt
+!*.log
