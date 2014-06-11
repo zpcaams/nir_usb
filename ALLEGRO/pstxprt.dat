@@ -1,5 +1,5 @@
 FILE_TYPE = EXPANDEDPARTLIST;
-{ Using PSTWRITER 16.5.0 p001Jun-10-2014 at 23:54:19 }
+{ Using PSTWRITER 16.5.0 p001Jun-11-2014 at 10:24:01 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='NIR';
@@ -21,9 +21,9 @@ PART_NAME
  C10 'CAPACITOR NON-POL_0603_0.1UF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS13797@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins13797@discrete.\capacitor non-pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page2_ins13797@discrete.\capacitor non-pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS13533@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins13533@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page2_ins13533@discrete.\capacitor non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -31,9 +31,9 @@ PART_NAME
  C11 'CAPACITOR NON-POL_0603_0.1UF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS13533@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins13533@discrete.\capacitor non-pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page2_ins13533@discrete.\capacitor non-pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS13797@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins13797@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page2_ins13797@discrete.\capacitor non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -51,9 +51,9 @@ PART_NAME
  C13 'CAPACITOR NON-POL_0603_0.1UF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS14072@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins14072@discrete.\capacitor non-pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page2_ins14072@discrete.\capacitor non-pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS14046@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins14046@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page2_ins14046@discrete.\capacitor non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -61,9 +61,9 @@ PART_NAME
  C14 'CAPACITOR NON-POL_0603_0.1UF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS14046@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins14046@discrete.\capacitor non-pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page2_ins14046@discrete.\capacitor non-pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS14072@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins14072@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page2_ins14072@discrete.\capacitor non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -251,9 +251,9 @@ PART_NAME
  C31 'CAPACITOR NON-POL_0603_0.1UF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS18045@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins18045@discrete.\capacitor non-pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page5_ins18045@discrete.\capacitor non-pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS18029@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins18029@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page5_ins18029@discrete.\capacitor non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -261,9 +261,9 @@ PART_NAME
  C32 'CAPACITOR NON-POL_0603_0.1UF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS18029@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins18029@discrete.\capacitor non-pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page5_ins18029@discrete.\capacitor non-pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS18045@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins18045@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page5_ins18045@discrete.\capacitor non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -701,9 +701,9 @@ PART_NAME
  C72 'CAPACITOR NON-POL_0603_0.1UF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS6665@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins6665@discrete.\capacitor non-pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page9_ins6665@discrete.\capacitor non-pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS6639@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins6639@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page9_ins6639@discrete.\capacitor non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -711,9 +711,9 @@ PART_NAME
  C73 'CAPACITOR NON-POL_0603_0.1UF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS6639@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins6639@discrete.\capacitor non-pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page9_ins6639@discrete.\capacitor non-pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS6665@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins6665@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page9_ins6665@discrete.\capacitor non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 

@@ -56,7 +56,7 @@
     (DRC_Report_Unused_Part_Packages "TRUE")
     (DRC_Check_Name_Prop_For_HierBlocks "TRUE")
     ("Create Allegro Netlist" "TRUE")
-    ("Allegro Netlist Directory" "E:\MYWORK\ALLEGRO")
+    ("Allegro Netlist Directory" "C:\USERS\UUY\NIR_USB\ALLEGRO")
     ("View Allegro Netlist Files" "FALSE")
     ("Update Allegro Board" "FALSE")
     ("Allegro Netlist Output Board File" "allegro\nir.brd")
@@ -91,6 +91,15 @@
       (Type "Report")
       (DisplayName "pstxprt.dat"))
     (File "e:\mywork\allegro\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat"))
+    (File "..\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File "..\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File "..\allegro\pstchip.dat"
       (Type "Report")
       (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
@@ -203,7 +212,7 @@
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library" ".\nir.olb")
       (Path "Outputs")
-      (Select "Design Resources" "Library" ".\nir.olb" "ams1117"))
+      (Select "Design Resources" ".\nir.dsn" "NIR" "FT232H"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
