@@ -1,272 +1,55 @@
-\t (00:32:19) allegro 16.5 P003 (v16-5-13C) i86
-\t (00:32:19)     Journal start - Tue Jun 10 23:56:55 2014
-\t (00:32:19)         Host=WEWEWE-PC User=uuy Pid=2872 CPUs=4
-\t (00:32:19) 
-\d (00:32:19) Database opened: E:/Mywork/NIR/FOOTPRINT/smb.dra
-\i (00:32:19) generaledit 
-\i (00:33:43) create device 
-\i (00:33:46) setwindow form.crdevice
-\i (00:33:46) FORM crdevice dtype IO 
-   (00:33:46) Loading cmds.cxt 
-\i (00:33:48) FORM crdevice done  
-\t (00:33:48) Device file "smb.txt" contains 5 pins
+\t (00:27:11) allegro 16.5 P003 (v16-5-13C) i86
+\t (00:27:11)     Journal start - Wed Jun 11 10:45:48 2014
+\t (00:27:11)         Host=WEWEWE-PC User=uuy Pid=5844 CPUs=4
+\t (00:27:11) 
+\d (00:27:11) Database opened: C:/Users/uuy/nir_usb/FOOTPRINT/AD7961.dra
+\i (00:27:11) generaledit 
+\i (00:27:16) create device 
+\i (00:27:19) setwindow form.crdevice
+\i (00:27:19) FORM crdevice done  
+\t (00:27:19) Device file "AD7961.txt" contains 33 pins
 
-   (00:33:48) Loading axlcore.cxt 
-\i (00:33:48) setwindow pcb
-\i (00:33:48) generaledit 
-\i (00:33:51) save_as 
-\i (00:33:56) fillin "smb.dra"
-\e (00:33:56) ERROR(SPMHGE-7): Error(s) occurred, check logfile.
-\i (00:33:56) generaledit 
-\i (00:34:15) setwindow text
-\i (00:34:15) close 
-\i (00:34:16) setwindow pcb
-\i (00:34:16) zoom in 1 
-\i (00:34:16) setwindow pcb
-\i (00:34:16) zoom in -1.8605 1.9122
-\i (00:34:16) trapsize 646
-\i (00:34:17) zoom in 1 
-\i (00:34:17) setwindow pcb
-\i (00:34:17) zoom in -2.1705 2.2739
-\i (00:34:17) trapsize 323
-\i (00:34:19) pick grid -2.4160 2.8295
-\t (00:34:19) last pick:  -2.5400  2.7940
-\i (00:34:19) pick grid -2.4547 2.7261
-\t (00:34:19) last pick:  -2.5400  2.7940
-\i (00:34:20) drag_start grid -2.4289 2.7132
-\i (00:34:21) drag_stop -0.0645 3.1525
-\i (00:34:21) zoom out 1 
-\i (00:34:21) setwindow pcb
-\i (00:34:21) zoom out 0.9949 2.5969
-\i (00:34:21) trapsize 646
-\i (00:34:24) pick grid -2.4160 2.4936
-\t (00:34:24) last pick:  -2.5400  2.5400
-\e (00:34:35) Command not found: Del
-\i (00:34:36) pick grid -1.7442 2.0285
-\t (00:34:36) last pick:  -1.7780  2.0320
-\i (00:34:36) prepopup -1.7442 2.0285
-\i (00:34:38) pick grid -6.2661 3.4238
-\t (00:34:38) last pick:  -6.3500  3.3020
-\i (00:34:40) delete 
-\i (00:34:45) pick grid 2.4936 -2.4418
-\t (00:34:45) last pick:  2.5400  -2.5400
-\t (00:34:45) Connect Pin "Smbx15x25, 2"
-\i (00:34:46) prepopup 2.1835 -2.1059
-\i (00:34:47) done 
-\i (00:34:47) generaledit 
-\i (00:34:48) undo 
-\i (00:34:48) trapsize 646
-\i (00:34:48) generaledit 
-\i (00:34:49) pick grid 5.6977 -1.0465
-\t (00:34:49) last pick:  5.5880  -1.0160
-\i (00:34:50) prepopup 5.7236 -1.0206
-\i (00:34:51) pick grid 5.2585 -0.8398
-\t (00:34:51) last pick:  5.3340  -0.7620
-\i (00:34:51) pick grid 2.9329 -2.1834
-\t (00:34:51) last pick:  3.0480  -2.2860
-\i (00:34:51) pick grid dbl 2.9329 -2.1834
-\t (00:34:51) last pick:  3.0480  -2.2860
-\i (00:34:52) prepopup 2.9329 -2.1834
-\i (00:34:54) pop dyn_option_select 'Quick Utilities@:@Grids...' 
-\i (00:34:54) define grid 
-\t (00:34:54) Spacing fields allow simple equations to aid calculations; prefix with =
-\i (00:34:54) generaledit 
-\i (00:34:55) setwindow form.grid
-\i (00:34:55) FORM grid done  
-\i (00:34:56) setwindow pcb
-\i (00:34:56) prepopup 3.0362 -1.8217
-\i (00:34:58) pop dyn_option_select 'Quick Utilities@:@Design Parameters...' 
-\i (00:34:58) prmed 
-\i (00:34:59) setwindow form.prmedit
-\i (00:34:59) FORM prmedit design  
-\i (00:35:00) FORM prmedit display  
-\i (00:35:02) FORM prmedit route  
-\i (00:35:03) FORM prmedit shapes  
-\i (00:35:03) FORM prmedit text  
-\i (00:35:04) FORM prmedit cancel  
-\i (00:35:04) setwindow pcb
-\i (00:35:04) generaledit 
-\i (00:35:08) pick grid -2.0284 1.9251
-\t (00:35:08) last pick:  -2.0320  2.0320
-\i (00:35:08) prepopup -2.0284 1.9251
-\i (00:35:14) pop dyn_option_select '@:@Show element' 
-\i (00:35:14) show element 
-\i (00:35:14) generaledit 
-\i (00:35:22) zoom out 1 
-\i (00:35:22) setwindow pcb
-\i (00:35:22) zoom out 5.1809 0.2972
-\i (00:35:22) trapsize 1292
-\i (00:35:23) zoom out 1 
-\i (00:35:23) setwindow pcb
-\i (00:35:23) zoom out 20.3618 -0.6718
-\i (00:35:23) trapsize 1292
-\i (00:35:23) zoom out 1 
-\i (00:35:23) setwindow pcb
-\i (00:35:23) zoom out 20.3618 -0.6718
-\i (00:35:23) trapsize 1292
-\i (00:35:23) zoom out 1 
-\i (00:35:23) setwindow pcb
-\i (00:35:23) zoom out 20.5168 -0.7752
-\i (00:35:23) trapsize 1292
-\i (00:35:24) setwindow text
-\i (00:35:24) close 
-\i (00:35:25) setwindow pcb
-\i (00:35:25) drag_start grid 8.5271 -5.6848
-\i (00:35:26) drag_stop -6.5116 5.3747
-\i (00:35:26) prepopup -0.3617 1.9638
-\i (00:35:30) pop dyn_option_select '@:@Show element' 
-\i (00:35:30) show element 
-\i (00:35:30) generaledit 
-\i (00:35:35) zoom out 1 
-\i (00:35:35) setwindow pcb
-\i (00:35:35) zoom out 19.1215 -6.6150
-\i (00:35:35) trapsize 1292
-\i (00:35:36) zoom out 1 
-\i (00:35:36) setwindow pcb
-\i (00:35:36) zoom out 19.1215 -6.6150
-\i (00:35:36) trapsize 1292
-\i (00:35:36) zoom out 1 
-\i (00:35:36) setwindow pcb
-\i (00:35:36) zoom out 19.0698 -6.6150
-\i (00:35:36) trapsize 1292
-\i (00:35:36) zoom out 1 
-\i (00:35:36) setwindow pcb
-\i (00:35:36) zoom out 19.0698 -6.6150
-\i (00:35:36) trapsize 1292
-\i (00:35:36) zoom out 1 
-\i (00:35:36) setwindow pcb
-\i (00:35:36) zoom out 18.9148 -6.6150
-\i (00:35:36) trapsize 1292
-\i (00:35:36) zoom in 1 
-\i (00:35:36) setwindow pcb
-\i (00:35:36) zoom in 18.9148 -6.6150
-\i (00:35:36) trapsize 646
-\i (00:35:38) setwindow text
-\i (00:35:38) close 
-\i (00:35:39) setwindow pcb
-\i (00:35:39) zoom in 1 
-\i (00:35:39) setwindow pcb
-\i (00:35:39) zoom in 2.9070 -3.4625
-\i (00:35:39) trapsize 323
-\i (00:35:39) zoom out 1 
-\i (00:35:39) setwindow pcb
-\i (00:35:39) zoom out 2.3128 -2.8553
-\i (00:35:39) trapsize 646
-\i (00:35:40) pick grid 5.9819 -4.2506
-\t (00:35:40) last pick:  6.0960  -4.3180
-\i (00:35:41) pick grid -2.5453 -2.3126
-\t (00:35:41) last pick:  -2.5400  -2.2860
-\i (00:35:42) drag_start grid -1.8476 -2.3901
-\i (00:35:42) drag_stop -0.3747 -5.8268
-\i (00:35:43) drag_start grid -1.9768 -2.1576
-\i (00:35:43) drag_stop -1.2791 -4.9741
-\i (00:35:45) zoom out 1 
-\i (00:35:45) setwindow pcb
-\i (00:35:45) zoom out 0.2971 -3.3979
-\i (00:35:45) trapsize 1292
-\i (00:35:46) pick grid -2.6615 3.1008
-\t (00:35:46) last pick:  -2.5400  3.0480
-\i (00:35:47) zoom in 1 
-\i (00:35:47) setwindow pcb
-\i (00:35:47) zoom in -1.4729 2.3773
-\i (00:35:47) trapsize 646
-\i (00:35:48) pick grid -2.7002 2.8424
-\t (00:35:48) last pick:  -2.7940  2.7940
-\i (00:35:49) pick grid -0.4005 4.3670
-\t (00:35:49) last pick:  -0.5080  4.3180
-\i (00:35:50) delete 
-\i (00:35:50) pick grid -2.5194 3.1267
-\t (00:35:50) last pick:  -2.5400  3.0480
-\t (00:35:50) Connect Pin "Smbx15x25, 2"
-\i (00:35:53) pick grid tgl 2.8553 3.1784
-\t (00:35:53) last pick:  2.7940  3.3020
-\t (00:35:53) Connect Pin "Smbx15x25, 2"
-\i (00:35:55) pick grid tgl -2.0801 -2.0930
-\t (00:35:55) last pick:  -2.0320  -2.0320
-\t (00:35:55) Connect Pin "Smbx15x25, 2"
-\i (00:35:56) pick grid 3.1395 -2.2738
-\t (00:35:56) last pick:  3.0480  -2.2860
-\t (00:35:56) Connect Pin "Smbx15x25, 2"
-\i (00:35:57) pick grid 3.2946 -2.3772
-\t (00:35:57) last pick:  3.3020  -2.2860
-\t (00:35:57) Filled Rectangle "Package Geometry/Place_Bound_Top"
-\i (00:35:58) pick grid 5.6977 2.5324
-\t (00:35:58) last pick:  5.5880  2.5400
-\i (00:36:02) add pin 
-\t (00:36:02) Using 'SMBX15X25.pad'.
-\i (00:36:09) setwindow form.mini
-\i (00:36:09) FORM mini next_pin_number 2 
-\i (00:36:23) setwindow pcb
-\i (00:36:23) pick -2.5 2.5 
-\t (00:36:23) last pick:  -2.5000  2.5000
-\t (00:36:23) Using 'SMBX15X25.pad'.
-\i (00:36:26) prepopup 5.8010 0.6461
-\i (00:36:27) done 
-\t (00:36:27) Exiting from Add Pin.
-\i (00:36:27) generaledit 
-\i (00:36:28) pick grid 4.3540 1.0595
-\t (00:36:28) last pick:  4.3180  1.0160
-\i (00:36:30) zoom out 1 
-\i (00:36:30) setwindow pcb
-\i (00:36:30) zoom out 3.8372 0.9820
-\i (00:36:30) trapsize 1292
-\i (00:36:31) pick grid 6.3824 -0.1034
-\t (00:36:31) last pick:  6.3500  0.0000
-\i (00:36:31) save 
-\i (00:36:33) fillin yes 
-\t (00:36:34) Symbol 'smb.psm' created.
-\i (00:36:34) generaledit 
-\i (00:36:36) pick grid -5.5556 3.8243
-\t (00:36:36) last pick:  -5.5880  3.8100
-\i (00:36:40) add rect 
-\i (00:36:45) pick -3 3 
-\t (00:36:45) last pick:  -3.0000  3.0000
-\i (00:36:57) pick grid 9.7158 -1.0336
-\t (00:36:57) last pick:  9.6520  -1.0160
-\i (00:36:59) undo 
-\i (00:36:59) trapsize 1292
-\i (00:36:59) generaledit 
-\i (00:37:01) add rect 
-\i (00:37:13) pick -3.5 3.5 
-\t (00:37:13) last pick:  -3.5000  3.5000
-\i (00:37:20) undo 
-\i (00:37:20) trapsize 1292
-\i (00:37:20) generaledit 
-\i (00:37:22) add rect 
-\i (00:37:29) pick -4 4 
-\t (00:37:29) last pick:  -4.0000  4.0000
-\i (00:37:36) pick 4 -4 
-\t (00:37:36) last pick:  4.0000  -4.0000
-\i (00:37:37) prepopup 6.9768 -2.1189
-\i (00:37:38) done 
-\i (00:37:38) generaledit 
-\i (00:37:42) save_as 
-\i (00:37:45) fillin "smb.dra"
-\t (00:37:45) Symbol 'smb.psm' created.
-\i (00:37:45) generaledit 
-\i (00:37:48) create device 
-\i (00:37:50) setwindow form.crdevice
-\i (00:37:50) FORM crdevice dtype IO 
-\i (00:37:51) FORM crdevice done  
-\t (00:37:51) Device file "smb.txt" contains 5 pins
+   (00:27:19) Loading cmds.cxt 
+   (00:27:19) Loading axlcore.cxt 
+\i (00:27:19) setwindow pcb
+\i (00:27:19) generaledit 
+\i (00:27:24) open 
+\i (00:27:26) fillin "ADA4932.dra"
+\t (00:27:26) Opening existing design...
+\i (00:27:26) trapsize 470
+\d (00:27:26) Database opened: C:/Users/uuy/nir_usb/FOOTPRINT/ADA4932.dra
+\i (00:27:26) generaledit 
+\i (00:27:28) create device 
+\i (00:27:29) setwindow form.crdevice
+\i (00:27:29) FORM crdevice done  
+\t (00:27:29) Device file "ADA4932.txt" contains 16 pins
 
-\i (00:37:51) setwindow pcb
-\i (00:37:51) generaledit 
-\i (00:37:54) save 
-\i (00:37:58) fillin no 
-\i (00:38:00) fillin "menu_cancel"
-\i (00:38:00) generaledit 
-\i (00:38:02) save 
-\i (00:38:02) fillin yes 
-\t (00:38:03) Symbol 'smb.psm' created.
-\i (00:38:03) generaledit 
-\i (00:38:05) open 
-\i (00:38:12) fillin "E:\Mywork\NIR\DSN\NIR_USB.brd"
-\i (00:38:12) cd "E:\Mywork\NIR\DSN"
-\t (00:38:12) Opening existing design...
-\i (00:38:12) trapsize 646
-\i (00:38:12) trapsize 631
-\i (00:38:12) trapsize 646
-\i (00:38:12) trapsize 653
-\i (00:38:13) trapsize 653
-\t (00:38:13)     Journal end - Wed Jun 11 00:02:49 2014
+\i (00:27:29) setwindow pcb
+\i (00:27:29) generaledit 
+\i (00:27:30) open 
+\i (00:27:37) fillin "FT232H.dra"
+\t (00:27:37) Opening existing design...
+\i (00:27:37) trapsize 1667
+\d (00:27:37) Database opened: C:/Users/uuy/nir_usb/FOOTPRINT/FT232H.dra
+\i (00:27:37) generaledit 
+\i (00:27:41) create device 
+\i (00:27:42) setwindow form.crdevice
+\i (00:27:42) FORM crdevice done  
+\t (00:27:42) Device file "FT232H.txt" contains 48 pins
+
+\i (00:27:42) setwindow pcb
+\i (00:27:42) generaledit 
+\i (00:27:43) save 
+\i (00:27:44) fillin yes 
+\t (00:27:45) Symbol 'ft232h.psm' created.
+\i (00:27:45) generaledit 
+\i (00:27:50) open 
+\i (00:28:01) fillin "C:\Users\uuy\nir_usb\DSN\NIR_USB.brd"
+\i (00:28:01) cd "C:\Users\uuy\nir_usb\DSN"
+\t (00:28:01) Opening existing design...
+\i (00:28:02) trapsize 646
+\i (00:28:02) trapsize 631
+\i (00:28:02) trapsize 646
+\i (00:28:02) trapsize 653
+\i (00:28:02) trapsize 653
+\t (00:28:02)     Journal end - Wed Jun 11 10:46:39 2014

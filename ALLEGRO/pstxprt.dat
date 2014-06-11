@@ -1,5 +1,5 @@
 FILE_TYPE = EXPANDEDPARTLIST;
-{ Using PSTWRITER 16.5.0 p001Jun-11-2014 at 10:24:01 }
+{ Using PSTWRITER 16.5.0 p001Jun-11-2014 at 10:47:58 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='NIR';
@@ -871,9 +871,9 @@ PART_NAME
  IC1 'AD7961_AD7961_AD7961':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS52640@NIR.AD7961.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins52640@nir.\ad7961.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page1_ins52640@nir.\ad7961.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS69518@NIR.AD7961.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins69518@nir.\ad7961.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page1_ins69518@nir.\ad7961.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 

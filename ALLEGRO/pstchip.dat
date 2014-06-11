@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 16.5.0 p001Jun-11-2014 at 10:24:01}
+{ Using PSTWRITER 16.5.0 p001Jun-11-2014 at 10:47:58}
 primitive 'CAP_0805_10UF';
   pin
     '1':
@@ -292,6 +292,9 @@ primitive 'AD7961_AD7961_AD7961';
       PINUSE='UNSPEC';
     'REF4':
       PIN_NUMBER='(32)';
+      PINUSE='UNSPEC';
+    'GND':
+      PIN_NUMBER='(33)';
       PINUSE='UNSPEC';
   end_pin;
   body

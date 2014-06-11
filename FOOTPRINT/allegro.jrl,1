@@ -1,27 +1,36 @@
-\t (00:18:18) allegro 16.5 P003 (v16-5-13C) i86
-\t (00:18:18)     Journal start - Tue Jun 10 23:42:54 2014
-\t (00:18:18)         Host=WEWEWE-PC User=uuy Pid=2872 CPUs=4
-\t (00:18:18) 
-\d (00:18:18) Database opened: E:/Mywork/NIR/FOOTPRINT/header2.dra
-\i (00:18:18) generaledit 
-\i (00:18:24) open 
-\i (00:18:33) fillin "header4x1.dra"
-\t (00:18:33) Opening existing design...
-\i (00:18:33) trapsize 882
-\d (00:18:33) Database opened: E:/Mywork/NIR/FOOTPRINT/header4x1.dra
-\i (00:18:33) generaledit 
-\i (00:18:34) pick grid 5.0791 -3.2802
-\t (00:18:34) last pick:  5.0800  -3.3020
-\i (00:18:37) open 
-\i (00:18:48) fillin "menu_cancel"
-\i (00:18:48) generaledit 
-\i (00:19:26) open 
-\i (00:19:35) fillin "E:\Mywork\NIR\DSN\NIR_USB.brd"
-\i (00:19:35) cd "E:\Mywork\NIR\DSN"
-\t (00:19:35) Opening existing design...
-\i (00:19:36) trapsize 646
-\i (00:19:36) trapsize 631
-\i (00:19:36) trapsize 646
-\i (00:19:36) trapsize 653
-\i (00:19:36) trapsize 653
-\t (00:19:36)     Journal end - Tue Jun 10 23:44:12 2014
+\t (00:23:03) allegro 16.5 P003 (v16-5-13C) i86
+\t (00:23:03)     Journal start - Wed Jun 11 10:41:40 2014
+\t (00:23:03)         Host=WEWEWE-PC User=uuy Pid=5844 CPUs=4
+\t (00:23:03) 
+\d (00:23:03) Database opened: C:/Users/uuy/nir_usb/FOOTPRINT/AD7961.dra
+\i (00:23:03) generaledit 
+\i (00:23:04) zoom in 1 
+\i (00:23:04) setwindow pcb
+\i (00:23:04) zoom in -1.4380 1.0066
+\i (00:23:04) trapsize 599
+\i (00:23:04) zoom in 1 
+\i (00:23:04) setwindow pcb
+\i (00:23:04) zoom in -3.6908 1.0066
+\i (00:23:04) trapsize 300
+\i (00:23:05) zoom in 1 
+\i (00:23:05) setwindow pcb
+\i (00:23:05) zoom in -2.5643 1.3541
+\i (00:23:05) trapsize 150
+\i (00:23:05) zoom out 1 
+\i (00:23:05) setwindow pcb
+\i (00:23:05) zoom out -2.1928 1.5519
+\i (00:23:05) trapsize 300
+\i (00:23:05) zoom out 1 
+\i (00:23:05) setwindow pcb
+\i (00:23:05) zoom out -2.1329 1.5519
+\i (00:23:05) trapsize 599
+\i (00:26:10) open 
+\i (00:26:20) fillin "C:\Users\uuy\nir_usb\DSN\NIR_USB.brd"
+\i (00:26:20) cd "C:\Users\uuy\nir_usb\DSN"
+\t (00:26:20) Opening existing design...
+\i (00:26:20) trapsize 646
+\i (00:26:20) trapsize 631
+\i (00:26:20) trapsize 646
+\i (00:26:20) trapsize 653
+\i (00:26:21) trapsize 653
+\t (00:26:21)     Journal end - Wed Jun 11 10:44:58 2014
