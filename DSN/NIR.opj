@@ -10,7 +10,7 @@
       (Type "Schematic Design"))
     (BuildFileAddedOrDeleted "x")
     (CompileFileAddedOrDeleted "x")
-    (ANNOTATE_Scope "0")
+    (ANNOTATE_Scope "1")
     (ANNOTATE_Mode "1")
     (ANNOTATE_Action "0")
     (Annotate_Page_Order "0")
@@ -104,6 +104,10 @@
       (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (XC3S200A-VQ100
+      (FullPartName "XC3S200A-VQ100C.Normal")
+      (LibraryName "C:\USERS\UUY\NIR_USB\DSN\NIR.OLB")
+      (DeviceIndex "2"))
     (header4x1
       (FullPartName "header4x1.Normal")
       (LibraryName "C:\USERS\UUY\NIR_USB\DSN\NIR.OLB")
@@ -136,10 +140,6 @@
       (FullPartName "tps54331.Normal")
       (LibraryName "C:\USERS\UUY\NIR_USB\DSN\NIR.OLB")
       (DeviceIndex "0"))
-    (XC3S200A-VQ100
-      (FullPartName "XC3S200A-VQ100A.Normal")
-      (LibraryName "C:\USERS\UUY\NIR_USB\DSN\NIR.OLB")
-      (DeviceIndex "3"))
     (header4x2
       (FullPartName "header4x2.Normal")
       (LibraryName "C:\USERS\UUY\NIR_USB\DSN\NIR.OLB")
@@ -209,11 +209,7 @@
       (Path "Design Resources")
       (Path "Design Resources" ".\nir.dsn")
       (Path "Design Resources" ".\nir.dsn" "NIR")
-      (Path "Design Resources" ".\nir.dsn" "Design Cache")
-      (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library" ".\nir.olb")
-      (Path "Outputs")
-      (Select "Design Resources" ".\nir.dsn"))
+      (Path "Outputs"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")

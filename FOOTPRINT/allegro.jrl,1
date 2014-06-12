@@ -1,36 +1,12 @@
-\t (00:23:03) allegro 16.5 P003 (v16-5-13C) i86
-\t (00:23:03)     Journal start - Wed Jun 11 10:41:40 2014
-\t (00:23:03)         Host=WEWEWE-PC User=uuy Pid=5844 CPUs=4
-\t (00:23:03) 
-\d (00:23:03) Database opened: C:/Users/uuy/nir_usb/FOOTPRINT/AD7961.dra
-\i (00:23:03) generaledit 
-\i (00:23:04) zoom in 1 
-\i (00:23:04) setwindow pcb
-\i (00:23:04) zoom in -1.4380 1.0066
-\i (00:23:04) trapsize 599
-\i (00:23:04) zoom in 1 
-\i (00:23:04) setwindow pcb
-\i (00:23:04) zoom in -3.6908 1.0066
-\i (00:23:04) trapsize 300
-\i (00:23:05) zoom in 1 
-\i (00:23:05) setwindow pcb
-\i (00:23:05) zoom in -2.5643 1.3541
-\i (00:23:05) trapsize 150
-\i (00:23:05) zoom out 1 
-\i (00:23:05) setwindow pcb
-\i (00:23:05) zoom out -2.1928 1.5519
-\i (00:23:05) trapsize 300
-\i (00:23:05) zoom out 1 
-\i (00:23:05) setwindow pcb
-\i (00:23:05) zoom out -2.1329 1.5519
-\i (00:23:05) trapsize 599
-\i (00:26:10) open 
-\i (00:26:20) fillin "C:\Users\uuy\nir_usb\DSN\NIR_USB.brd"
-\i (00:26:20) cd "C:\Users\uuy\nir_usb\DSN"
-\t (00:26:20) Opening existing design...
-\i (00:26:20) trapsize 646
-\i (00:26:20) trapsize 631
-\i (00:26:20) trapsize 646
-\i (00:26:20) trapsize 653
-\i (00:26:21) trapsize 653
-\t (00:26:21)     Journal end - Wed Jun 11 10:44:58 2014
+\t (00:03:16) allegro 16.5 P003 (v16-5-13C) i86
+\t (00:03:16)     Journal start - Thu Jun 12 10:09:01 2014
+\t (00:03:16)         Host=WEWEWE-PC User=uuy Pid=8136 CPUs=4
+\t (00:03:16) 
+\d (00:03:16) Database opened: C:/Users/uuy/nir_usb/FOOTPRINT/nir_brd.brd
+\i (00:03:16) generaledit 
+\i (00:03:20) open 
+\i (00:03:26) fillin "C:\Users\uuy\nir_usb\DSN\NIR_USB.brd"
+\i (00:03:26) cd "C:\Users\uuy\nir_usb\DSN"
+\t (00:03:26) Opening existing design...
+\i (00:03:26) trapsize 653
+\t (00:03:26)     Journal end - Thu Jun 12 10:09:11 2014

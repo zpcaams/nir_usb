@@ -1,55 +1,18 @@
-\t (00:27:11) allegro 16.5 P003 (v16-5-13C) i86
-\t (00:27:11)     Journal start - Wed Jun 11 10:45:48 2014
-\t (00:27:11)         Host=WEWEWE-PC User=uuy Pid=5844 CPUs=4
-\t (00:27:11) 
-\d (00:27:11) Database opened: C:/Users/uuy/nir_usb/FOOTPRINT/AD7961.dra
-\i (00:27:11) generaledit 
-\i (00:27:16) create device 
-\i (00:27:19) setwindow form.crdevice
-\i (00:27:19) FORM crdevice done  
-\t (00:27:19) Device file "AD7961.txt" contains 33 pins
-
-   (00:27:19) Loading cmds.cxt 
-   (00:27:19) Loading axlcore.cxt 
-\i (00:27:19) setwindow pcb
-\i (00:27:19) generaledit 
-\i (00:27:24) open 
-\i (00:27:26) fillin "ADA4932.dra"
-\t (00:27:26) Opening existing design...
-\i (00:27:26) trapsize 470
-\d (00:27:26) Database opened: C:/Users/uuy/nir_usb/FOOTPRINT/ADA4932.dra
-\i (00:27:26) generaledit 
-\i (00:27:28) create device 
-\i (00:27:29) setwindow form.crdevice
-\i (00:27:29) FORM crdevice done  
-\t (00:27:29) Device file "ADA4932.txt" contains 16 pins
-
-\i (00:27:29) setwindow pcb
-\i (00:27:29) generaledit 
-\i (00:27:30) open 
-\i (00:27:37) fillin "FT232H.dra"
-\t (00:27:37) Opening existing design...
-\i (00:27:37) trapsize 1667
-\d (00:27:37) Database opened: C:/Users/uuy/nir_usb/FOOTPRINT/FT232H.dra
-\i (00:27:37) generaledit 
-\i (00:27:41) create device 
-\i (00:27:42) setwindow form.crdevice
-\i (00:27:42) FORM crdevice done  
-\t (00:27:42) Device file "FT232H.txt" contains 48 pins
-
-\i (00:27:42) setwindow pcb
-\i (00:27:42) generaledit 
-\i (00:27:43) save 
-\i (00:27:44) fillin yes 
-\t (00:27:45) Symbol 'ft232h.psm' created.
-\i (00:27:45) generaledit 
-\i (00:27:50) open 
-\i (00:28:01) fillin "C:\Users\uuy\nir_usb\DSN\NIR_USB.brd"
-\i (00:28:01) cd "C:\Users\uuy\nir_usb\DSN"
-\t (00:28:01) Opening existing design...
-\i (00:28:02) trapsize 646
-\i (00:28:02) trapsize 631
-\i (00:28:02) trapsize 646
-\i (00:28:02) trapsize 653
-\i (00:28:02) trapsize 653
-\t (00:28:02)     Journal end - Wed Jun 11 10:46:39 2014
+\t (00:28:35) allegro 16.5 P003 (v16-5-13C) i86
+\t (00:28:35)     Journal start - Thu Jun 12 10:52:25 2014
+\t (00:28:35)         Host=WEWEWE-PC User=uuy Pid=7516 CPUs=4
+\t (00:28:35) 
+\d (00:28:35) Database opened: C:/Users/uuy/nir_usb/FOOTPRINT/ADA4932.dra
+\i (00:28:35) generaledit 
+\i (00:29:33) pick grid 3.1210 2.3127
+\t (00:29:33) last pick:  3.0480  2.2860
+\i (00:33:23) open 
+\i (00:33:31) fillin "C:\Users\uuy\nir_usb\DSN\NIR.brd"
+\i (00:33:31) cd "C:\Users\uuy\nir_usb\DSN"
+\t (00:33:31) Opening existing design...
+\i (00:33:31) trapsize 12924
+\i (00:33:31) trapsize 12610
+\i (00:33:32) trapsize 12924
+\i (00:33:32) trapsize 13053
+\i (00:33:32) trapsize 13053
+\t (00:33:32)     Journal end - Thu Jun 12 10:57:22 2014
