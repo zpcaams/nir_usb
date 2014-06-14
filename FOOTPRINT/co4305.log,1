@@ -2,24 +2,22 @@
 (                                                                     )
 (    CREATE SYMBOL                                                    )
 (                                                                     )
-(    Drawing          : dc12.dra                                      )
+(    Drawing          : co4305.dra                                    )
 (    Software Version : 16.5P002                                      )
-(    Date/Time        : Thu Jun 12 14:04:13 2014                      )
+(    Date/Time        : Sun Jun 08 15:02:31 2014                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
 Create Symbol of type: PACKAGE
-    Directory = C:/Users/uuy/nir_usb/FOOTPRINT
-    Name      = dc12.psm
+    Directory = D:/fhx-footprint
+    Name      = co4305.psm
     User      = uuy
     Machine   = WEWEWE-PC
 
 
 Create symbol started.
  
- ERROR(SPMHCS-1): Symbol is missing a refdes. 
- ERROR(SPMHCS-1): Symbol is missing a refdes. 
 
-ERROR(SPMHA1-291): Create symbol has been aborted.
+Create symbol completed.
 

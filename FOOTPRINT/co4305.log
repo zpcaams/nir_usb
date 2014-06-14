@@ -4,13 +4,13 @@
 (                                                                     )
 (    Drawing          : co4305.dra                                    )
 (    Software Version : 16.5P002                                      )
-(    Date/Time        : Sun Jun 08 15:02:31 2014                      )
+(    Date/Time        : Thu Jun 12 14:04:59 2014                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
 Create Symbol of type: PACKAGE
-    Directory = D:/fhx-footprint
+    Directory = C:/Users/uuy/nir_usb/FOOTPRINT
     Name      = co4305.psm
     User      = uuy
     Machine   = WEWEWE-PC

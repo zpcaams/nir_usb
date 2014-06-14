@@ -12,7 +12,7 @@
     (CompileFileAddedOrDeleted "x")
     (ANNOTATE_Scope "1")
     (ANNOTATE_Mode "1")
-    (ANNOTATE_Action "0")
+    (ANNOTATE_Action "3")
     (Annotate_Page_Order "0")
     (ANNOTATE_Reset_References_to_1 "FALSE")
     (ANNOTATE_No_Page_Number_Change "FALSE")
@@ -73,7 +73,9 @@
     ("Allegro Netlist Ignore Fixed Property" "FALSE")
     ("Allegro Netlist User Defined Property" "FALSE")
     (Netlist_TAB "0")
-    (Board_sim_option "Verilog_Flow"))
+    (Board_sim_option "Verilog_Flow")
+    (IREFReportFile "C:\USERS\UUY\NIR_USB\DSN\NIR.csv")
+    (IREFViewOutput "0"))
   (Folder "Outputs"
     (File ".\allegro\pstxnet.dat"
       (Type "Report")
@@ -101,9 +103,28 @@
       (DisplayName "pstxprt.dat"))
     (File "..\allegro\pstchip.dat"
       (Type "Report")
-      (DisplayName "pstchip.dat")))
+      (DisplayName "pstchip.dat"))
+    (File ".\nir.csv"
+      (Type "Report")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (GND
+      (LibraryName "D:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (SWITCH
+      (FullPartName "SWITCH.Normal")
+      (LibraryName "C:\USERS\UUY\NIR_USB\DSN\NIR.OLB")
+      (DeviceIndex "0"))
+    (usb-b
+      (FullPartName "usb-b.Normal")
+      (LibraryName "C:\USERS\UUY\NIR_USB\DSN\NIR.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-L
+      (LibraryName "D:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-R
+      (LibraryName "D:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
     (XC3S200A-VQ100
       (FullPartName "XC3S200A-VQ100C.Normal")
       (LibraryName "C:\USERS\UUY\NIR_USB\DSN\NIR.OLB")
@@ -152,10 +173,6 @@
       (FullPartName "co4305.Normal")
       (LibraryName "C:\USERS\UUY\NIR_USB\DSN\NIR.OLB")
       (DeviceIndex "0"))
-    (usb-b
-      (FullPartName "usb-b.Normal")
-      (LibraryName "C:\USERS\UUY\NIR_USB\DSN\NIR.OLB")
-      (DeviceIndex "0"))
     (93c46
       (FullPartName "93c46.Normal")
       (LibraryName "C:\USERS\UUY\NIR_USB\DSN\NIR.OLB")
@@ -176,9 +193,6 @@
       (FullPartName "ams1117.Normal")
       (LibraryName "C:\USERS\UUY\NIR_USB\DSN\NIR.OLB")
       (DeviceIndex "0"))
-    (GND
-      (LibraryName "D:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
     (smb
       (FullPartName "smb.Normal")
       (LibraryName "C:\USERS\UUY\NIR_USB\DSN\NIR.OLB")
@@ -190,18 +204,6 @@
     (HEADER4X1
       (FullPartName "HEADER4X1.Normal")
       (LibraryName "E:\MYWORK\NIR.OLB")
-      (DeviceIndex "0"))
-    (74LVC125A
-      (FullPartName "74LVC125A.Normal")
-      (LibraryName "E:\MYWORK\NIR.OLB")
-      (DeviceIndex "0"))
-    (74HCT125
-      (FullPartName "74HCT125.Normal")
-      (LibraryName "E:\MYWORK\NIR.OLB")
-      (DeviceIndex "0"))
-    (HEADER4X2
-      (FullPartName "HEADER4X2.Normal")
-      (LibraryName "E:\MYWORK\NIR.OLB")
       (DeviceIndex "0")))
   (LastUsedLibraryBrowseDirectory "D:\Cadence\SPB_16.5\tools\capture\library")
   (GlobalState
@@ -209,11 +211,64 @@
       (Path "Design Resources")
       (Path "Design Resources" ".\nir.dsn")
       (Path "Design Resources" ".\nir.dsn" "NIR")
-      (Path "Outputs"))
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library" ".\nir.olb")
+      (Path "Outputs")
+      (Select "Design Resources" ".\nir.dsn" "NIR" "SENSOR_BUFFER"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 0 200 0 446"))
-      (Tab 0)))
+        (Placement "44 0 1 -1 -1 -8 -30 0 200 0 446"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 175 1546 175 659")
+        (Scroll "-176 19")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "C:\USERS\UUY\NIR_USB\DSN\NIR.DSN")
+      (Schematic "NIR")
+      (Page "ADC"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 200 1571 200 684")
+        (Scroll "-176 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "C:\USERS\UUY\NIR_USB\DSN\NIR.DSN")
+      (Schematic "NIR")
+      (Page "ADC_BUFFER"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 50 1421 50 534")
+        (Scroll "-176 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "C:\USERS\UUY\NIR_USB\DSN\NIR.DSN")
+      (Schematic "NIR")
+      (Page "DIGI_PWR"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 150 1229 150 634")
+        (Scroll "184 698")
+        (Zoom "200")
+        (Occurrence "/"))
+      (Path "C:\USERS\UUY\NIR_USB\DSN\NIR.DSN")
+      (Schematic "NIR")
+      (Page "FPGA_IO"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 175 1254 175 659")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "C:\USERS\UUY\NIR_USB\DSN\NIR.DSN")
+      (Schematic "NIR")
+      (Page "SENSOR_BUFFER")))
   (ISPCBBASICLICENSE "false"))

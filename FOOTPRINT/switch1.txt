@@ -1,0 +1,13 @@
+(DEVICE FILE: switch1)
+
+PACKAGE switch1
+CLASS DISCRETE
+PINCOUNT 2
+
+PINORDER switch1  1 2
+
+PINSWAP switch1  1 2
+
+FUNCTION switch1 switch1  1 2
+
+END

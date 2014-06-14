@@ -4,13 +4,13 @@
 (                                                                     )
 (    Drawing          : indu127.dra                                   )
 (    Software Version : 16.5P002                                      )
-(    Date/Time        : Tue Jun 10 15:06:57 2014                      )
+(    Date/Time        : Thu Jun 12 14:08:04 2014                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
 Create Symbol of type: PACKAGE
-    Directory = E:/Mywork/NIR_BRD/FOOTPRINT
+    Directory = C:/Users/uuy/nir_usb/FOOTPRINT
     Name      = indu127.psm
     User      = uuy
     Machine   = WEWEWE-PC

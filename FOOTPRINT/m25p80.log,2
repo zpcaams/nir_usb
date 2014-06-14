@@ -4,13 +4,13 @@
 (                                                                     )
 (    Drawing          : M25P80.dra                                    )
 (    Software Version : 16.5P002                                      )
-(    Date/Time        : Sat Jun 07 11:26:06 2014                      )
+(    Date/Time        : Thu Jun 12 14:07:40 2014                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
 Create Symbol of type: PACKAGE
-    Directory = D:/fhx-footprint
+    Directory = C:/Users/uuy/nir_usb/FOOTPRINT
     Name      = m25p80.psm
     User      = uuy
     Machine   = WEWEWE-PC
