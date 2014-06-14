@@ -1,20 +1,79 @@
-\t (00:00:00) allegro 16.5 P003 (v16-5-13C) i86
-\t (00:00:00)     Journal start - Fri Jun 13 22:17:16 2014
-\t (00:00:00)         Host=WEWEWE-PC User=uuy Pid=2252 CPUs=4
-\t (00:00:00) 
-\t (00:00:00) Opening existing design...
-\i (00:00:09) fillin yes 
-\d (00:00:09) Database opened: C:/Users/uuy/nir_usb/FOOTPRINT/header4x1.dra
-\i (00:00:09) trapsize 879
-\i (00:00:09) trapsize 860
-\i (00:00:09) trapsize 882
-\i (00:00:09) trapsize 882
-\i (00:00:10) generaledit 
-\i (00:00:11) open 
-\i (00:00:17) fillin "M25P80.dra"
-\t (00:00:17) Opening existing design...
-\i (00:00:18) trapsize 762
-\d (00:00:18) Database opened: C:/Users/uuy/nir_usb/FOOTPRINT/M25P80.dra
-\i (00:00:18) generaledit 
-\i (00:00:29) exit 
-\t (00:00:29)     Journal end - Fri Jun 13 22:17:44 2014
+\t (00:01:09) allegro 16.5 P003 (v16-5-13C) i86
+\t (00:01:09)     Journal start - Sat Jun 14 21:27:11 2014
+\t (00:01:09)         Host=WEWEWE-PC User=uuy Pid=2484 CPUs=4
+\t (00:01:09) 
+\d (00:01:09) Database opened: C:/Users/uuy/nir_usb/FOOTPRINT/FT232H.dra
+\i (00:01:09) generaledit 
+\i (00:01:15) zoom in 1 
+\i (00:01:15) setwindow pcb
+\i (00:01:15) zoom in -4.4667 5.1333
+\i (00:01:15) trapsize 833
+\i (00:01:18) pick grid 4.2667 5.7000
+\t (00:01:18) last pick:  4.3180  5.5880
+\i (00:01:20) delete 
+\i (00:01:20) generaledit 
+\i (00:01:26) label device 
+\t (00:01:26) Pick text location.
+\i (00:01:27) pick grid 3.8333 5.6000
+\t (00:01:27) last pick:  3.8100  5.5880
+\e (00:01:27) ERROR(SPMHGE-150): Text font is not defined.
+\i (00:01:28) setwindow form.mini
+\i (00:01:28) FORM mini text_block 1 
+\i (00:01:29) setwindow pcb
+\i (00:01:29) pick grid 3.4833 5.7334
+\t (00:01:29) last pick:  3.5560  5.8420
+\t (00:01:29) Enter text string.
+\i (00:01:37) setwindow pcb
+\i (00:01:37) prepopup 5.0167 6.0667
+\i (00:01:38) done 
+\i (00:01:38) setwindow pcb
+\i (00:01:38) pick 3.5560 5.8420
+\i (00:01:38) setwindow pcb
+\i (00:01:38) generaledit 
+\i (00:01:41) prepopup 3.7833 6.0000
+\i (00:01:42) pop dyn_option_select @:@Delete 
+\i (00:01:42) delete 
+\i (00:01:42) generaledit 
+\i (00:01:46) label device 
+\t (00:01:46) Pick text location.
+\i (00:01:47) pick grid 3.5500 5.7334
+\t (00:01:47) last pick:  3.5560  5.8420
+\t (00:01:47) Enter text string.
+\i (00:01:50) setwindow form.mini
+\i (00:01:50) FORM mini subclass ASSEMBLY_TOP 
+\i (00:01:53) setwindow pcb
+\i (00:01:53) prepopup 5.0833 6.2000
+\i (00:01:54) done 
+\i (00:01:54) setwindow pcb
+\i (00:01:54) pick 3.5560 5.8420
+\i (00:01:54) setwindow pcb
+\i (00:01:54) generaledit 
+\i (00:01:54) pick grid 4.3500 6.0000
+\t (00:01:54) last pick:  4.3180  6.0960
+\i (00:01:56) pick grid 4.6167 5.9334
+\t (00:01:56) last pick:  4.5720  5.8420
+\i (00:01:57) save 
+\i (00:01:58) fillin yes 
+\t (00:01:58) Symbol 'ft232h.psm' created.
+\i (00:01:58) generaledit 
+\i (00:02:02) create device 
+\i (00:02:03) setwindow form.crdevice
+\i (00:02:03) FORM crdevice done  
+\t (00:02:03) Device file "FT232H.txt" contains 48 pins
+
+   (00:02:03) Loading cmds.cxt 
+   (00:02:03) Loading axlcore.cxt 
+\i (00:02:03) setwindow pcb
+\i (00:02:03) generaledit 
+\i (00:02:45) pick grid -8.1166 4.3834
+\t (00:02:45) last pick:  -8.1280  4.3180
+\i (00:02:47) open 
+\i (00:02:55) fillin "C:\Users\uuy\nir_usb\DSN\NIR.brd"
+\i (00:02:55) cd "C:\Users\uuy\nir_usb\DSN"
+\t (00:02:55) Opening existing design...
+\i (00:02:55) trapsize 6396
+\i (00:02:55) trapsize 6241
+\i (00:02:55) trapsize 6396
+\i (00:02:55) trapsize 6460
+\i (00:02:56) trapsize 6460
+\t (00:02:56)     Journal end - Sat Jun 14 21:28:58 2014
