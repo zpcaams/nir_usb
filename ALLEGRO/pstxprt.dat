@@ -1,5 +1,5 @@
 FILE_TYPE = EXPANDEDPARTLIST;
-{ Using PSTWRITER 16.5.0 p001Jun-12-2014 at 09:59:05 }
+{ Using PSTWRITER 16.5.0 p001Jun-15-2014 at 10:50:16 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='NIR';
@@ -1026,9 +1026,9 @@ PART_NAME
  J8 'HEADER2_HEADER2_HEADER2':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS80299@NIR.HEADER2.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins80299@nir.\header2.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page2_ins80299@nir.\header2.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS121361@NIR.HEADER2.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins121361@nir.\header2.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page2_ins121361@nir.\header2.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -1036,9 +1036,9 @@ PART_NAME
  J9 'HEADER4X2_HEADER4X2_HEADER4X2':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS78680@NIR.HEADER4X2.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins78680@nir.\header4x2.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page7_ins78680@nir.\header4x2.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS121018@NIR.HEADER4X2.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins121018@nir.\header4x2.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page7_ins121018@nir.\header4x2.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -1683,6 +1683,16 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
+ S1 'SWITCH_SWITCH1_SWITCH':;
+
+SECTION_NUMBER 1
+ '@NIR.NIR(SCH_1):INS117557@NIR.SWITCH.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins117557@nir.\switch.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page7_ins117557@nir.\switch.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
  U1 'MIC5209BM_SOIC127P600X175-8N_MI':;
 
 SECTION_NUMBER 1
@@ -1696,9 +1706,9 @@ PART_NAME
  U10 'USB-B_USB-B_USB-B':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS77541@NIR.USB-B.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins77541@nir.\usb-b.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page9_ins77541@nir.\usb-b.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS115990@NIR.USB-B.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins115990@nir.\usb-b.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page9_ins115990@nir.\usb-b.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -1783,7 +1793,7 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- U8 'M25P80_SOIC127P600X175-8N_M25P8':;
+ U8 'M25P80_M25P80_M25P80':;
 
 SECTION_NUMBER 1
  '@NIR.NIR(SCH_1):INS78517@NIR.M25P80.NORMAL(CHIPS)':

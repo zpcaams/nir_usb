@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 16.5.0 p001Jun-12-2014 at 09:59:05}
+{ Using PSTWRITER 16.5.0 p001Jun-15-2014 at 10:50:16}
 primitive 'CAP_0805_10UF';
   pin
     '1':
@@ -1272,6 +1272,21 @@ primitive 'R_0603_100R';
     VALUE='100R';
   end_body;
 end_primitive;
+primitive 'SWITCH_SWITCH1_SWITCH';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='SWITCH';
+    JEDEC_TYPE='switch1';
+    VALUE='SWITCH';
+  end_body;
+end_primitive;
 primitive 'MIC5209BM_SOIC127P600X175-8N_MI';
   pin
     'EN':
@@ -1319,11 +1334,11 @@ primitive 'USB-B_USB-B_USB-B';
     'GND':
       PIN_NUMBER='(4)';
       PINUSE='UNSPEC';
-    'S1':
-      PIN_NUMBER='(5)';
+    'M1':
+      PIN_NUMBER='(M1)';
       PINUSE='UNSPEC';
-    'S2':
-      PIN_NUMBER='(6)';
+    'M2':
+      PIN_NUMBER='(M2)';
       PINUSE='UNSPEC';
   end_pin;
   body
@@ -1521,7 +1536,7 @@ primitive 'AMS1117_AMS1117_AMS1117';
     VALUE='ams1117';
   end_body;
 end_primitive;
-primitive 'M25P80_SOIC127P600X175-8N_M25P8';
+primitive 'M25P80_M25P80_M25P80';
   pin
     'S\':
       PIN_NUMBER='(1)';
@@ -1550,7 +1565,7 @@ primitive 'M25P80_SOIC127P600X175-8N_M25P8';
   end_pin;
   body
     PART_NAME='m25p80';
-    JEDEC_TYPE='soic127p600x175-8n';
+    JEDEC_TYPE='m25p80';
     VALUE='m25p80';
   end_body;
 end_primitive;
