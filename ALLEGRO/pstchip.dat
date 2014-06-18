@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 16.5.0 p001Jun-15-2014 at 10:50:16}
+{ Using PSTWRITER 16.5.0 p001Jun-18-2014 at 09:32:29}
 primitive 'CAP_0805_10UF';
   pin
     '1':
@@ -178,6 +178,21 @@ primitive 'CAPACITOR NON-POL_0603_100NF';
     PART_NAME='CAPACITOR NON-POL';
     JEDEC_TYPE='0603';
     VALUE='100nF';
+  end_body;
+end_primitive;
+primitive 'DIODE_0603_DIODE';
+  pin
+    'A':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'K':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='DIODE';
+    JEDEC_TYPE='0603';
+    VALUE='DIODE';
   end_body;
 end_primitive;
 primitive 'LED_0603_LED';
@@ -921,7 +936,7 @@ primitive 'HEADER2_HEADER2_HEADER2';
     VALUE='header2';
   end_body;
 end_primitive;
-primitive 'HEADER4X2_HEADER4X2_HEADER4X2';
+primitive 'JTAG_JTAG_JTAG';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -947,11 +962,29 @@ primitive 'HEADER4X2_HEADER4X2_HEADER4X2';
     '8':
       PIN_NUMBER='(8)';
       PINUSE='UNSPEC';
+    '9':
+      PIN_NUMBER='(9)';
+      PINUSE='UNSPEC';
+    '10':
+      PIN_NUMBER='(10)';
+      PINUSE='UNSPEC';
+    '11':
+      PIN_NUMBER='(11)';
+      PINUSE='UNSPEC';
+    '12':
+      PIN_NUMBER='(12)';
+      PINUSE='UNSPEC';
+    '13':
+      PIN_NUMBER='(13)';
+      PINUSE='UNSPEC';
+    '14':
+      PIN_NUMBER='(14)';
+      PINUSE='UNSPEC';
   end_pin;
   body
-    PART_NAME='header4x2';
-    JEDEC_TYPE='header4x2';
-    VALUE='header4x2';
+    PART_NAME='JTAG';
+    JEDEC_TYPE='jtag';
+    VALUE='JTAG';
   end_body;
 end_primitive;
 primitive 'INDUCTOR_INDU127_6.8UH';

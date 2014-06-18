@@ -108,137 +108,132 @@
       (Type "Report")))
   (Folder "Referenced Projects")
   (PartMRUSelector
-    (OFFPAGELEFT-R
+    (DIODE
+      (FullPartName "DIODE.Normal")
+      (LibraryName "D:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (VCC_BAR
       (LibraryName "D:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
-    (OFFPAGELEFT-L
-      (LibraryName "D:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName "D:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
       (DeviceIndex "0"))
-    (header2
-      (FullPartName "header2.Normal")
-      (LibraryName "C:\USERS\UUY\NIR_USB\DSN\NIR.OLB")
-      (DeviceIndex "0"))
-    (GND
-      (LibraryName "D:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (header4x2
-      (FullPartName "header4x2.Normal")
-      (LibraryName "C:\USERS\UUY\NIR_USB\DSN\NIR.OLB")
-      (DeviceIndex "0"))
-    (SWITCH
-      (FullPartName "SWITCH.Normal")
-      (LibraryName "C:\USERS\UUY\NIR_USB\DSN\NIR.OLB")
-      (DeviceIndex "0"))
-    (usb-b
-      (FullPartName "usb-b.Normal")
-      (LibraryName "C:\USERS\UUY\NIR_USB\DSN\NIR.OLB")
-      (DeviceIndex "0"))
-    (XC3S200A-VQ100
-      (FullPartName "XC3S200A-VQ100C.Normal")
-      (LibraryName "C:\USERS\UUY\NIR_USB\DSN\NIR.OLB")
-      (DeviceIndex "2"))
-    (header4x1
-      (FullPartName "header4x1.Normal")
-      (LibraryName "C:\USERS\UUY\NIR_USB\DSN\NIR.OLB")
-      (DeviceIndex "0"))
-    (header1
-      (FullPartName "header1.Normal")
-      (LibraryName "C:\USERS\UUY\NIR_USB\DSN\NIR.OLB")
-      (DeviceIndex "0"))
-    (dc12
-      (FullPartName "dc12.Normal")
-      (LibraryName "C:\USERS\UUY\NIR_USB\DSN\NIR.OLB")
-      (DeviceIndex "0"))
-    (ada4932
-      (FullPartName "ada4932.Normal")
-      (LibraryName "C:\USERS\UUY\NIR_USB\DSN\NIR.OLB")
-      (DeviceIndex "0"))
-    (ref5040
-      (FullPartName "ref5040.Normal")
-      (LibraryName "C:\USERS\UUY\NIR_USB\DSN\NIR.OLB")
-      (DeviceIndex "0"))
-    (mic5209bm
-      (FullPartName "mic5209bm.Normal")
-      (LibraryName "C:\USERS\UUY\NIR_USB\DSN\NIR.OLB")
-      (DeviceIndex "0"))
-    (tps54331
-      (FullPartName "tps54331.Normal")
-      (LibraryName "C:\USERS\UUY\NIR_USB\DSN\NIR.OLB")
-      (DeviceIndex "0"))
-    (m25p80
-      (FullPartName "m25p80.Normal")
-      (LibraryName "C:\USERS\UUY\NIR_USB\DSN\NIR.OLB")
-      (DeviceIndex "0"))
-    (co4305
-      (FullPartName "co4305.Normal")
-      (LibraryName "C:\USERS\UUY\NIR_USB\DSN\NIR.OLB")
-      (DeviceIndex "0"))
-    (93c46
-      (FullPartName "93c46.Normal")
-      (LibraryName "C:\USERS\UUY\NIR_USB\DSN\NIR.OLB")
-      (DeviceIndex "0"))
-    (ft232h
-      (FullPartName "ft232h.Normal")
-      (LibraryName "C:\USERS\UUY\NIR_USB\DSN\NIR.OLB")
-      (DeviceIndex "0"))
-    (74lvc125
-      (FullPartName "74lvc125.Normal")
-      (LibraryName "C:\USERS\UUY\NIR_USB\DSN\NIR.OLB")
-      (DeviceIndex "0"))
-    (74hct125
-      (FullPartName "74hct125.Normal")
-      (LibraryName "C:\USERS\UUY\NIR_USB\DSN\NIR.OLB")
-      (DeviceIndex "0"))
-    (ams1117
-      (FullPartName "ams1117.Normal")
-      (LibraryName "C:\USERS\UUY\NIR_USB\DSN\NIR.OLB")
-      (DeviceIndex "0"))
-    (smb
-      (FullPartName "smb.Normal")
-      (LibraryName "C:\USERS\UUY\NIR_USB\DSN\NIR.OLB")
-      (DeviceIndex "0"))
-    (ad7961
-      (FullPartName "ad7961.Normal")
-      (LibraryName "C:\USERS\UUY\NIR_USB\DSN\NIR.OLB")
-      (DeviceIndex "0"))
-    (HEADER4X1
-      (FullPartName "HEADER4X1.Normal")
-      (LibraryName "E:\MYWORK\NIR.OLB")
-      (DeviceIndex "0")))
-  (LastUsedLibraryBrowseDirectory "D:\Cadence\SPB_16.5\tools\capture\library")
+    (LN01201C( Q)
+    (FullPartName "LN01201C(Q).Normal")
+    (LibraryName "D:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+    (DeviceIndex "0"))
+  (LED
+    (FullPartName "LED.Normal")
+    (LibraryName "D:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+    (DeviceIndex "0"))
+  (OFFPAGELEFT-R
+    (LibraryName "D:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+    (DeviceIndex "0"))
+  (GND
+    (LibraryName "D:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+    (DeviceIndex "0"))
+  (JTAG
+    (FullPartName "JTAG.Normal")
+    (LibraryName "C:\USERS\UUY\NIR_USB\DSN\NIR.OLB")
+    (DeviceIndex "0"))
+  (OFFPAGELEFT-L
+    (LibraryName "D:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+    (DeviceIndex "0"))
+  (header2
+    (FullPartName "header2.Normal")
+    (LibraryName "C:\USERS\UUY\NIR_USB\DSN\NIR.OLB")
+    (DeviceIndex "0"))
+  (header4x2
+    (FullPartName "header4x2.Normal")
+    (LibraryName "C:\USERS\UUY\NIR_USB\DSN\NIR.OLB")
+    (DeviceIndex "0"))
+  (SWITCH
+    (FullPartName "SWITCH.Normal")
+    (LibraryName "C:\USERS\UUY\NIR_USB\DSN\NIR.OLB")
+    (DeviceIndex "0"))
+  (usb-b
+    (FullPartName "usb-b.Normal")
+    (LibraryName "C:\USERS\UUY\NIR_USB\DSN\NIR.OLB")
+    (DeviceIndex "0"))
+  (XC3S200A-VQ100
+    (FullPartName "XC3S200A-VQ100C.Normal")
+    (LibraryName "C:\USERS\UUY\NIR_USB\DSN\NIR.OLB")
+    (DeviceIndex "2"))
+  (header4x1
+    (FullPartName "header4x1.Normal")
+    (LibraryName "C:\USERS\UUY\NIR_USB\DSN\NIR.OLB")
+    (DeviceIndex "0"))
+  (header1
+    (FullPartName "header1.Normal")
+    (LibraryName "C:\USERS\UUY\NIR_USB\DSN\NIR.OLB")
+    (DeviceIndex "0"))
+  (dc12
+    (FullPartName "dc12.Normal")
+    (LibraryName "C:\USERS\UUY\NIR_USB\DSN\NIR.OLB")
+    (DeviceIndex "0"))
+  (ada4932
+    (FullPartName "ada4932.Normal")
+    (LibraryName "C:\USERS\UUY\NIR_USB\DSN\NIR.OLB")
+    (DeviceIndex "0"))
+  (ref5040
+    (FullPartName "ref5040.Normal")
+    (LibraryName "C:\USERS\UUY\NIR_USB\DSN\NIR.OLB")
+    (DeviceIndex "0"))
+  (mic5209bm
+    (FullPartName "mic5209bm.Normal")
+    (LibraryName "C:\USERS\UUY\NIR_USB\DSN\NIR.OLB")
+    (DeviceIndex "0"))
+  (tps54331
+    (FullPartName "tps54331.Normal")
+    (LibraryName "C:\USERS\UUY\NIR_USB\DSN\NIR.OLB")
+    (DeviceIndex "0"))
+  (m25p80
+    (FullPartName "m25p80.Normal")
+    (LibraryName "C:\USERS\UUY\NIR_USB\DSN\NIR.OLB")
+    (DeviceIndex "0"))
+  (co4305
+    (FullPartName "co4305.Normal")
+    (LibraryName "C:\USERS\UUY\NIR_USB\DSN\NIR.OLB")
+    (DeviceIndex "0"))
+  (93c46
+    (FullPartName "93c46.Normal")
+    (LibraryName "C:\USERS\UUY\NIR_USB\DSN\NIR.OLB")
+    (DeviceIndex "0"))
+  (ft232h
+    (FullPartName "ft232h.Normal")
+    (LibraryName "C:\USERS\UUY\NIR_USB\DSN\NIR.OLB")
+    (DeviceIndex "0"))
   (GlobalState
     (FileView
       (Path "Design Resources")
       (Path "Design Resources" ".\nir.dsn")
       (Path "Design Resources" ".\nir.dsn" "NIR")
-      (Path "Design Resources" ".\nir.dsn" "Design Cache")
-      (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library" ".\nir.olb")
-      (Path "Outputs"))
+      (Select "Design Resources" ".\nir.dsn" "NIR" "DIGI_5V"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 0 200 0 446"))
+        (Placement "44 0 1 -1 -1 -8 -30 0 200 0 446"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 150 1229 150 634")
-        (Scroll "-30 0")
-        (Zoom "100")
-        (Occurrence "/"))
-      (Path "C:\USERS\UUY\NIR_USB\DSN\NIR.DSN")
-      (Schematic "NIR")
-      (Page "ADC_BUFFER"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 175 1254 175 659")
-        (Scroll "598 572")
+        (Placement "44 0 1 -1 -1 -8 -30 225 1596 225 709")
+        (Scroll "10 64")
         (Zoom "200")
         (Occurrence "/"))
       (Path "C:\USERS\UUY\NIR_USB\DSN\NIR.DSN")
       (Schematic "NIR")
-      (Page "ANALOG_PWR")))
+      (Page "ADC"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 125 1496 125 609")
+        (Scroll "332 134")
+        (Zoom "200")
+        (Occurrence "/"))
+      (Path "C:\USERS\UUY\NIR_USB\DSN\NIR.DSN")
+      (Schematic "NIR")
+      (Page "DIGI_5V")))
   (ISPCBBASICLICENSE "false"))

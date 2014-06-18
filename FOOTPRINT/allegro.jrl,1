@@ -1,0 +1,20 @@
+\t (00:00:00) allegro 16.5 P003 (v16-5-13C) i86
+\t (00:00:00)     Journal start - Fri Jun 13 22:17:16 2014
+\t (00:00:00)         Host=WEWEWE-PC User=uuy Pid=2252 CPUs=4
+\t (00:00:00) 
+\t (00:00:00) Opening existing design...
+\i (00:00:09) fillin yes 
+\d (00:00:09) Database opened: C:/Users/uuy/nir_usb/FOOTPRINT/header4x1.dra
+\i (00:00:09) trapsize 879
+\i (00:00:09) trapsize 860
+\i (00:00:09) trapsize 882
+\i (00:00:09) trapsize 882
+\i (00:00:10) generaledit 
+\i (00:00:11) open 
+\i (00:00:17) fillin "M25P80.dra"
+\t (00:00:17) Opening existing design...
+\i (00:00:18) trapsize 762
+\d (00:00:18) Database opened: C:/Users/uuy/nir_usb/FOOTPRINT/M25P80.dra
+\i (00:00:18) generaledit 
+\i (00:00:29) exit 
+\t (00:00:29)     Journal end - Fri Jun 13 22:17:44 2014
