@@ -3,8 +3,130 @@
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
 |  C:/Users/uuy/nir_usb/DSN/NIR.brd                                            |
-|                                                    Wed Jun 18 10:39:39 2014  |
+|                                                    Thu Jun 19 11:04:18 2014  |
 |------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  AD_IN        pins MOVED FROM this net (to net name listed on right)
+                                 J10.3           61.9760 92.7100
+                                                                        RST_OUT
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  AD_TRI       pins MOVED FROM this net (to net name listed on right)
+                                 IC3.77          51.4740 59.5160
+                                                                        TRI_OUT
+                                 U12.3           58.4200 75.5320
+                                                                        TRI_OUT
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  CF_IN        pins ADDED TO this new net
+                                 IC3.88          45.9740 59.5160
+                                 U11.5           49.5300 75.5320
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  CF_OE        pins ADDED TO this new net
+                                 IC3.89          45.4740 59.5160
+                                 U11.4           48.2600 75.5320
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  CF_OUT       pins ADDED TO this new net
+                                 U11.6           50.8000 75.5320
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  CLK_IN       pins ADDED TO this new net
+                                 IC3.93          43.4740 59.5160
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  CLK_OE       pins DELETED FROM this net (pin now not on any net)
+                                 IC3.90          44.9740 59.5160
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  CLK_S        pins DELETED FROM this net (pin now not on any net)
+                                 IC3.86          46.9740 59.5160
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins MOVED FROM this net (to net name listed on right)
+                                 U11.2           45.7200 75.5320
+                                                                         CLK_IN
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  CLK_SEN      pins DELETED FROM this net (all pins deleted)
+                                 IC3.85          47.4740 59.5160
+               pins MOVED FROM this net (to net name listed on right)
+                                 J10.1           56.8960 92.7100
+                                                                        CLK_OUT
+                                 U11.3           46.9900 75.5320
+                                                                        CLK_OUT
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GND          pins MOVED FROM this net (to net name listed on right)
+                                 J10.4           64.5160 92.7100
+                                                                         REI_IN
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
 |------------------------------------------------------------------------------|
-|   total ECO changes reported  0                                              |
+|  C:/Users/uuy/nir_usb/DSN/NIR.brd                                            |
+|                                                    Thu Jun 19 11:04:18 2014  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  N131470      pins MOVED FROM this net (to net name listed on right)
+                                 D3.2            58.6105 72.1360
+                                                                        N143162
+                                 R28.2           25.0825 62.7380
+                                                                        N143262
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N868612      pins MOVED FROM this net (to net name listed on right)
+                                 D3.1            57.2135 72.1360
+                                                                        N870832
+                                 IC3.94          42.9740 59.5160
+                                                                         CLK_OE
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N870832      pins MOVED FROM this net (to net name listed on right)
+                                 D4.1            47.4980 38.4175
+                                                                        N870833
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N870833      pins ADDED TO this new net
+                                 IC3.37          45.4740 44.1160
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N1307681     pins MOVED FROM this net (to net name listed on right)
+                                 D2.2            25.0825 60.7060
+                                                                        N143262
+                                 R29.2           52.5145 69.5960
+                                                                        N143162
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RST_S        net RENAMED (to net name listed on right)           RST_IN       
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RST_SEN      pins MOVED FROM this net (to net name listed on right)
+                                 J10.2           59.4360 92.7100
+                                                                         CF_OUT
+                                 U11.8           52.0700 80.9320
+                                                                        RST_OUT
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  C:/Users/uuy/nir_usb/DSN/NIR.brd                                            |
+|                                                    Thu Jun 19 11:04:18 2014  |
+|------------------------------------------------------------------------------|
+| COMPONENTS CHANGED from one device type to another in board drawing          |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        | new device type     |   x   |   y   |  old  device type  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R28                 R_0603_1K             24.3840 62.7380 R_0603_R
+ R29                 R_0603_1K             51.8160 69.5960 R_0603_R
+ R30                 R_0603_1K             49.0220 39.1160 R_0603_R
+ R31                 R_0603_1K             70.3580 62.7380 R_0603_R
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  C:/Users/uuy/nir_usb/DSN/NIR.brd                                            |
+|                                                    Thu Jun 19 11:04:18 2014  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to board drawing                                       |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R28.2          24.3840 62.7380 PRIM_FILE      .\pstchip.dat
+ R29.2          51.8160 69.5960 PRIM_FILE      .\pstchip.dat
+ R30.2          49.0220 39.1160 PRIM_FILE      .\pstchip.dat
+ R31.2          70.3580 62.7380 PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|   total ECO changes reported  35                                             |
 |------------------------------------------------------------------------------|

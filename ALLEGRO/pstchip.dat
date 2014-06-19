@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 16.5.0 p001Jun-18-2014 at 09:32:29}
+{ Using PSTWRITER 16.5.0 p001Jun-19-2014 at 11:03:59}
 primitive 'CAP_0805_10UF';
   pin
     '1':
@@ -1200,21 +1200,6 @@ primitive 'R_0603_1.87K';
     VALUE='1.87K';
   end_body;
 end_primitive;
-primitive 'R_0603_R';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='R';
-    JEDEC_TYPE='0603';
-    VALUE='R';
-  end_body;
-end_primitive;
 primitive 'R_0603_33R';
   pin
     '1':
@@ -1288,6 +1273,21 @@ primitive 'R_0603_1MEG';
     PART_NAME='R';
     JEDEC_TYPE='0603';
     VALUE='1MEG';
+  end_body;
+end_primitive;
+primitive 'R_0603_R';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='0603';
+    VALUE='R';
   end_body;
 end_primitive;
 primitive 'R_0603_100R';

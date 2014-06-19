@@ -1,5 +1,5 @@
 FILE_TYPE = EXPANDEDPARTLIST;
-{ Using PSTWRITER 16.5.0 p001Jun-18-2014 at 09:32:29 }
+{ Using PSTWRITER 16.5.0 p001Jun-19-2014 at 11:03:59 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='NIR';
@@ -811,9 +811,9 @@ PART_NAME
  D2 'DIODE_0603_DIODE':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS131418@DISCRETE.DIODE.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins131418@discrete.\diode.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page6_ins131418@discrete.\diode.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS143125@DISCRETE.DIODE.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins143125@discrete.\diode.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page6_ins143125@discrete.\diode.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -821,9 +821,9 @@ PART_NAME
  D3 'DIODE_0603_DIODE':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS131402@DISCRETE.DIODE.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins131402@discrete.\diode.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page6_ins131402@discrete.\diode.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS131418@DISCRETE.DIODE.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins131418@discrete.\diode.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page6_ins131418@discrete.\diode.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -1283,17 +1283,17 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- R28 'R_0603_R':;
+ R28 'R_0603_1K':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS131230@DISCRETE.R.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins131230@discrete.\r.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page6_ins131230@discrete.\r.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS143101@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins143101@discrete.\r.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page6_ins143101@discrete.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- R29 'R_0603_R':;
+ R29 'R_0603_1K':;
 
 SECTION_NUMBER 1
  '@NIR.NIR(SCH_1):INS130758@DISCRETE.R.NORMAL(CHIPS)':
@@ -1313,7 +1313,7 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- R30 'R_0603_R':;
+ R30 'R_0603_1K':;
 
 SECTION_NUMBER 1
  '@NIR.NIR(SCH_1):INS130774@DISCRETE.R.NORMAL(CHIPS)':
@@ -1323,7 +1323,7 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- R31 'R_0603_R':;
+ R31 'R_0603_1K':;
 
 SECTION_NUMBER 1
  '@NIR.NIR(SCH_1):INS130790@DISCRETE.R.NORMAL(CHIPS)':
