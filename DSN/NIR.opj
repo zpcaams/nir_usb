@@ -12,7 +12,7 @@
     (CompileFileAddedOrDeleted "x")
     (ANNOTATE_Scope "1")
     (ANNOTATE_Mode "1")
-    (ANNOTATE_Action "0")
+    (ANNOTATE_Action "3")
     (Annotate_Page_Order "0")
     (ANNOTATE_Reset_References_to_1 "FALSE")
     (ANNOTATE_No_Page_Number_Change "FALSE")
@@ -108,6 +108,31 @@
       (Type "Report")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (header4x1
+      (FullPartName "header4x1.Normal")
+      (LibraryName "C:\USERS\UUY\NIR_USB\DSN\NIR.OLB")
+      (DeviceIndex "0"))
+    (header6x1
+      (FullPartName "header6x1.Normal")
+      (LibraryName "C:\USERS\UUY\NIR_USB\DSN\NIR.OLB")
+      (DeviceIndex "0"))
+    (74hct125
+      (FullPartName "74hct125.Normal")
+      (LibraryName "C:\USERS\UUY\NIR_USB\DSN\NIR.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "D:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-R
+      (LibraryName "D:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (header4x2
+      (FullPartName "header4x2.Normal")
+      (LibraryName "C:\USERS\UUY\NIR_USB\DSN\NIR.OLB")
+      (DeviceIndex "0"))
+    (GND_SIGNAL
+      (LibraryName "D:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
     (OFFPAGELEFT-L
       (LibraryName "D:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
@@ -211,7 +236,10 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources" ".\nir.dsn")
-      (Path "Design Resources" ".\nir.dsn" "NIR"))
+      (Path "Design Resources" ".\nir.dsn" "NIR")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library" ".\nir.olb")
+      (Select "Design Resources" ".\nir.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -221,21 +249,81 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 225 1596 225 709")
-        (Scroll "10 64")
-        (Zoom "200")
+        (Placement "44 0 1 -1 -1 -8 -30 0 1063 0 468")
+        (Scroll "-22 0")
+        (Zoom "100")
         (Occurrence "/"))
       (Path "C:\USERS\UUY\NIR_USB\DSN\NIR.DSN")
       (Schematic "NIR")
-      (Page "ADC"))
+      (Page "1ADC"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 200 1571 200 684")
-        (Scroll "367 0")
+        (Placement "44 0 1 -1 -1 -8 -30 25 1088 25 493")
+        (Scroll "0 254")
         (Zoom "200")
         (Occurrence "/"))
       (Path "C:\USERS\UUY\NIR_USB\DSN\NIR.DSN")
       (Schematic "NIR")
-      (Page "FPGA_IO")))
+      (Page "1ADC_BUFFER"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 125 1188 125 593")
+        (Scroll "-22 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "C:\USERS\UUY\NIR_USB\DSN\NIR.DSN")
+      (Schematic "NIR")
+      (Page "ANALOG_PWR"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 150 1213 150 618")
+        (Scroll "342 400")
+        (Zoom "360")
+        (Occurrence "/"))
+      (Path "C:\USERS\UUY\NIR_USB\DSN\NIR.DSN")
+      (Schematic "NIR")
+      (Page "FPGA_IO"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 75 1138 75 543")
+        (Scroll "479 251")
+        (Zoom "134")
+        (Occurrence "/"))
+      (Path "C:\USERS\UUY\NIR_USB\DSN\NIR.DSN")
+      (Schematic "NIR")
+      (Page "FT232H"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 100 1163 100 568")
+        (Scroll "-22 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "C:\USERS\UUY\NIR_USB\DSN\NIR.DSN")
+      (Schematic "NIR")
+      (Page "FPGA_PWR"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 125 1188 125 593")
+        (Scroll "612 560")
+        (Zoom "200")
+        (Occurrence "/"))
+      (Path "C:\USERS\UUY\NIR_USB\DSN\NIR.DSN")
+      (Schematic "NIR")
+      (Page "SENSOR_BUFFER"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 100 1455 100 568")
+        (Scroll "-168 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "C:\USERS\UUY\NIR_USB\DSN\NIR.DSN")
+      (Schematic "NIR")
+      (Page "FPGA_MISC")))
   (ISPCBBASICLICENSE "false"))

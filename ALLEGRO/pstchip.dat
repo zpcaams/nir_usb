@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 16.5.0 p001Jun-19-2014 at 11:03:59}
+{ Using PSTWRITER 16.5.0 p001Jul-04-2014 at 09:29:53}
 primitive 'CAP_0805_10UF';
   pin
     '1':
@@ -852,27 +852,6 @@ primitive 'HEADER1_HEADER1_HEADER1';
     VALUE='header1';
   end_body;
 end_primitive;
-primitive 'HEADER4X1_HEADER4X1_HEADER4X1';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-    '3':
-      PIN_NUMBER='(3)';
-      PINUSE='UNSPEC';
-    '4':
-      PIN_NUMBER='(4)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='header4x1';
-    JEDEC_TYPE='header4x1';
-    VALUE='header4x1';
-  end_body;
-end_primitive;
 primitive 'SMB_SMB_SMB';
   pin
     'CENTER':
@@ -895,45 +874,6 @@ primitive 'SMB_SMB_SMB';
     PART_NAME='smb';
     JEDEC_TYPE='smb';
     VALUE='smb';
-  end_body;
-end_primitive;
-primitive 'HEADER2_HEADER2_HEADER2';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-    '3':
-      PIN_NUMBER='(3)';
-      PINUSE='UNSPEC';
-    '4':
-      PIN_NUMBER='(4)';
-      PINUSE='UNSPEC';
-    '5':
-      PIN_NUMBER='(5)';
-      PINUSE='UNSPEC';
-    '6':
-      PIN_NUMBER='(6)';
-      PINUSE='UNSPEC';
-    '7':
-      PIN_NUMBER='(7)';
-      PINUSE='UNSPEC';
-    '8':
-      PIN_NUMBER='(8)';
-      PINUSE='UNSPEC';
-    '9':
-      PIN_NUMBER='(9)';
-      PINUSE='UNSPEC';
-    '10':
-      PIN_NUMBER='(10)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='header2';
-    JEDEC_TYPE='header2';
-    VALUE='header2';
   end_body;
 end_primitive;
 primitive 'JTAG_JTAG_JTAG';
@@ -985,6 +925,87 @@ primitive 'JTAG_JTAG_JTAG';
     PART_NAME='JTAG';
     JEDEC_TYPE='jtag';
     VALUE='JTAG';
+  end_body;
+end_primitive;
+primitive 'HEADER6X1_HEADER6X1_HEADER6X1';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    '4':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    '5':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+    '6':
+      PIN_NUMBER='(6)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='header6x1';
+    JEDEC_TYPE='header6x1';
+    VALUE='header6x1';
+  end_body;
+end_primitive;
+primitive 'HEADER4X1_HEADER4X1_HEADER4X1';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    '4':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='header4x1';
+    JEDEC_TYPE='header4x1';
+    VALUE='header4x1';
+  end_body;
+end_primitive;
+primitive 'HEADER4X2_HEADER4X2_HEADER4X2';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    '4':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    '5':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+    '6':
+      PIN_NUMBER='(6)';
+      PINUSE='UNSPEC';
+    '7':
+      PIN_NUMBER='(7)';
+      PINUSE='UNSPEC';
+    '8':
+      PIN_NUMBER='(8)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='header4x2';
+    JEDEC_TYPE='header4x2';
+    VALUE='header4x2';
   end_body;
 end_primitive;
 primitive 'INDUCTOR_INDU127_6.8UH';
@@ -1050,7 +1071,7 @@ primitive 'R_0603_0R';
     VALUE='0R';
   end_body;
 end_primitive;
-primitive 'R_0603_33';
+primitive 'R_0603_1K';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -1062,7 +1083,7 @@ primitive 'R_0603_33';
   body
     PART_NAME='R';
     JEDEC_TYPE='0603';
-    VALUE='33';
+    VALUE='1K';
   end_body;
 end_primitive;
 primitive 'R_0603_499';
@@ -1080,7 +1101,7 @@ primitive 'R_0603_499';
     VALUE='499';
   end_body;
 end_primitive;
-primitive 'R_0603_1K';
+primitive 'R_0603_33';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -1092,7 +1113,22 @@ primitive 'R_0603_1K';
   body
     PART_NAME='R';
     JEDEC_TYPE='0603';
-    VALUE='1K';
+    VALUE='33';
+  end_body;
+end_primitive;
+primitive 'R_0603_100R';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='0603';
+    VALUE='100R';
   end_body;
 end_primitive;
 primitive 'R_0603_2.16K';
@@ -1288,21 +1324,6 @@ primitive 'R_0603_R';
     PART_NAME='R';
     JEDEC_TYPE='0603';
     VALUE='R';
-  end_body;
-end_primitive;
-primitive 'R_0603_100R';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='R';
-    JEDEC_TYPE='0603';
-    VALUE='100R';
   end_body;
 end_primitive;
 primitive 'SWITCH_SWITCH1_SWITCH';

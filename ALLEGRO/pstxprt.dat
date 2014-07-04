@@ -1,5 +1,5 @@
 FILE_TYPE = EXPANDEDPARTLIST;
-{ Using PSTWRITER 16.5.0 p001Jun-19-2014 at 11:03:59 }
+{ Using PSTWRITER 16.5.0 p001Jul-04-2014 at 09:29:53 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='NIR';
@@ -21,9 +21,9 @@ PART_NAME
  C10 'CAPACITOR NON-POL_0603_0.1UF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS13533@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins13533@discrete.\capacitor non-pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page2_ins13533@discrete.\capacitor non-pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS13797@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins13797@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page2_ins13797@discrete.\capacitor non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -31,9 +31,9 @@ PART_NAME
  C11 'CAPACITOR NON-POL_0603_0.1UF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS13797@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins13797@discrete.\capacitor non-pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page2_ins13797@discrete.\capacitor non-pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS13533@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins13533@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page2_ins13533@discrete.\capacitor non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -51,9 +51,9 @@ PART_NAME
  C13 'CAPACITOR NON-POL_0603_0.1UF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS14046@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins14046@discrete.\capacitor non-pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page2_ins14046@discrete.\capacitor non-pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS14072@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins14072@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page2_ins14072@discrete.\capacitor non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -61,9 +61,9 @@ PART_NAME
  C14 'CAPACITOR NON-POL_0603_0.1UF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS14072@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins14072@discrete.\capacitor non-pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page2_ins14072@discrete.\capacitor non-pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS14046@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins14046@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page2_ins14046@discrete.\capacitor non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -88,12 +88,12 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- C17 'CAPACITOR NON-POL_0603_100PF':;
+ C17 'CAP_0805_10UF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS14557@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins14557@discrete.\capacitor non-pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page3_ins14557@discrete.\capacitor non-pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS154072@DISCRETE.CAP.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins154072@discrete.\cap.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page3_ins154072@discrete.\cap.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -101,9 +101,9 @@ PART_NAME
  C18 'CAPACITOR NON-POL_0603_0.1UF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS14583@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins14583@discrete.\capacitor non-pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page3_ins14583@discrete.\capacitor non-pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS154944@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins154944@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page3_ins154944@discrete.\capacitor non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -111,9 +111,9 @@ PART_NAME
  C19 'CAPACITOR NON-POL_0603_0.1UF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS14609@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins14609@discrete.\capacitor non-pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page3_ins14609@discrete.\capacitor non-pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS154964@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins154964@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page3_ins154964@discrete.\capacitor non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -128,12 +128,12 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- C20 'CAPACITOR NON-POL_0603_1UF':;
+ C20 'CAPACITOR NON-POL_0603_0.1UF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS14635@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins14635@discrete.\capacitor non-pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page3_ins14635@discrete.\capacitor non-pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS154984@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins154984@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page3_ins154984@discrete.\capacitor non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -141,19 +141,19 @@ PART_NAME
  C21 'CAPACITOR NON-POL_0603_0.1UF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS14661@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins14661@discrete.\capacitor non-pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page3_ins14661@discrete.\capacitor non-pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS155000@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins155000@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page3_ins155000@discrete.\capacitor non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- C22 'CAPACITOR NON-POL_0603_22UF':;
+ C22 'CAPACITOR NON-POL_0603_0.1UF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS14687@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins14687@discrete.\capacitor non-pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page3_ins14687@discrete.\capacitor non-pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS155016@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins155016@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page3_ins155016@discrete.\capacitor non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -161,69 +161,69 @@ PART_NAME
  C23 'CAPACITOR NON-POL_0603_0.1UF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS16350@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins16350@discrete.\capacitor non-pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page4_ins16350@discrete.\capacitor non-pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS155032@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins155032@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page3_ins155032@discrete.\capacitor non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- C24 'CAPACITOR NON-POL_0603_100UF':;
+ C24 'CAPACITOR NON-POL_0603_0.1UF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS16376@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins16376@discrete.\capacitor non-pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page4_ins16376@discrete.\capacitor non-pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS153968@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins153968@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page3_ins153968@discrete.\capacitor non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- C25 'CAPACITOR NON-POL_0603_100UF':;
+ C25 'CAPACITOR NON-POL_0603_0.1UF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS16402@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins16402@discrete.\capacitor non-pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page4_ins16402@discrete.\capacitor non-pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS153988@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins153988@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page3_ins153988@discrete.\capacitor non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- C26 'CAP POL_0805_10UF':;
+ C26 'CAPACITOR NON-POL_0603_0.1UF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS16260@DISCRETE.CAP POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins16260@discrete.\cap pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page4_ins16260@discrete.\cap pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS156228@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins156228@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page4_ins156228@discrete.\capacitor non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- C27 'CAP POL_0805_10UF':;
+ C27 'CAPACITOR NON-POL_0603_0.1UF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS16276@DISCRETE.CAP POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins16276@discrete.\cap pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page4_ins16276@discrete.\cap pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS156212@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins156212@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page4_ins156212@discrete.\capacitor non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- C28 'CAPACITOR NON-POL_0603_68PF':;
+ C28 'CAPACITOR NON-POL_0603_0.1UF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS16428@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins16428@discrete.\capacitor non-pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page4_ins16428@discrete.\capacitor non-pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS156244@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins156244@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page4_ins156244@discrete.\capacitor non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- C29 'CAPACITOR NON-POL_0603_2.2NF':;
+ C29 'CAPACITOR NON-POL_0603_0.1UF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS16454@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins16454@discrete.\capacitor non-pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page4_ins16454@discrete.\capacitor non-pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS156296@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins156296@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page4_ins156296@discrete.\capacitor non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -241,19 +241,19 @@ PART_NAME
  C30 'CAPACITOR NON-POL_0603_0.1UF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS16480@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins16480@discrete.\capacitor non-pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page4_ins16480@discrete.\capacitor non-pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS156280@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins156280@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page4_ins156280@discrete.\capacitor non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- C31 'CAPACITOR NON-POL_0603_0.1UF':;
+ C31 'CAP NP_0603_0.1UF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS18029@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins18029@discrete.\capacitor non-pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page5_ins18029@discrete.\capacitor non-pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS156576@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins156576@discrete.\cap np.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page4_ins156576@discrete.\cap np.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -261,29 +261,29 @@ PART_NAME
  C32 'CAPACITOR NON-POL_0603_0.1UF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS18045@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins18045@discrete.\capacitor non-pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page5_ins18045@discrete.\capacitor non-pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS156264@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins156264@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page4_ins156264@discrete.\capacitor non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- C33 'CAP POL_0805_10UF':;
+ C33 'CAPACITOR NON-POL_0603_100PF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS17972@DISCRETE.CAP POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins17972@discrete.\cap pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page5_ins17972@discrete.\cap pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS14557@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins14557@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page5_ins14557@discrete.\capacitor non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- C34 'CAP POL_0805_10UF':;
+ C34 'CAPACITOR NON-POL_0603_0.1UF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS17988@DISCRETE.CAP POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins17988@discrete.\cap pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page5_ins17988@discrete.\cap pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS14583@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins14583@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page5_ins14583@discrete.\capacitor non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -291,19 +291,19 @@ PART_NAME
  C35 'CAPACITOR NON-POL_0603_0.1UF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS18061@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins18061@discrete.\capacitor non-pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page5_ins18061@discrete.\capacitor non-pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS14609@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins14609@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page5_ins14609@discrete.\capacitor non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- C36 'CAP POL_0805_10UF':;
+ C36 'CAPACITOR NON-POL_0603_1UF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS18004@DISCRETE.CAP POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins18004@discrete.\cap pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page5_ins18004@discrete.\cap pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS14635@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins14635@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page5_ins14635@discrete.\capacitor non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -311,19 +311,19 @@ PART_NAME
  C37 'CAPACITOR NON-POL_0603_0.1UF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS24111@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins24111@discrete.\capacitor non-pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page7_ins24111@discrete.\capacitor non-pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS14661@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins14661@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page5_ins14661@discrete.\capacitor non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- C38 'CAPACITOR NON-POL_0603_0.1UF':;
+ C38 'CAPACITOR NON-POL_0603_22UF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS18840@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins18840@discrete.\capacitor non-pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page8_ins18840@discrete.\capacitor non-pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS14687@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins14687@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page5_ins14687@discrete.\capacitor non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -331,9 +331,9 @@ PART_NAME
  C39 'CAPACITOR NON-POL_0603_0.1UF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS18866@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins18866@discrete.\capacitor non-pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page8_ins18866@discrete.\capacitor non-pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS16350@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins16350@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page6_ins16350@discrete.\capacitor non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -348,82 +348,82 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- C40 'CAPACITOR NON-POL_0603_0.1UF':;
+ C40 'CAPACITOR NON-POL_0603_100UF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS18892@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins18892@discrete.\capacitor non-pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page8_ins18892@discrete.\capacitor non-pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS16376@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins16376@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page6_ins16376@discrete.\capacitor non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- C41 'CAPACITOR NON-POL_0603_0.1UF':;
+ C41 'CAPACITOR NON-POL_0603_100UF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS18918@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins18918@discrete.\capacitor non-pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page8_ins18918@discrete.\capacitor non-pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS16402@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins16402@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page6_ins16402@discrete.\capacitor non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- C42 'CAPACITOR NON-POL_0603_0.1UF':;
+ C42 'CAP POL_0805_10UF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS18944@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins18944@discrete.\capacitor non-pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page8_ins18944@discrete.\capacitor non-pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS16260@DISCRETE.CAP POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins16260@discrete.\cap pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page6_ins16260@discrete.\cap pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- C43 'CAPACITOR NON-POL_0603_0.1UF':;
+ C43 'CAP POL_0805_10UF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS18970@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins18970@discrete.\capacitor non-pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page8_ins18970@discrete.\capacitor non-pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS16276@DISCRETE.CAP POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins16276@discrete.\cap pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page6_ins16276@discrete.\cap pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- C44 'CAPACITOR NON-POL_0603_4.7UF':;
+ C44 'CAPACITOR NON-POL_0603_68PF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS18996@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins18996@discrete.\capacitor non-pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page8_ins18996@discrete.\capacitor non-pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS16428@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins16428@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page6_ins16428@discrete.\capacitor non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- C45 'CAPACITOR NON-POL_0603_4.7UF':;
+ C45 'CAPACITOR NON-POL_0603_2.2NF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS19022@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins19022@discrete.\capacitor non-pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page8_ins19022@discrete.\capacitor non-pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS16454@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins16454@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page6_ins16454@discrete.\capacitor non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- C46 'CAPACITOR NON-POL_0603_4.7UF':;
+ C46 'CAPACITOR NON-POL_0603_0.1UF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS19048@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins19048@discrete.\capacitor non-pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page8_ins19048@discrete.\capacitor non-pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS16480@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins16480@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page6_ins16480@discrete.\capacitor non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- C47 'CAPACITOR NON-POL_0603_4.7UF':;
+ C47 'CAPACITOR NON-POL_0603_0.1UF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS19074@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins19074@discrete.\capacitor non-pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page8_ins19074@discrete.\capacitor non-pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS18029@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins18029@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page7_ins18029@discrete.\capacitor non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -431,19 +431,19 @@ PART_NAME
  C48 'CAPACITOR NON-POL_0603_0.1UF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS19100@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins19100@discrete.\capacitor non-pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page8_ins19100@discrete.\capacitor non-pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS18045@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins18045@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page7_ins18045@discrete.\capacitor non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- C49 'CAPACITOR NON-POL_0603_0.1UF':;
+ C49 'CAP POL_0805_10UF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS19126@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins19126@discrete.\capacitor non-pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page8_ins19126@discrete.\capacitor non-pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS17972@DISCRETE.CAP POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins17972@discrete.\cap pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page7_ins17972@discrete.\cap pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -458,52 +458,52 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- C50 'CAPACITOR NON-POL_0603_0.1UF':;
+ C50 'CAP POL_0805_10UF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS19152@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins19152@discrete.\capacitor non-pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page8_ins19152@discrete.\capacitor non-pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS17988@DISCRETE.CAP POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins17988@discrete.\cap pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page7_ins17988@discrete.\cap pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- C51 'CAPACITOR NON-POL_0603_4.7UF':;
+ C51 'CAPACITOR NON-POL_0603_0.1UF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS19178@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins19178@discrete.\capacitor non-pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page8_ins19178@discrete.\capacitor non-pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS18061@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins18061@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page7_ins18061@discrete.\capacitor non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- C52 'CAPACITOR NON-POL_0603_4.7UF':;
+ C52 'CAP POL_0805_10UF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS19204@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins19204@discrete.\capacitor non-pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page8_ins19204@discrete.\capacitor non-pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS18004@DISCRETE.CAP POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins18004@discrete.\cap pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page7_ins18004@discrete.\cap pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- C53 'CAPACITOR NON-POL_0603_4.7UF':;
+ C53 'CAPACITOR NON-POL_0603_0.1UF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS19230@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins19230@discrete.\capacitor non-pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page8_ins19230@discrete.\capacitor non-pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS24111@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins24111@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page9_ins24111@discrete.\capacitor non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- C54 'CAPACITOR NON-POL_0603_4.7UF':;
+ C54 'CAPACITOR NON-POL_0603_0.1UF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS19256@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins19256@discrete.\capacitor non-pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page8_ins19256@discrete.\capacitor non-pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS18840@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins18840@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page10_ins18840@discrete.\capacitor non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -511,9 +511,9 @@ PART_NAME
  C55 'CAPACITOR NON-POL_0603_0.1UF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS19282@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins19282@discrete.\capacitor non-pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page8_ins19282@discrete.\capacitor non-pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS18866@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins18866@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page10_ins18866@discrete.\capacitor non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -521,9 +521,9 @@ PART_NAME
  C56 'CAPACITOR NON-POL_0603_0.1UF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS19308@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins19308@discrete.\capacitor non-pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page8_ins19308@discrete.\capacitor non-pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS18892@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins18892@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page10_ins18892@discrete.\capacitor non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -531,9 +531,9 @@ PART_NAME
  C57 'CAPACITOR NON-POL_0603_0.1UF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS19334@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins19334@discrete.\capacitor non-pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page8_ins19334@discrete.\capacitor non-pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS18918@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins18918@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page10_ins18918@discrete.\capacitor non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -541,19 +541,19 @@ PART_NAME
  C58 'CAPACITOR NON-POL_0603_0.1UF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS19360@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins19360@discrete.\capacitor non-pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page8_ins19360@discrete.\capacitor non-pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS18944@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins18944@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page10_ins18944@discrete.\capacitor non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- C59 'CAPACITOR NON-POL_0603_4.7UF':;
+ C59 'CAPACITOR NON-POL_0603_0.1UF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS6353@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins6353@discrete.\capacitor non-pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page9_ins6353@discrete.\capacitor non-pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS18970@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins18970@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page10_ins18970@discrete.\capacitor non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -568,22 +568,22 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- C60 'CAPACITOR NON-POL_0603_0.1UF':;
+ C60 'CAPACITOR NON-POL_0603_4.7UF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS10607@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins10607@discrete.\capacitor non-pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page9_ins10607@discrete.\capacitor non-pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS18996@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins18996@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page10_ins18996@discrete.\capacitor non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- C61 'CAPACITOR NON-POL_0603_0.1UF':;
+ C61 'CAPACITOR NON-POL_0603_4.7UF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS6379@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins6379@discrete.\capacitor non-pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page9_ins6379@discrete.\capacitor non-pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS19022@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins19022@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page10_ins19022@discrete.\capacitor non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -591,19 +591,19 @@ PART_NAME
  C62 'CAPACITOR NON-POL_0603_4.7UF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS6405@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins6405@discrete.\capacitor non-pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page9_ins6405@discrete.\capacitor non-pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS19048@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins19048@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page10_ins19048@discrete.\capacitor non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- C63 'CAPACITOR NON-POL_0603_0.1UF':;
+ C63 'CAPACITOR NON-POL_0603_4.7UF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS6431@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins6431@discrete.\capacitor non-pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page9_ins6431@discrete.\capacitor non-pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS19074@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins19074@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page10_ins19074@discrete.\capacitor non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -611,9 +611,9 @@ PART_NAME
  C64 'CAPACITOR NON-POL_0603_0.1UF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS6457@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins6457@discrete.\capacitor non-pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page9_ins6457@discrete.\capacitor non-pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS19100@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins19100@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page10_ins19100@discrete.\capacitor non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -621,9 +621,9 @@ PART_NAME
  C65 'CAPACITOR NON-POL_0603_0.1UF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS6483@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins6483@discrete.\capacitor non-pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page9_ins6483@discrete.\capacitor non-pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS19126@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins19126@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page10_ins19126@discrete.\capacitor non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -631,19 +631,19 @@ PART_NAME
  C66 'CAPACITOR NON-POL_0603_0.1UF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS6509@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins6509@discrete.\capacitor non-pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page9_ins6509@discrete.\capacitor non-pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS19152@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins19152@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page10_ins19152@discrete.\capacitor non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- C67 'CAPACITOR NON-POL_0603_0.1UF':;
+ C67 'CAPACITOR NON-POL_0603_4.7UF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS10633@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins10633@discrete.\capacitor non-pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page9_ins10633@discrete.\capacitor non-pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS19178@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins19178@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page10_ins19178@discrete.\capacitor non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -651,19 +651,19 @@ PART_NAME
  C68 'CAPACITOR NON-POL_0603_4.7UF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS6535@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins6535@discrete.\capacitor non-pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page9_ins6535@discrete.\capacitor non-pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS19204@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins19204@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page10_ins19204@discrete.\capacitor non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- C69 'CAPACITOR NON-POL_0603_0.1UF':;
+ C69 'CAPACITOR NON-POL_0603_4.7UF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS6561@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins6561@discrete.\capacitor non-pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page9_ins6561@discrete.\capacitor non-pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS19230@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins19230@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page10_ins19230@discrete.\capacitor non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -681,9 +681,9 @@ PART_NAME
  C70 'CAPACITOR NON-POL_0603_4.7UF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS6587@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins6587@discrete.\capacitor non-pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page9_ins6587@discrete.\capacitor non-pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS19256@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins19256@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page10_ins19256@discrete.\capacitor non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -691,9 +691,9 @@ PART_NAME
  C71 'CAPACITOR NON-POL_0603_0.1UF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS6613@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins6613@discrete.\capacitor non-pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page9_ins6613@discrete.\capacitor non-pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS19282@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins19282@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page10_ins19282@discrete.\capacitor non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -701,9 +701,9 @@ PART_NAME
  C72 'CAPACITOR NON-POL_0603_0.1UF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS6639@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins6639@discrete.\capacitor non-pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page9_ins6639@discrete.\capacitor non-pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS19308@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins19308@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page10_ins19308@discrete.\capacitor non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -711,29 +711,29 @@ PART_NAME
  C73 'CAPACITOR NON-POL_0603_0.1UF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS6665@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins6665@discrete.\capacitor non-pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page9_ins6665@discrete.\capacitor non-pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS19334@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins19334@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page10_ins19334@discrete.\capacitor non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- C74 'CAPACITOR NON-POL_0603_100NF':;
+ C74 'CAPACITOR NON-POL_0603_0.1UF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS6743@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins6743@discrete.\capacitor non-pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page9_ins6743@discrete.\capacitor non-pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS19360@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins19360@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page10_ins19360@discrete.\capacitor non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- C75 'CAPACITOR NON-POL_0603_0.1UF':;
+ C75 'CAPACITOR NON-POL_0603_4.7UF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS6769@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins6769@discrete.\capacitor non-pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page9_ins6769@discrete.\capacitor non-pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS6353@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins6353@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page11_ins6353@discrete.\capacitor non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -741,9 +741,9 @@ PART_NAME
  C76 'CAPACITOR NON-POL_0603_0.1UF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS6691@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins6691@discrete.\capacitor non-pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page9_ins6691@discrete.\capacitor non-pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS10607@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins10607@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page11_ins10607@discrete.\capacitor non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -751,19 +751,19 @@ PART_NAME
  C77 'CAPACITOR NON-POL_0603_0.1UF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS6717@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins6717@discrete.\capacitor non-pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page9_ins6717@discrete.\capacitor non-pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS6379@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins6379@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page11_ins6379@discrete.\capacitor non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- C78 'CAPACITOR NON-POL_0603_0.1UF':;
+ C78 'CAPACITOR NON-POL_0603_4.7UF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS39924@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins39924@discrete.\capacitor non-pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page10_ins39924@discrete.\capacitor non-pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS6405@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins6405@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page11_ins6405@discrete.\capacitor non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -771,9 +771,9 @@ PART_NAME
  C79 'CAPACITOR NON-POL_0603_0.1UF':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS39750@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins39750@discrete.\capacitor non-pol.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page10_ins39750@discrete.\capacitor non-pol.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS6431@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins6431@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page11_ins6431@discrete.\capacitor non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -788,6 +788,106 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
+ C80 'CAPACITOR NON-POL_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@NIR.NIR(SCH_1):INS6457@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins6457@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page11_ins6457@discrete.\capacitor non-pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C81 'CAPACITOR NON-POL_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@NIR.NIR(SCH_1):INS6483@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins6483@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page11_ins6483@discrete.\capacitor non-pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C82 'CAPACITOR NON-POL_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@NIR.NIR(SCH_1):INS6509@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins6509@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page11_ins6509@discrete.\capacitor non-pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C83 'CAPACITOR NON-POL_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@NIR.NIR(SCH_1):INS10633@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins10633@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page11_ins10633@discrete.\capacitor non-pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C84 'CAPACITOR NON-POL_0603_4.7UF':;
+
+SECTION_NUMBER 1
+ '@NIR.NIR(SCH_1):INS6535@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins6535@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page11_ins6535@discrete.\capacitor non-pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C85 'CAPACITOR NON-POL_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@NIR.NIR(SCH_1):INS6561@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins6561@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page11_ins6561@discrete.\capacitor non-pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C86 'CAPACITOR NON-POL_0603_4.7UF':;
+
+SECTION_NUMBER 1
+ '@NIR.NIR(SCH_1):INS6587@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins6587@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page11_ins6587@discrete.\capacitor non-pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C87 'CAPACITOR NON-POL_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@NIR.NIR(SCH_1):INS6613@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins6613@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page11_ins6613@discrete.\capacitor non-pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C88 'CAPACITOR NON-POL_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@NIR.NIR(SCH_1):INS6639@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins6639@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page11_ins6639@discrete.\capacitor non-pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C89 'CAPACITOR NON-POL_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@NIR.NIR(SCH_1):INS6665@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins6665@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page11_ins6665@discrete.\capacitor non-pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
  C9 'CAPACITOR NON-POL_0603_0.1UF':;
 
 SECTION_NUMBER 1
@@ -798,12 +898,82 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
+ C90 'CAPACITOR NON-POL_0603_100NF':;
+
+SECTION_NUMBER 1
+ '@NIR.NIR(SCH_1):INS6743@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins6743@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page11_ins6743@discrete.\capacitor non-pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C91 'CAPACITOR NON-POL_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@NIR.NIR(SCH_1):INS6769@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins6769@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page11_ins6769@discrete.\capacitor non-pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C92 'CAPACITOR NON-POL_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@NIR.NIR(SCH_1):INS6691@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins6691@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page11_ins6691@discrete.\capacitor non-pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C93 'CAPACITOR NON-POL_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@NIR.NIR(SCH_1):INS6717@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins6717@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page11_ins6717@discrete.\capacitor non-pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C94 'CAPACITOR NON-POL_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@NIR.NIR(SCH_1):INS39750@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins39750@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page12_ins39750@discrete.\capacitor non-pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C95 'CAPACITOR NON-POL_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@NIR.NIR(SCH_1):INS161535@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins161535@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page12_ins161535@discrete.\capacitor non-pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C96 'CAPACITOR NON-POL_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@NIR.NIR(SCH_1):INS39924@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins39924@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page12_ins39924@discrete.\capacitor non-pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
  D1 'DIODE_0603_DIODE':;
 
 SECTION_NUMBER 1
  '@NIR.NIR(SCH_1):INS136418@DISCRETE.DIODE.NORMAL(CHIPS)':
  C_PATH='@nir.nir(sch_1):ins136418@discrete.\diode.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page4_ins136418@discrete.\diode.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page6_ins136418@discrete.\diode.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -811,9 +981,9 @@ PART_NAME
  D2 'DIODE_0603_DIODE':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS143125@DISCRETE.DIODE.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins143125@discrete.\diode.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page6_ins143125@discrete.\diode.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS168712@DISCRETE.DIODE.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins168712@discrete.\diode.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page8_ins168712@discrete.\diode.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -821,9 +991,9 @@ PART_NAME
  D3 'DIODE_0603_DIODE':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS131418@DISCRETE.DIODE.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins131418@discrete.\diode.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page6_ins131418@discrete.\diode.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS168796@DISCRETE.DIODE.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins168796@discrete.\diode.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page8_ins168796@discrete.\diode.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -831,9 +1001,9 @@ PART_NAME
  D4 'DIODE_0603_DIODE':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS131434@DISCRETE.DIODE.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins131434@discrete.\diode.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page6_ins131434@discrete.\diode.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS168812@DISCRETE.DIODE.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins168812@discrete.\diode.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page8_ins168812@discrete.\diode.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -841,9 +1011,9 @@ PART_NAME
  D5 'DIODE_0603_DIODE':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS131450@DISCRETE.DIODE.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins131450@discrete.\diode.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page6_ins131450@discrete.\diode.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS168828@DISCRETE.DIODE.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins168828@discrete.\diode.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page8_ins168828@discrete.\diode.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -853,7 +1023,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@NIR.NIR(SCH_1):INS23413@DISCRETE.LED.NORMAL(CHIPS)':
  C_PATH='@nir.nir(sch_1):ins23413@discrete.\led.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page7_ins23413@discrete.\led.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page9_ins23413@discrete.\led.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -863,7 +1033,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@NIR.NIR(SCH_1):INS23429@DISCRETE.LED.NORMAL(CHIPS)':
  C_PATH='@nir.nir(sch_1):ins23429@discrete.\led.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page7_ins23429@discrete.\led.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page9_ins23429@discrete.\led.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -888,57 +1058,77 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- IC3 'XC3S200A-VQ100_XCS200A_XC3S200A':;
+ IC3 'AD7961_AD7961_AD7961':;
+
+SECTION_NUMBER 1
+ '@NIR.NIR(SCH_1):INS154814@NIR.AD7961.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins154814@nir.\ad7961.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page3_ins154814@nir.\ad7961.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ IC4 'ADA4932_ADA4932_ADA4932':;
+
+SECTION_NUMBER 1
+ '@NIR.NIR(SCH_1):INS156332@NIR.ADA4932.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins156332@nir.\ada4932.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page4_ins156332@nir.\ada4932.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ IC5 'XC3S200A-VQ100_XCS200A_XC3S200A':;
 
 SECTION_NUMBER 1
  '@NIR.NIR(SCH_1):INS86827@NIR.XC3S200A-VQ100A.NORMAL(CHIPS)':
  C_PATH='@nir.nir(sch_1):ins86827@nir.\xc3s200a-vq100a.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page6_ins86827@nir.\xc3s200a-vq100a.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page8_ins86827@nir.\xc3s200a-vq100a.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='A';
 
 SECTION_NUMBER 2
  '@NIR.NIR(SCH_1):INS78964@NIR.XC3S200A-VQ100B.NORMAL(CHIPS)':
  C_PATH='@nir.nir(sch_1):ins78964@nir.\xc3s200a-vq100b.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page6_ins78964@nir.\xc3s200a-vq100b.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page8_ins78964@nir.\xc3s200a-vq100b.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='B';
 
 SECTION_NUMBER 3
  '@NIR.NIR(SCH_1):INS87045@NIR.XC3S200A-VQ100C.NORMAL(CHIPS)':
  C_PATH='@nir.nir(sch_1):ins87045@nir.\xc3s200a-vq100c.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page6_ins87045@nir.\xc3s200a-vq100c.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page8_ins87045@nir.\xc3s200a-vq100c.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='C';
 
 SECTION_NUMBER 4
  '@NIR.NIR(SCH_1):INS79118@NIR.XC3S200A-VQ100D.NORMAL(CHIPS)':
  C_PATH='@nir.nir(sch_1):ins79118@nir.\xc3s200a-vq100d.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page6_ins79118@nir.\xc3s200a-vq100d.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page8_ins79118@nir.\xc3s200a-vq100d.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='D';
 
 SECTION_NUMBER 5
  '@NIR.NIR(SCH_1):INS85971@NIR.XC3S200A-VQ100E.NORMAL(CHIPS)':
  C_PATH='@nir.nir(sch_1):ins85971@nir.\xc3s200a-vq100e.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page8_ins85971@nir.\xc3s200a-vq100e.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page10_ins85971@nir.\xc3s200a-vq100e.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='E';
 
 SECTION_NUMBER 6
  '@NIR.NIR(SCH_1):INS86381@NIR.XC3S200A-VQ100F.NORMAL(CHIPS)':
  C_PATH='@nir.nir(sch_1):ins86381@nir.\xc3s200a-vq100f.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page7_ins86381@nir.\xc3s200a-vq100f.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page9_ins86381@nir.\xc3s200a-vq100f.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='F';
 
 PART_NAME
- IC4 'FT232H_FT232H_FT232H':;
+ IC6 'FT232H_FT232H_FT232H':;
 
 SECTION_NUMBER 1
  '@NIR.NIR(SCH_1):INS76982@NIR.FT232H.NORMAL(CHIPS)':
  C_PATH='@nir.nir(sch_1):ins76982@nir.\ft232h.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page9_ins76982@nir.\ft232h.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page11_ins76982@nir.\ft232h.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -953,12 +1143,92 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- J10 'HEADER4X1_HEADER4X1_HEADER4X1':;
+ J10 'HEADER1_HEADER1_HEADER1':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS83595@NIR.HEADER4X1.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins83595@nir.\header4x1.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page10_ins83595@nir.\header4x1.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS154584@NIR.HEADER1.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins154584@nir.\header1.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page3_ins154584@nir.\header1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J11 'HEADER1_HEADER1_HEADER1':;
+
+SECTION_NUMBER 1
+ '@NIR.NIR(SCH_1):INS154552@NIR.HEADER1.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins154552@nir.\header1.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page3_ins154552@nir.\header1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J12 'HEADER1_HEADER1_HEADER1':;
+
+SECTION_NUMBER 1
+ '@NIR.NIR(SCH_1):INS154532@NIR.HEADER1.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins154532@nir.\header1.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page3_ins154532@nir.\header1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J13 'HEADER1_HEADER1_HEADER1':;
+
+SECTION_NUMBER 1
+ '@NIR.NIR(SCH_1):INS156384@NIR.HEADER1.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins156384@nir.\header1.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page4_ins156384@nir.\header1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J14 'SMB_SMB_SMB':;
+
+SECTION_NUMBER 1
+ '@NIR.NIR(SCH_1):INS157118@NIR.SMB.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins157118@nir.\smb.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page4_ins157118@nir.\smb.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J15 'SMB_SMB_SMB':;
+
+SECTION_NUMBER 1
+ '@NIR.NIR(SCH_1):INS157140@NIR.SMB.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins157140@nir.\smb.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page4_ins157140@nir.\smb.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J16 'JTAG_JTAG_JTAG':;
+
+SECTION_NUMBER 1
+ '@NIR.NIR(SCH_1):INS129179@NIR.JTAG.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins129179@nir.\jtag.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page9_ins129179@nir.\jtag.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J17 'HEADER6X1_HEADER6X1_HEADER6X1':;
+
+SECTION_NUMBER 1
+ '@NIR.NIR(SCH_1):INS166618@NIR.HEADER6X1.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins166618@nir.\header6x1.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page12_ins166618@nir.\header6x1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J18 'HEADER4X1_HEADER4X1_HEADER4X1':;
+
+SECTION_NUMBER 1
+ '@NIR.NIR(SCH_1):INS166812@NIR.HEADER4X1.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins166812@nir.\header4x1.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page12_ins166812@nir.\header4x1.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -1023,22 +1293,22 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- J8 'HEADER2_HEADER2_HEADER2':;
+ J8 'HEADER4X2_HEADER4X2_HEADER4X2':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS121361@NIR.HEADER2.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins121361@nir.\header2.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page2_ins121361@nir.\header2.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS159597@NIR.HEADER4X2.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins159597@nir.\header4x2.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page2_ins159597@nir.\header4x2.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- J9 'JTAG_JTAG_JTAG':;
+ J9 'HEADER1_HEADER1_HEADER1':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS129179@NIR.JTAG.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins129179@nir.\jtag.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page7_ins129179@nir.\jtag.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS154512@NIR.HEADER1.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins154512@nir.\header1.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page3_ins154512@nir.\header1.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -1048,7 +1318,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@NIR.NIR(SCH_1):INS16603@DISCRETE.INDUCTOR.NORMAL(CHIPS)':
  C_PATH='@nir.nir(sch_1):ins16603@discrete.\inductor.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page4_ins16603@discrete.\inductor.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page6_ins16603@discrete.\inductor.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -1058,7 +1328,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@NIR.NIR(SCH_1):INS6947@DISCRETE.INDUCTOR.NORMAL(CHIPS)':
  C_PATH='@nir.nir(sch_1):ins6947@discrete.\inductor.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page9_ins6947@discrete.\inductor.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page11_ins6947@discrete.\inductor.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -1068,7 +1338,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@NIR.NIR(SCH_1):INS6963@DISCRETE.INDUCTOR.NORMAL(CHIPS)':
  C_PATH='@nir.nir(sch_1):ins6963@discrete.\inductor.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page9_ins6963@discrete.\inductor.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page11_ins6963@discrete.\inductor.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -1078,7 +1348,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@NIR.NIR(SCH_1):INS80536@NIR.DC12.NORMAL(CHIPS)':
  C_PATH='@nir.nir(sch_1):ins80536@nir.\dc12.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page4_ins80536@nir.\dc12.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page6_ins80536@nir.\dc12.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -1093,12 +1363,12 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- R10 'R_0603_33':;
+ R10 'R_0603_1K':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS3706@DISCRETE.R.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins3706@discrete.\r.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page2_ins3706@discrete.\r.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS3722@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins3722@discrete.\r.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page2_ins3722@discrete.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -1183,12 +1453,12 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- R19 'R_0603_2.16K':;
+ R19 'R_0603_0R':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS14712@DISCRETE.R.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins14712@discrete.\r.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page3_ins14712@discrete.\r.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS154124@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins154124@discrete.\r.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page3_ins154124@discrete.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -1203,82 +1473,82 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- R20 'R_0603_3.3K':;
+ R20 'R_0603_1K':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS14744@DISCRETE.R.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins14744@discrete.\r.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page3_ins14744@discrete.\r.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS154092@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins154092@discrete.\r.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page3_ins154092@discrete.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- R21 'R_0603_10K':;
+ R21 'R_0603_1K':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS14728@DISCRETE.R.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins14728@discrete.\r.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page3_ins14728@discrete.\r.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS154108@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins154108@discrete.\r.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page3_ins154108@discrete.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- R22 'R_0603_10K':;
+ R22 'R_0603_1K':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS14760@DISCRETE.R.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins14760@discrete.\r.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page3_ins14760@discrete.\r.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS154140@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins154140@discrete.\r.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page3_ins154140@discrete.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- R23 'R_0603_348K':;
+ R23 'R_0603_1K':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS16505@DISCRETE.R.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins16505@discrete.\r.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page4_ins16505@discrete.\r.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS154156@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins154156@discrete.\r.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page3_ins154156@discrete.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- R24 'R_0603_10K':;
+ R24 'R_0603_1K':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS16553@DISCRETE.R.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins16553@discrete.\r.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page4_ins16553@discrete.\r.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS154172@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins154172@discrete.\r.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page3_ins154172@discrete.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- R25 'R_0603_15K':;
+ R25 'R_0603_100R':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS16537@DISCRETE.R.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins16537@discrete.\r.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page4_ins16537@discrete.\r.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS154192@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins154192@discrete.\r.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page3_ins154192@discrete.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- R26 'R_0603_76.8K':;
+ R26 'R_0603_1K':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS16521@DISCRETE.R.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins16521@discrete.\r.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page4_ins16521@discrete.\r.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS156400@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins156400@discrete.\r.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page4_ins156400@discrete.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- R27 'R_0603_1.87K':;
+ R27 'R_0603_33':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS16629@DISCRETE.R.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins16629@discrete.\r.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page4_ins16629@discrete.\r.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS156416@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins156416@discrete.\r.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page4_ins156416@discrete.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -1286,19 +1556,19 @@ PART_NAME
  R28 'R_0603_1K':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS143101@DISCRETE.R.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins143101@discrete.\r.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page6_ins143101@discrete.\r.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS156432@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins156432@discrete.\r.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page4_ins156432@discrete.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- R29 'R_0603_1K':;
+ R29 'R_0603_499':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS130758@DISCRETE.R.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins130758@discrete.\r.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page6_ins130758@discrete.\r.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS156448@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins156448@discrete.\r.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page4_ins156448@discrete.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -1313,12 +1583,12 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- R30 'R_0603_1K':;
+ R30 'R_0603_499':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS130774@DISCRETE.R.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins130774@discrete.\r.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page6_ins130774@discrete.\r.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS156464@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins156464@discrete.\r.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page4_ins156464@discrete.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -1326,89 +1596,89 @@ PART_NAME
  R31 'R_0603_1K':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS130790@DISCRETE.R.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins130790@discrete.\r.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page6_ins130790@discrete.\r.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS156496@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins156496@discrete.\r.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page4_ins156496@discrete.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- R32 'R_0603_10K':;
+ R32 'R_0603_499':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS23005@DISCRETE.R.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins23005@discrete.\r.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page7_ins23005@discrete.\r.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS156480@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins156480@discrete.\r.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page4_ins156480@discrete.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- R33 'R_0603_10K':;
+ R33 'R_0603_499':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS23021@DISCRETE.R.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins23021@discrete.\r.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page7_ins23021@discrete.\r.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS156512@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins156512@discrete.\r.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page4_ins156512@discrete.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- R34 'R_0603_10K':;
+ R34 'R_0603_33':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS23037@DISCRETE.R.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins23037@discrete.\r.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page7_ins23037@discrete.\r.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS156528@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins156528@discrete.\r.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page4_ins156528@discrete.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- R35 'R_0603_10K':;
+ R35 'R_0603_1K':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS23277@DISCRETE.R.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins23277@discrete.\r.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page7_ins23277@discrete.\r.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS156560@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins156560@discrete.\r.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page4_ins156560@discrete.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- R36 'R_0603_10K':;
+ R36 'R_0603_1K':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS23293@DISCRETE.R.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins23293@discrete.\r.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page7_ins23293@discrete.\r.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS156544@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins156544@discrete.\r.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page4_ins156544@discrete.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- R37 'R_0603_10K':;
+ R37 'R_0603_2.16K':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS23812@DISCRETE.R.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins23812@discrete.\r.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page7_ins23812@discrete.\r.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS14712@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins14712@discrete.\r.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page5_ins14712@discrete.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- R38 'R_0603_33R':;
+ R38 'R_0603_3.3K':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS23069@DISCRETE.R.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins23069@discrete.\r.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page7_ins23069@discrete.\r.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS14744@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins14744@discrete.\r.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page5_ins14744@discrete.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- R39 'R_0603_33R':;
+ R39 'R_0603_10K':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS23053@DISCRETE.R.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins23053@discrete.\r.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page7_ins23053@discrete.\r.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS14728@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins14728@discrete.\r.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page5_ins14728@discrete.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -1423,62 +1693,62 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- R40 'R_0603_4.7K':;
+ R40 'R_0603_10K':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS23213@DISCRETE.R.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins23213@discrete.\r.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page7_ins23213@discrete.\r.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS14760@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins14760@discrete.\r.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page5_ins14760@discrete.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- R41 'R_0603_4.7K':;
+ R41 'R_0603_348K':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS23229@DISCRETE.R.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins23229@discrete.\r.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page7_ins23229@discrete.\r.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS16505@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins16505@discrete.\r.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page6_ins16505@discrete.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- R42 'R_0603_4.7K':;
+ R42 'R_0603_10K':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS23245@DISCRETE.R.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins23245@discrete.\r.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page7_ins23245@discrete.\r.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS16553@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins16553@discrete.\r.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page6_ins16553@discrete.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- R43 'R_0603_33R':;
+ R43 'R_0603_15K':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS23149@DISCRETE.R.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins23149@discrete.\r.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page7_ins23149@discrete.\r.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS16537@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins16537@discrete.\r.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page6_ins16537@discrete.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- R44 'R_0603_1K':;
+ R44 'R_0603_76.8K':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS23085@DISCRETE.R.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins23085@discrete.\r.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page7_ins23085@discrete.\r.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS16521@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins16521@discrete.\r.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page6_ins16521@discrete.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- R45 'R_0603_1K':;
+ R45 'R_0603_1.87K':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS23101@DISCRETE.R.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins23101@discrete.\r.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page7_ins23101@discrete.\r.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS16629@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins16629@discrete.\r.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page6_ins16629@discrete.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -1486,19 +1756,19 @@ PART_NAME
  R46 'R_0603_1K':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS23117@DISCRETE.R.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins23117@discrete.\r.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page7_ins23117@discrete.\r.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS168696@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins168696@discrete.\r.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page8_ins168696@discrete.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- R47 'R_0603_33R':;
+ R47 'R_0603_1K':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS23165@DISCRETE.R.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins23165@discrete.\r.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page7_ins23165@discrete.\r.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS168740@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins168740@discrete.\r.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page8_ins168740@discrete.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -1506,19 +1776,19 @@ PART_NAME
  R48 'R_0603_1K':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS23133@DISCRETE.R.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins23133@discrete.\r.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page7_ins23133@discrete.\r.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS168756@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins168756@discrete.\r.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page8_ins168756@discrete.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- R49 'R_0603_390':;
+ R49 'R_0603_1K':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS23197@DISCRETE.R.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins23197@discrete.\r.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page7_ins23197@discrete.\r.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS168772@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins168772@discrete.\r.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page8_ins168772@discrete.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -1533,22 +1803,22 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- R50 'R_0603_390':;
+ R50 'R_0603_10K':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS23181@DISCRETE.R.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins23181@discrete.\r.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page7_ins23181@discrete.\r.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS23005@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins23005@discrete.\r.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page9_ins23005@discrete.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- R51 'R_0603_390':;
+ R51 'R_0603_10K':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS23261@DISCRETE.R.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins23261@discrete.\r.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page7_ins23261@discrete.\r.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS23021@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins23021@discrete.\r.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page9_ins23021@discrete.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -1556,9 +1826,9 @@ PART_NAME
  R52 'R_0603_10K':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS6922@DISCRETE.R.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins6922@discrete.\r.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page9_ins6922@discrete.\r.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS23037@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins23037@discrete.\r.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page9_ins23037@discrete.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -1566,69 +1836,69 @@ PART_NAME
  R53 'R_0603_10K':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS6906@DISCRETE.R.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins6906@discrete.\r.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page9_ins6906@discrete.\r.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS23277@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins23277@discrete.\r.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page9_ins23277@discrete.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- R54 'R_0603_33R':;
+ R54 'R_0603_10K':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS6794@DISCRETE.R.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins6794@discrete.\r.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page9_ins6794@discrete.\r.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS23293@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins23293@discrete.\r.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page9_ins23293@discrete.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- R55 'R_0603_33R':;
+ R55 'R_0603_10K':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS6810@DISCRETE.R.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins6810@discrete.\r.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page9_ins6810@discrete.\r.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS23812@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins23812@discrete.\r.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page9_ins23812@discrete.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- R56 'R_0603_12K':;
+ R56 'R_0603_33R':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS6826@DISCRETE.R.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins6826@discrete.\r.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page9_ins6826@discrete.\r.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS23069@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins23069@discrete.\r.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page9_ins23069@discrete.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- R57 'R_0603_1MEG':;
+ R57 'R_0603_33R':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS6890@DISCRETE.R.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins6890@discrete.\r.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page9_ins6890@discrete.\r.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS23053@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins23053@discrete.\r.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page9_ins23053@discrete.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- R58 'R_0603_10K':;
+ R58 'R_0603_4.7K':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS6842@DISCRETE.R.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins6842@discrete.\r.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page9_ins6842@discrete.\r.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS23213@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins23213@discrete.\r.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page9_ins23213@discrete.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- R59 'R_0603_10K':;
+ R59 'R_0603_4.7K':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS6858@DISCRETE.R.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins6858@discrete.\r.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page9_ins6858@discrete.\r.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS23229@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins23229@discrete.\r.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page9_ins23229@discrete.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -1643,12 +1913,102 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- R60 'R_0603_R':;
+ R60 'R_0603_4.7K':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS6874@DISCRETE.R.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins6874@discrete.\r.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page9_ins6874@discrete.\r.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS23245@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins23245@discrete.\r.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page9_ins23245@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R61 'R_0603_33R':;
+
+SECTION_NUMBER 1
+ '@NIR.NIR(SCH_1):INS23149@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins23149@discrete.\r.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page9_ins23149@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R62 'R_0603_1K':;
+
+SECTION_NUMBER 1
+ '@NIR.NIR(SCH_1):INS23085@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins23085@discrete.\r.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page9_ins23085@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R63 'R_0603_1K':;
+
+SECTION_NUMBER 1
+ '@NIR.NIR(SCH_1):INS23101@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins23101@discrete.\r.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page9_ins23101@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R64 'R_0603_1K':;
+
+SECTION_NUMBER 1
+ '@NIR.NIR(SCH_1):INS23117@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins23117@discrete.\r.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page9_ins23117@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R65 'R_0603_33R':;
+
+SECTION_NUMBER 1
+ '@NIR.NIR(SCH_1):INS23165@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins23165@discrete.\r.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page9_ins23165@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R66 'R_0603_1K':;
+
+SECTION_NUMBER 1
+ '@NIR.NIR(SCH_1):INS23133@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins23133@discrete.\r.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page9_ins23133@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R67 'R_0603_390':;
+
+SECTION_NUMBER 1
+ '@NIR.NIR(SCH_1):INS23197@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins23197@discrete.\r.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page9_ins23197@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R68 'R_0603_390':;
+
+SECTION_NUMBER 1
+ '@NIR.NIR(SCH_1):INS23181@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins23181@discrete.\r.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page9_ins23181@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R69 'R_0603_390':;
+
+SECTION_NUMBER 1
+ '@NIR.NIR(SCH_1):INS23261@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins23261@discrete.\r.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page9_ins23261@discrete.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -1663,6 +2023,96 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
+ R70 'R_0603_10K':;
+
+SECTION_NUMBER 1
+ '@NIR.NIR(SCH_1):INS6922@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins6922@discrete.\r.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page11_ins6922@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R71 'R_0603_10K':;
+
+SECTION_NUMBER 1
+ '@NIR.NIR(SCH_1):INS6906@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins6906@discrete.\r.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page11_ins6906@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R72 'R_0603_33R':;
+
+SECTION_NUMBER 1
+ '@NIR.NIR(SCH_1):INS6794@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins6794@discrete.\r.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page11_ins6794@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R73 'R_0603_33R':;
+
+SECTION_NUMBER 1
+ '@NIR.NIR(SCH_1):INS6810@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins6810@discrete.\r.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page11_ins6810@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R74 'R_0603_12K':;
+
+SECTION_NUMBER 1
+ '@NIR.NIR(SCH_1):INS6826@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins6826@discrete.\r.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page11_ins6826@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R75 'R_0603_1MEG':;
+
+SECTION_NUMBER 1
+ '@NIR.NIR(SCH_1):INS6890@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins6890@discrete.\r.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page11_ins6890@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R76 'R_0603_10K':;
+
+SECTION_NUMBER 1
+ '@NIR.NIR(SCH_1):INS6842@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins6842@discrete.\r.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page11_ins6842@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R77 'R_0603_10K':;
+
+SECTION_NUMBER 1
+ '@NIR.NIR(SCH_1):INS6858@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins6858@discrete.\r.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page11_ins6858@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R78 'R_0603_R':;
+
+SECTION_NUMBER 1
+ '@NIR.NIR(SCH_1):INS6874@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins6874@discrete.\r.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page11_ins6874@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
  R8 'R_0603_1K':;
 
 SECTION_NUMBER 1
@@ -1673,12 +2123,12 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- R9 'R_0603_1K':;
+ R9 'R_0603_33':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS3722@DISCRETE.R.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins3722@discrete.\r.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page2_ins3722@discrete.\r.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS3706@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins3706@discrete.\r.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page2_ins3706@discrete.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -1688,7 +2138,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@NIR.NIR(SCH_1):INS117557@NIR.SWITCH.NORMAL(CHIPS)':
  C_PATH='@nir.nir(sch_1):ins117557@nir.\switch.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page7_ins117557@nir.\switch.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page9_ins117557@nir.\switch.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -1698,7 +2148,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@NIR.NIR(SCH_1):INS79615@NIR.MIC5209BM.NORMAL(CHIPS)':
  C_PATH='@nir.nir(sch_1):ins79615@nir.\mic5209bm.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page3_ins79615@nir.\mic5209bm.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page5_ins79615@nir.\mic5209bm.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -1708,7 +2158,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@NIR.NIR(SCH_1):INS115990@NIR.USB-B.NORMAL(CHIPS)':
  C_PATH='@nir.nir(sch_1):ins115990@nir.\usb-b.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page9_ins115990@nir.\usb-b.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page11_ins115990@nir.\usb-b.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -1718,17 +2168,27 @@ PART_NAME
 SECTION_NUMBER 1
  '@NIR.NIR(SCH_1):INS76556@NIR.74HCT125.NORMAL(CHIPS)':
  C_PATH='@nir.nir(sch_1):ins76556@nir.\74hct125.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page10_ins76556@nir.\74hct125.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page12_ins76556@nir.\74hct125.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- U12 '74LVC125_74LCT125_74LVC125':;
+ U12 '74HCT125_74LCT125_74HCT125':;
+
+SECTION_NUMBER 1
+ '@NIR.NIR(SCH_1):INS160370@NIR.74HCT125.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins160370@nir.\74hct125.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page12_ins160370@nir.\74hct125.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U13 '74LVC125_74LCT125_74LVC125':;
 
 SECTION_NUMBER 1
  '@NIR.NIR(SCH_1):INS76668@NIR.74LVC125.NORMAL(CHIPS)':
  C_PATH='@nir.nir(sch_1):ins76668@nir.\74lvc125.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page10_ins76668@nir.\74lvc125.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page12_ins76668@nir.\74lvc125.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -1738,7 +2198,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@NIR.NIR(SCH_1):INS79695@NIR.MIC5209BM.NORMAL(CHIPS)':
  C_PATH='@nir.nir(sch_1):ins79695@nir.\mic5209bm.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page3_ins79695@nir.\mic5209bm.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page5_ins79695@nir.\mic5209bm.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -1748,7 +2208,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@NIR.NIR(SCH_1):INS79918@NIR.REF5040.NORMAL(CHIPS)':
  C_PATH='@nir.nir(sch_1):ins79918@nir.\ref5040.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page3_ins79918@nir.\ref5040.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page5_ins79918@nir.\ref5040.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -1758,7 +2218,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@NIR.NIR(SCH_1):INS79401@NIR.TPS54331.NORMAL(CHIPS)':
  C_PATH='@nir.nir(sch_1):ins79401@nir.\tps54331.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page4_ins79401@nir.\tps54331.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page6_ins79401@nir.\tps54331.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -1768,7 +2228,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@NIR.NIR(SCH_1):INS76086@NIR.AMS1117.NORMAL(CHIPS)':
  C_PATH='@nir.nir(sch_1):ins76086@nir.\ams1117.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page5_ins76086@nir.\ams1117.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page7_ins76086@nir.\ams1117.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -1778,7 +2238,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@NIR.NIR(SCH_1):INS76124@NIR.AMS1117.NORMAL(CHIPS)':
  C_PATH='@nir.nir(sch_1):ins76124@nir.\ams1117.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page5_ins76124@nir.\ams1117.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page7_ins76124@nir.\ams1117.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -1788,7 +2248,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@NIR.NIR(SCH_1):INS76162@NIR.AMS1117.NORMAL(CHIPS)':
  C_PATH='@nir.nir(sch_1):ins76162@nir.\ams1117.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page5_ins76162@nir.\ams1117.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page7_ins76162@nir.\ams1117.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -1798,7 +2258,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@NIR.NIR(SCH_1):INS78517@NIR.M25P80.NORMAL(CHIPS)':
  C_PATH='@nir.nir(sch_1):ins78517@nir.\m25p80.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page7_ins78517@nir.\m25p80.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page9_ins78517@nir.\m25p80.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -1808,7 +2268,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@NIR.NIR(SCH_1):INS77365@NIR.93C46.NORMAL(CHIPS)':
  C_PATH='@nir.nir(sch_1):ins77365@nir.\93c46.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page9_ins77365@nir.\93c46.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page11_ins77365@nir.\93c46.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -1818,7 +2278,7 @@ PART_NAME
 SECTION_NUMBER 1
  '@NIR.NIR(SCH_1):INS77721@NIR.CO4305.NORMAL(CHIPS)':
  C_PATH='@nir.nir(sch_1):ins77721@nir.\co4305.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page9_ins77721@nir.\co4305.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page11_ins77721@nir.\co4305.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
