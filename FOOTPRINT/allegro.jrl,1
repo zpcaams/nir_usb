@@ -1,21 +1,61 @@
-\t (00:00:01) allegro 16.5 P003 (v16-5-13C) i86
-\t (00:00:01)     Journal start - Tue Jun 17 16:44:18 2014
-\t (00:00:01)         Host=WEWEWE-PC User=uuy Pid=7304 CPUs=4
-\t (00:00:01) 
-\t (00:00:03) Opening existing design...
-\d (00:00:03) Database opened: C:/Users/uuy/nir_usb/FOOTPRINT/jtag.dra
-\i (00:00:03) trapsize 1481
-\i (00:00:03) trapsize 1450
-\i (00:00:03) trapsize 1486
-\i (00:00:04) trapsize 1486
-\i (00:00:04) generaledit 
-\i (00:00:05) open 
-\i (00:00:20) fillin "C:\Users\uuy\nir_usb\DSN\NIR.brd"
-\i (00:00:20) cd "C:\Users\uuy\nir_usb\DSN"
-\t (00:00:20) Opening existing design...
-\i (00:00:20) trapsize 3231
-\i (00:00:20) trapsize 3153
-\i (00:00:20) trapsize 3231
-\i (00:00:20) trapsize 3263
-\i (00:00:20) trapsize 3263
-\t (00:00:21)     Journal end - Tue Jun 17 16:44:37 2014
+\t (00:05:03) allegro 16.5 P003 (v16-5-13C) i86
+\t (00:05:03)     Journal start - Mon Jul 07 10:35:58 2014
+\t (00:05:03)         Host=WEWEWE-PC User=uuy Pid=8024 CPUs=4
+\t (00:05:03) 
+\d (00:05:03) Database opened: C:/Users/uuy/nir_usb/FOOTPRINT/header1.dra
+\i (00:05:03) generaledit 
+\i (00:05:06) pick grid 2.5187 0.0994
+\t (00:05:06) last pick:  2.5400  0.0000
+\i (00:05:06) prepopup 2.5187 0.0994
+\i (00:05:10) pop dyn_option_select 'Quick Utilities@:@Design Parameters...' 
+\i (00:05:10) prmed 
+\i (00:05:15) setwindow form.prmedit
+\i (00:05:15) FORM prmedit cancel  
+\i (00:05:15) setwindow pcb
+\i (00:05:15) generaledit 
+\i (00:05:16) pick grid 2.6733 0.1878
+\t (00:05:16) last pick:  2.7940  0.2540
+\i (00:05:16) pick grid dbl 2.6733 0.1878
+\t (00:05:16) last pick:  2.7940  0.2540
+\i (00:05:17) pick grid 3.2035 0.4087
+\t (00:05:17) last pick:  3.3020  0.5080
+\i (00:05:17) pick grid 2.9605 0.3646
+\t (00:05:17) last pick:  3.0480  0.2540
+\i (00:05:17) pick grid 3.1152 0.3646
+\t (00:05:17) last pick:  3.0480  0.2540
+\i (00:05:18) pick grid 3.1152 0.3646
+\t (00:05:18) last pick:  3.0480  0.2540
+\i (00:05:22) add pin 
+\t (00:05:22) Using 'C135H85T135_165_45.pad'.
+\i (00:05:29) setwindow form.mini
+\i (00:05:29) FORM mini pad_browse  
+\i (00:05:34) fillin "menu_cancel"
+\i (00:05:34) setwindow pcb
+\i (00:05:34) prepopup -0.7511 -0.6075
+\i (00:05:35) cancel 
+\t (00:05:35) Exiting from Add Pin.
+\i (00:05:35) generaledit 
+\i (00:08:22) pick grid 2.6623 -0.0994
+\t (00:08:22) last pick:  2.5400  0.0000
+\i (00:08:22) pick grid 5.0483 0.8727
+\t (00:08:22) last pick:  5.0800  0.7620
+\i (00:08:23) add pin 
+\t (00:08:23) Using 'C135H85T135_165_45.pad'.
+\i (00:08:25) setwindow form.mini
+\i (00:08:25) FORM mini pad_browse  
+\i (00:08:34) fillin "menu_cancel"
+\i (00:08:35) setwindow pcb
+\i (00:08:35) prepopup 4.4960 2.2425
+\i (00:08:36) cancel 
+\t (00:08:36) Exiting from Add Pin.
+\i (00:08:36) generaledit 
+\i (00:12:08) open 
+\i (00:12:17) fillin "C:\Users\uuy\nir_usb\DSN\NIR.brd"
+\i (00:12:17) cd "C:\Users\uuy\nir_usb\DSN"
+\t (00:12:17) Opening existing design...
+\i (00:12:18) trapsize 4569
+\i (00:12:18) trapsize 4459
+\i (00:12:18) trapsize 4569
+\i (00:12:18) trapsize 4615
+\i (00:12:18) trapsize 4615
+\t (00:12:18)     Journal end - Mon Jul 07 10:43:14 2014

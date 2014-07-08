@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 16.5.0 p001Jul-04-2014 at 09:29:53}
+{ Using PSTWRITER 16.5.0 p001Jul-08-2014 at 15:02:37}
 primitive 'CAP_0805_10UF';
   pin
     '1':
@@ -927,7 +927,7 @@ primitive 'JTAG_JTAG_JTAG';
     VALUE='JTAG';
   end_body;
 end_primitive;
-primitive 'HEADER6X1_HEADER6X1_HEADER6X1';
+primitive 'HEADER2_HEADER2_HEADER2';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -947,32 +947,23 @@ primitive 'HEADER6X1_HEADER6X1_HEADER6X1';
     '6':
       PIN_NUMBER='(6)';
       PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='header6x1';
-    JEDEC_TYPE='header6x1';
-    VALUE='header6x1';
-  end_body;
-end_primitive;
-primitive 'HEADER4X1_HEADER4X1_HEADER4X1';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
+    '7':
+      PIN_NUMBER='(7)';
       PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
+    '8':
+      PIN_NUMBER='(8)';
       PINUSE='UNSPEC';
-    '3':
-      PIN_NUMBER='(3)';
+    '9':
+      PIN_NUMBER='(9)';
       PINUSE='UNSPEC';
-    '4':
-      PIN_NUMBER='(4)';
+    '10':
+      PIN_NUMBER='(10)';
       PINUSE='UNSPEC';
   end_pin;
   body
-    PART_NAME='header4x1';
-    JEDEC_TYPE='header4x1';
-    VALUE='header4x1';
+    PART_NAME='header2';
+    JEDEC_TYPE='header2';
+    VALUE='header2';
   end_body;
 end_primitive;
 primitive 'HEADER4X2_HEADER4X2_HEADER4X2';
@@ -1326,7 +1317,7 @@ primitive 'R_0603_R';
     VALUE='R';
   end_body;
 end_primitive;
-primitive 'SWITCH_SWITCH1_SWITCH';
+primitive 'SWITCH_SWITCH2_SWITCH';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -1334,11 +1325,17 @@ primitive 'SWITCH_SWITCH1_SWITCH';
     '2':
       PIN_NUMBER='(2)';
       PINUSE='UNSPEC';
+    '3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    '4':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
   end_pin;
   body
-    PART_NAME='SWITCH';
-    JEDEC_TYPE='switch1';
-    VALUE='SWITCH';
+    PART_NAME='switch';
+    JEDEC_TYPE='switch2';
+    VALUE='switch';
   end_body;
 end_primitive;
 primitive 'MIC5209BM_SOIC127P600X175-8N_MI';
