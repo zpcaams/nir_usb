@@ -250,12 +250,13 @@
       (Path "Design Resources" "C:\Users\uuy\nir_usb\DSN\nir.dsn")
       (Path "Design Resources" "C:\Users\uuy\nir_usb\DSN\nir.dsn" "NIR")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library" "C:\Users\uuy\nir_usb\DSN\nir.olb"))
+      (Select "Design Resources" "C:\Users\uuy\nir_usb\DSN\nir.dsn" "NIR"
+         "1ADC_BUFFER"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 0 200 0 446"))
+        (Placement "44 2 3 -1 -1 -8 -30 0 200 0 446"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
@@ -271,7 +272,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 75 1430 75 543")
-        (Scroll "-168 22")
+        (Scroll "-168 0")
         (Zoom "100")
         (Occurrence "/"))
       (Path "C:\USERS\UUY\NIR_USB\DSN\NIR.DSN")
@@ -281,7 +282,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 100 1455 100 568")
-        (Scroll "-168 49")
+        (Scroll "-168 20")
         (Zoom "100")
         (Occurrence "/"))
       (Path "C:\USERS\UUY\NIR_USB\DSN\NIR.DSN")
@@ -290,9 +291,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 125 1480 125 593")
-        (Scroll "-191 -6")
-        (Zoom "90")
+        (Placement "44 0 1 -1 -1 -8 -30 125 1480 125 593")
+        (Scroll "189 0")
+        (Zoom "180")
         (Occurrence "/"))
       (Path "C:\USERS\UUY\NIR_USB\DSN\NIR.DSN")
       (Schematic "NIR")
@@ -301,8 +302,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 150 1505 150 618")
-        (Scroll "1100 756")
-        (Zoom "200")
+        (Scroll "0 218")
+        (Zoom "100")
         (Occurrence "/"))
       (Path "C:\USERS\UUY\NIR_USB\DSN\NIR.DSN")
       (Schematic "NIR")
@@ -311,10 +312,40 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 175 1238 175 643")
-        (Scroll "189 446")
+        (Scroll "0 90")
         (Zoom "180")
         (Occurrence "/"))
       (Path "C:\USERS\UUY\NIR_USB\DSN\NIR.DSN")
       (Schematic "NIR")
-      (Page "FPGA_MISC")))
+      (Page "FPGA_MISC"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 200 1555 200 668")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "C:\USERS\UUY\NIR_USB\DSN\NIR.DSN")
+      (Schematic "NIR")
+      (Page "FT232H"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 225 1580 225 693")
+        (Scroll "-168 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "C:\USERS\UUY\NIR_USB\DSN\NIR.DSN")
+      (Schematic "NIR")
+      (Page "1ADC_BUFFER"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 0 1355 0 468")
+        (Scroll "-168 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "C:\USERS\UUY\NIR_USB\DSN\NIR.DSN")
+      (Schematic "NIR")
+      (Page "0ADC_BUFFER")))
   (ISPCBBASICLICENSE "false"))
