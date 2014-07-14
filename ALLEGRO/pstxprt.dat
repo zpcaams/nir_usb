@@ -1,5 +1,5 @@
 FILE_TYPE = EXPANDEDPARTLIST;
-{ Using PSTWRITER 16.5.0 p001Jul-08-2014 at 16:22:58 }
+{ Using PSTWRITER 16.5.0 p001Jul-14-2014 at 21:30:38 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='NIR';
@@ -1206,9 +1206,9 @@ PART_NAME
  J16 'JTAG_JTAG_JTAG':;
 
 SECTION_NUMBER 1
- '@NIR.NIR(SCH_1):INS129179@NIR.JTAG.NORMAL(CHIPS)':
- C_PATH='@nir.nir(sch_1):ins129179@nir.\jtag.normal\(chips)',
- P_PATH='@nir.nir(sch_1):page9_ins129179@nir.\jtag.normal\(chips)',
+ '@NIR.NIR(SCH_1):INS190596@NIR.JTAG.NORMAL(CHIPS)':
+ C_PATH='@nir.nir(sch_1):ins190596@nir.\jtag.normal\(chips)',
+ P_PATH='@nir.nir(sch_1):page9_ins190596@nir.\jtag.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 

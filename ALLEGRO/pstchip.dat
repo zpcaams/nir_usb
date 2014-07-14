@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 16.5.0 p001Jul-08-2014 at 16:22:58}
+{ Using PSTWRITER 16.5.0 p001Jul-14-2014 at 21:30:38}
 primitive 'CAP_0805_10UF';
   pin
     '1':
@@ -905,26 +905,11 @@ primitive 'JTAG_JTAG_JTAG';
     '9':
       PIN_NUMBER='(9)';
       PINUSE='UNSPEC';
-    '10':
-      PIN_NUMBER='(10)';
-      PINUSE='UNSPEC';
-    '11':
-      PIN_NUMBER='(11)';
-      PINUSE='UNSPEC';
-    '12':
-      PIN_NUMBER='(12)';
-      PINUSE='UNSPEC';
-    '13':
-      PIN_NUMBER='(13)';
-      PINUSE='UNSPEC';
-    '14':
-      PIN_NUMBER='(14)';
-      PINUSE='UNSPEC';
   end_pin;
   body
     PART_NAME='JTAG';
     JEDEC_TYPE='jtag';
-    VALUE='JTAG';
+    VALUE='jtag';
   end_body;
 end_primitive;
 primitive 'HEADER2_HEADER2_HEADER2';

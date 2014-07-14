@@ -1,14 +1,13 @@
-\t (00:00:01) allegro 16.5 P003 (v16-5-13C) i86
-\t (00:00:01)     Journal start - Tue Jul 08 15:36:21 2014
-\t (00:00:01)         Host=WEWEWE-PC User=uuy Pid=8200 CPUs=4
-\t (00:00:01) 
-\t (00:00:03) Opening existing design...
-\d (00:00:03) Database opened: C:/Users/uuy/nir_usb/FOOTPRINT/nir_brd.brd
-\i (00:00:04) trapsize 1346
-\i (00:00:04) trapsize 1290
-\i (00:00:04) trapsize 1351
-\i (00:00:04) trapsize 1292
-\i (00:00:04) trapsize 1292
-\i (00:00:04) generaledit 
-\i (00:00:06) exit 
-\t (00:00:07)     Journal end - Tue Jul 08 15:36:27 2014
+\t (00:00:04) allegro 16.5 P003 (v16-5-13C) i86
+\t (00:00:04)     Journal start - Wed Jul 09 08:53:17 2014
+\t (00:00:04)         Host=WEWEWE-PC User=uuy Pid=6328 CPUs=4
+\t (00:00:04) 
+\t (00:00:05) Opening existing design...
+\d (00:00:05) Database opened: C:/Users/uuy/nir_usb/FOOTPRINT/switch2.dra
+\i (00:00:05) trapsize 1262
+\i (00:00:05) trapsize 1236
+\i (00:00:05) trapsize 1266
+\i (00:00:05) trapsize 1266
+\i (00:00:05) generaledit 
+\i (00:00:16) exit 
+\t (00:00:17)     Journal end - Wed Jul 09 08:53:30 2014

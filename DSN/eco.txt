@@ -3,43 +3,64 @@
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
 |  C:/Users/uuy/nir_usb/DSN/NIR.brd                                            |
-|                                                    Tue Jul 08 16:23:37 2014  |
+|                                                    Mon Jul 14 21:31:21 2014  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  CLK+         pins MOVED FROM this net (to net name listed on right)
-                                 IC1.17          16.8000  6.2500
-                                                                          0CLK+
-                                 J1.1            16.4592 -1.4732
-                                                                          0CLK+
-                                 R6.1            16.4211  1.4732
-                                                                          0CLK+
+  GND_975      pins MOVED FROM this net (to net name listed on right)
+                                 J16.4                          
+                                                                            TCK
+                                 J16.6                          
+                                                                            TDO
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  CLK-         pins MOVED FROM this net (to net name listed on right)
-                                 IC1.16          16.0500  5.5000
-                                                                          0CLK-
-                                 J1.2            13.9192 -1.4732
-                                                                          0CLK-
-                                 R6.2            15.0241  1.4732
-                                                                          0CLK-
+  INIT         pins ADDED TO this new net
+                                 J16.5                          
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  CNV+         pins MOVED FROM this net (to net name listed on right)
-                                 IC1.9           12.5500  5.5000
-                                                                          0CNV+
-                                 J2.1            -0.6175  6.9150
-                                                                          0CNV+
-                                 R7.2            10.0339  2.6886
-                                                                          0CNV+
+  TDI          pins MOVED FROM this net (to net name listed on right)
+                                 J16.9                          
+                                                                            TMS
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  CNV-         pins MOVED FROM this net (to net name listed on right)
-                                 IC1.8           11.8000  6.2500
-                                                                          0CNV-
-                                 J2.2            -0.6175  9.4550
-                                                                          0CNV-
-                                 R7.1             9.0461  3.6764
-                                                                          0CNV-
+  TDO          pins MOVED FROM this net (to net name listed on right)
+                                 J16.7                          
+                                                                            TDI
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
 |------------------------------------------------------------------------------|
-|   total ECO changes reported  12                                             |
+|  C:/Users/uuy/nir_usb/DSN/NIR.brd                                            |
+|                                                    Mon Jul 14 21:31:21 2014  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to board drawing                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ JTAG_JTAG_JTAG
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  C:/Users/uuy/nir_usb/DSN/NIR.brd                                            |
+|                                                    Mon Jul 14 21:31:21 2014  |
+|------------------------------------------------------------------------------|
+| COMPONENTS CHANGED from one device type to another in board drawing          |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        | new device type     |   x   |   y   |  old  device type  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ J16                 JTAG_JTAG_JTAG        36.5436 31.0351 JTAG_JTAG_JTAG
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  C:/Users/uuy/nir_usb/DSN/NIR.brd                                            |
+|                                                    Mon Jul 14 21:31:21 2014  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to board drawing                                       |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ J16.9                          PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|   total ECO changes reported  8                                              |
 |------------------------------------------------------------------------------|

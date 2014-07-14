@@ -108,6 +108,10 @@
       (Type "Report")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (jtag
+      (FullPartName "jtag.Normal")
+      (LibraryName "C:\USERS\UUY\NIR_USB\DSN\NIR.OLB")
+      (DeviceIndex "0"))
     (switch
       (FullPartName "switch.Normal")
       (LibraryName "C:\USERS\UUY\NIR_USB\DSN\NIR.OLB")
@@ -247,11 +251,11 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" "C:\Users\uuy\nir_usb\DSN\nir.dsn")
-      (Path "Design Resources" "C:\Users\uuy\nir_usb\DSN\nir.dsn" "NIR")
+      (Path "Design Resources" ".\nir.dsn")
+      (Path "Design Resources" ".\nir.dsn" "NIR")
+      (Path "Design Resources" ".\nir.dsn" "Design Cache")
       (Path "Design Resources" "Library")
-      (Select "Design Resources" "C:\Users\uuy\nir_usb\DSN\nir.dsn" "NIR"
-         "1ADC_BUFFER"))
+      (Path "Design Resources" "Library" ".\nir.olb"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -262,8 +266,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 25 1380 25 493")
-        (Scroll "100 218")
-        (Zoom "200")
+        (Scroll "-168 0")
+        (Zoom "100")
         (Occurrence "/"))
       (Path "C:\USERS\UUY\NIR_USB\DSN\NIR.DSN")
       (Schematic "NIR")
@@ -282,7 +286,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 100 1455 100 568")
-        (Scroll "-168 20")
+        (Scroll "-168 0")
         (Zoom "100")
         (Occurrence "/"))
       (Path "C:\USERS\UUY\NIR_USB\DSN\NIR.DSN")
@@ -308,16 +312,6 @@
       (Path "C:\USERS\UUY\NIR_USB\DSN\NIR.DSN")
       (Schematic "NIR")
       (Page "SENSOR_BUFFER"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 175 1238 175 643")
-        (Scroll "0 90")
-        (Zoom "180")
-        (Occurrence "/"))
-      (Path "C:\USERS\UUY\NIR_USB\DSN\NIR.DSN")
-      (Schematic "NIR")
-      (Page "FPGA_MISC"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
@@ -347,5 +341,16 @@
         (Occurrence "/"))
       (Path "C:\USERS\UUY\NIR_USB\DSN\NIR.DSN")
       (Schematic "NIR")
-      (Page "0ADC_BUFFER")))
+      (Page "0ADC_BUFFER"))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 25 1380 25 493")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Part")
+        (Scroll "2490 682")
+        (Zoom "504"))
+      (Path "C:\USERS\UUY\NIR_USB\DSN\NIR.OLB")
+      (Package "jtag")))
   (ISPCBBASICLICENSE "false"))

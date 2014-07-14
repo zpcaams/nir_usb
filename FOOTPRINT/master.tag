@@ -1,1 +1,1 @@
-switch2.dra
+jtag.dra

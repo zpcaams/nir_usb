@@ -1,13 +1,21 @@
-\t (00:00:04) allegro 16.5 P003 (v16-5-13C) i86
-\t (00:00:04)     Journal start - Wed Jul 09 08:53:17 2014
-\t (00:00:04)         Host=WEWEWE-PC User=uuy Pid=6328 CPUs=4
-\t (00:00:04) 
-\t (00:00:05) Opening existing design...
-\d (00:00:05) Database opened: C:/Users/uuy/nir_usb/FOOTPRINT/switch2.dra
-\i (00:00:05) trapsize 1262
-\i (00:00:05) trapsize 1236
-\i (00:00:05) trapsize 1266
-\i (00:00:05) trapsize 1266
-\i (00:00:05) generaledit 
-\i (00:00:16) exit 
-\t (00:00:17)     Journal end - Wed Jul 09 08:53:30 2014
+\t (00:00:01) allegro 16.5 P003 (v16-5-13C) i86
+\t (00:00:01)     Journal start - Mon Jul 14 21:30:46 2014
+\t (00:00:01)         Host=WEWEWE-PC User=uuy Pid=1456 CPUs=4
+\t (00:00:01) 
+\t (00:00:03) Opening existing design...
+\d (00:00:03) Database opened: C:/Users/uuy/nir_usb/FOOTPRINT/jtag.dra
+\i (00:00:04) trapsize 1696
+\i (00:00:04) trapsize 1661
+\i (00:00:04) trapsize 1702
+\i (00:00:04) trapsize 1702
+\i (00:00:04) generaledit 
+\i (00:00:09) open 
+\i (00:00:20) fillin "C:\Users\uuy\nir_usb\DSN\NIR.brd"
+\i (00:00:20) cd "C:\Users\uuy\nir_usb\DSN"
+\t (00:00:20) Opening existing design...
+\i (00:00:20) trapsize 4568
+\i (00:00:20) trapsize 4457
+\i (00:00:20) trapsize 4568
+\i (00:00:20) trapsize 4614
+\i (00:00:20) trapsize 4614
+\t (00:00:21)     Journal end - Mon Jul 14 21:31:06 2014
