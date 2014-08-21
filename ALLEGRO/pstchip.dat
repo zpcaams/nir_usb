@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 16.5.0 p001Jul-14-2014 at 21:30:38}
+{ Using PSTWRITER 16.5.0 p001Aug-20-2014 at 13:18:57}
 primitive 'CAP_0805_10UF';
   pin
     '1':
@@ -28,6 +28,51 @@ primitive 'CAPACITOR NON-POL_0603_0.1UF';
     PART_NAME='CAPACITOR NON-POL';
     JEDEC_TYPE='0603';
     VALUE='0.1uF';
+  end_body;
+end_primitive;
+primitive 'CAPACITOR NON-POL_0603_22UF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAPACITOR NON-POL';
+    JEDEC_TYPE='0603';
+    VALUE='22uF';
+  end_body;
+end_primitive;
+primitive 'CAPACITOR NON-POL_0603_100UF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAPACITOR NON-POL';
+    JEDEC_TYPE='0603';
+    VALUE='100uF';
+  end_body;
+end_primitive;
+primitive 'CAPACITOR NON-POL_0603_DNP';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAPACITOR NON-POL';
+    JEDEC_TYPE='0603';
+    VALUE='DNP';
   end_body;
 end_primitive;
 primitive 'CAP NP_0603_0.1UF';
@@ -73,36 +118,6 @@ primitive 'CAPACITOR NON-POL_0603_1UF';
     PART_NAME='CAPACITOR NON-POL';
     JEDEC_TYPE='0603';
     VALUE='1uF';
-  end_body;
-end_primitive;
-primitive 'CAPACITOR NON-POL_0603_22UF';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='CAPACITOR NON-POL';
-    JEDEC_TYPE='0603';
-    VALUE='22uF';
-  end_body;
-end_primitive;
-primitive 'CAPACITOR NON-POL_0603_100UF';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='CAPACITOR NON-POL';
-    JEDEC_TYPE='0603';
-    VALUE='100uF';
   end_body;
 end_primitive;
 primitive 'CAP POL_0805_10UF';
@@ -180,7 +195,7 @@ primitive 'CAPACITOR NON-POL_0603_100NF';
     VALUE='100nF';
   end_body;
 end_primitive;
-primitive 'DIODE_0603_DIODE';
+primitive 'DIODE_B340A_DIODE';
   pin
     'A':
       PIN_NUMBER='(2)';
@@ -191,7 +206,7 @@ primitive 'DIODE_0603_DIODE';
   end_pin;
   body
     PART_NAME='DIODE';
-    JEDEC_TYPE='0603';
+    JEDEC_TYPE='b340a';
     VALUE='DIODE';
   end_body;
 end_primitive;
@@ -1047,21 +1062,6 @@ primitive 'R_0603_0R';
     VALUE='0R';
   end_body;
 end_primitive;
-primitive 'R_0603_1K';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='R';
-    JEDEC_TYPE='0603';
-    VALUE='1K';
-  end_body;
-end_primitive;
 primitive 'R_0603_499';
   pin
     '1':
@@ -1090,6 +1090,36 @@ primitive 'R_0603_33';
     PART_NAME='R';
     JEDEC_TYPE='0603';
     VALUE='33';
+  end_body;
+end_primitive;
+primitive 'R_0603_DNP';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='0603';
+    VALUE='DNP';
+  end_body;
+end_primitive;
+primitive 'R_0603_100';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='0603';
+    VALUE='100';
   end_body;
 end_primitive;
 primitive 'R_0603_100R';
@@ -1210,6 +1240,21 @@ primitive 'R_0603_1.87K';
     PART_NAME='R';
     JEDEC_TYPE='0603';
     VALUE='1.87K';
+  end_body;
+end_primitive;
+primitive 'R_0603_1K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='0603';
+    VALUE='1K';
   end_body;
 end_primitive;
 primitive 'R_0603_33R';
@@ -1605,7 +1650,7 @@ primitive 'M25P80_M25P80_M25P80';
     VALUE='m25p80';
   end_body;
 end_primitive;
-primitive '93C46_93C46_93C46';
+primitive '93C46_SOIC127P600X175-8N_93C46';
   pin
     'CS':
       PIN_NUMBER='(1)';
@@ -1634,7 +1679,7 @@ primitive '93C46_93C46_93C46';
   end_pin;
   body
     PART_NAME='93c46';
-    JEDEC_TYPE='93c46';
+    JEDEC_TYPE='soic127p600x175-8n';
     VALUE='93c46';
   end_body;
 end_primitive;
