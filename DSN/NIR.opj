@@ -253,8 +253,7 @@
       (Path "Design Resources")
       (Path "Design Resources" "c:\users\uuy\nir_usb\dsn\nir.dsn")
       (Path "Design Resources" "c:\users\uuy\nir_usb\dsn\nir.dsn" "NIR")
-      (Path "Design Resources" "Library")
-      (Select "Design Resources" "c:\users\uuy\nir_usb\dsn\nir.dsn"))
+      (Path "Design Resources" "Library"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
