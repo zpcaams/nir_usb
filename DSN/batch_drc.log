@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : NIR.brd                                       )
 (    Software Version : 16.5P003                                      )
-(    Date/Time        : Thu Aug 28 15:40:04 2014                      )
+(    Date/Time        : Thu Aug 28 18:49:53 2014                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -20,7 +20,7 @@
  ========= check standalone text              0:00:00
  ========= check standalone rectangles        0:00:00
 
- ..... Total number of DRC errors  2
+ ..... Total number of DRC errors  0
 
  ..... DRC update completed, total CPU time   0:00:00
  *************************************************************************

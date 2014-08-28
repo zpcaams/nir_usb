@@ -56,7 +56,7 @@
     (DRC_Report_Unused_Part_Packages "TRUE")
     (DRC_Check_Name_Prop_For_HierBlocks "TRUE")
     ("Create Allegro Netlist" "TRUE")
-    ("Allegro Netlist Directory" "C:\USERS\UUY\NIR_USB\ALLEGRO")
+    ("Allegro Netlist Directory" "D:\CADENCE\NETLIST")
     ("View Allegro Netlist Files" "FALSE")
     ("Update Allegro Board" "FALSE")
     ("Allegro Netlist Output Board File" "allegro\nir.brd")
@@ -105,7 +105,16 @@
       (Type "Report")
       (DisplayName "pstchip.dat"))
     (File ".\nir.csv"
-      (Type "Report")))
+      (Type "Report"))
+    (File "d:\cadence\netlist\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File "d:\cadence\netlist\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File "d:\cadence\netlist\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
   (PartMRUSelector
     (OFFPAGELEFT-L
@@ -251,9 +260,12 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" "c:\users\uuy\nir_usb\dsn\nir.dsn")
-      (Path "Design Resources" "c:\users\uuy\nir_usb\dsn\nir.dsn" "NIR")
-      (Path "Design Resources" "Library"))
+      (Path "Design Resources" ".\nir.dsn")
+      (Path "Design Resources" ".\nir.dsn" "NIR")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library" ".\nir.olb")
+      (Path "Outputs")
+      (Select "Design Resources" ".\nir.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -269,5 +281,15 @@
         (Occurrence "/"))
       (Path "C:\USERS\UUY\NIR_USB\DSN\NIR.DSN")
       (Schematic "NIR")
-      (Page "SENSOR_BUFFER")))
+      (Page "SENSOR_BUFFER"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 100 1455 100 572")
+        (Scroll "0 40")
+        (Zoom "200")
+        (Occurrence "/"))
+      (Path "C:\USERS\UUY\NIR_USB\DSN\NIR.DSN")
+      (Schematic "NIR")
+      (Page "FT232H")))
   (ISPCBBASICLICENSE "false"))
