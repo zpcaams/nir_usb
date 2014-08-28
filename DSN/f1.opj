@@ -13,7 +13,6 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\nir.olb")
       (Select "Design Resources" ".\nir.olb"))
     (HierarchyView)
     (Doc

@@ -1,0 +1,26 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Automatic B/B Via Creation                               )
+(                                                                     )
+(    Software Version : 16.5P002                                      )
+(    Date/Time        : Tue Aug 26 17:26:13 2014                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Prefix for B/B via names: VIA1
+Via to be copied: Via03
+Start subclass: TOP
+End subclass: BOTTOM
+Old drawing: C:/Users/uuy/nir_usb/DSN/#Taaaaaa06256.tmp
+New drawing: C:/Users/uuy/nir_usb/DSN/#Taaaaaa06256.tmp
+Vias added to physical constraint set: DEFAULT
+
+B/B Via VIA1-TOP-BOTTOM modified
+
+Number of padstacks created 0
+Number of existing padstacks that did not need to be modified: 0
+Number of existing padstacks that were modified: 1
+Number of existing padstacks that could not be modified: 0
+
+bbvia is complete

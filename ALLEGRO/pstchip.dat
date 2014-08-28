@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 16.5.0 p001Aug-20-2014 at 13:18:57}
+{ Using PSTWRITER 16.5.0 p001Aug-27-2014 at 20:27:40}
 primitive 'CAP_0805_10UF';
   pin
     '1':
@@ -30,7 +30,7 @@ primitive 'CAPACITOR NON-POL_0603_0.1UF';
     VALUE='0.1uF';
   end_body;
 end_primitive;
-primitive 'CAPACITOR NON-POL_0603_22UF';
+primitive 'CAPACITOR NON-POL_1206_22UF';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -41,7 +41,7 @@ primitive 'CAPACITOR NON-POL_0603_22UF';
   end_pin;
   body
     PART_NAME='CAPACITOR NON-POL';
-    JEDEC_TYPE='0603';
+    JEDEC_TYPE='1206';
     VALUE='22uF';
   end_body;
 end_primitive;
@@ -195,7 +195,7 @@ primitive 'CAPACITOR NON-POL_0603_100NF';
     VALUE='100nF';
   end_body;
 end_primitive;
-primitive 'DIODE_B340A_DIODE';
+primitive 'DIODE_SMA_DIODE';
   pin
     'A':
       PIN_NUMBER='(2)';
@@ -206,7 +206,22 @@ primitive 'DIODE_B340A_DIODE';
   end_pin;
   body
     PART_NAME='DIODE';
-    JEDEC_TYPE='b340a';
+    JEDEC_TYPE='sma';
+    VALUE='DIODE';
+  end_body;
+end_primitive;
+primitive 'DIODE_0603_DIODE';
+  pin
+    'A':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'K':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='DIODE';
+    JEDEC_TYPE='0603';
     VALUE='DIODE';
   end_body;
 end_primitive;
@@ -852,7 +867,7 @@ primitive 'FT232H_FT232H_FT232H';
     VALUE='ft232h';
   end_body;
 end_primitive;
-primitive 'HEADER1_HEADER1_HEADER1';
+primitive 'HEADER1_P12_HEADER1';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -863,7 +878,7 @@ primitive 'HEADER1_HEADER1_HEADER1';
   end_pin;
   body
     PART_NAME='header1';
-    JEDEC_TYPE='header1';
+    JEDEC_TYPE='p12';
     VALUE='header1';
   end_body;
 end_primitive;
@@ -966,7 +981,7 @@ primitive 'HEADER2_HEADER2_HEADER2';
     VALUE='header2';
   end_body;
 end_primitive;
-primitive 'HEADER4X2_HEADER4X2_HEADER4X2';
+primitive 'HEADER4X2_P2L4_HEADER4X2';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -995,7 +1010,7 @@ primitive 'HEADER4X2_HEADER4X2_HEADER4X2';
   end_pin;
   body
     PART_NAME='header4x2';
-    JEDEC_TYPE='header4x2';
+    JEDEC_TYPE='p2l4';
     VALUE='header4x2';
   end_body;
 end_primitive;
