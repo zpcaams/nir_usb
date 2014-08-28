@@ -108,6 +108,12 @@
       (Type "Report")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (OFFPAGELEFT-L
+      (LibraryName "D:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-R
+      (LibraryName "D:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
     (jtag
       (FullPartName "jtag.Normal")
       (LibraryName "C:\USERS\UUY\NIR_USB\DSN\NIR.OLB")
@@ -119,9 +125,6 @@
     (switch2
       (FullPartName "switch2.Normal")
       (LibraryName "C:\USERS\UUY\NIR_USB\DSN\NIR.OLB")
-      (DeviceIndex "0"))
-    (OFFPAGELEFT-L
-      (LibraryName "D:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
     (header2
       (FullPartName "header2.Normal")
@@ -140,9 +143,6 @@
       (LibraryName "C:\USERS\UUY\NIR_USB\DSN\NIR.OLB")
       (DeviceIndex "0"))
     (GND
-      (LibraryName "D:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (OFFPAGELEFT-R
       (LibraryName "D:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
     (header4x2
@@ -264,111 +264,11 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 75 1430 75 543")
-        (Scroll "-168 0")
-        (Zoom "100")
-        (Occurrence "/"))
-      (Path "C:\USERS\UUY\NIR_USB\DSN\NIR.DSN")
-      (Schematic "NIR")
-      (Page "0ADC"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 100 1455 100 568")
-        (Scroll "-168 0")
-        (Zoom "100")
-        (Occurrence "/"))
-      (Path "C:\USERS\UUY\NIR_USB\DSN\NIR.DSN")
-      (Schematic "NIR")
-      (Page "1ADC"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 150 1505 150 618")
-        (Scroll "-168 0")
-        (Zoom "100")
-        (Occurrence "/"))
-      (Path "C:\USERS\UUY\NIR_USB\DSN\NIR.DSN")
-      (Schematic "NIR")
-      (Page "ANALOG_PWR"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 175 1530 175 643")
-        (Scroll "-168 0")
-        (Zoom "100")
-        (Occurrence "/"))
-      (Path "C:\USERS\UUY\NIR_USB\DSN\NIR.DSN")
-      (Schematic "NIR")
-      (Page "FPGA_MISC"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 200 1555 200 668")
-        (Scroll "-168 0")
-        (Zoom "100")
-        (Occurrence "/"))
-      (Path "C:\USERS\UUY\NIR_USB\DSN\NIR.DSN")
-      (Schematic "NIR")
-      (Page "FPGA_PWR"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 225 1580 225 693")
-        (Scroll "0 0")
-        (Zoom "100")
-        (Occurrence "/"))
-      (Path "C:\USERS\UUY\NIR_USB\DSN\NIR.DSN")
-      (Schematic "NIR")
-      (Page "FT232H"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 0 1355 0 468")
-        (Scroll "0 0")
-        (Zoom "100")
-        (Occurrence "/"))
-      (Path "C:\USERS\UUY\NIR_USB\DSN\NIR.DSN")
-      (Schematic "NIR")
-      (Page "SENSOR_BUFFER"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 25 1380 25 493")
-        (Scroll "-168 0")
-        (Zoom "100")
-        (Occurrence "/"))
-      (Path "C:\USERS\UUY\NIR_USB\DSN\NIR.DSN")
-      (Schematic "NIR")
-      (Page "FPGA_IO"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 50 1405 50 518")
-        (Scroll "-168 0")
-        (Zoom "100")
-        (Occurrence "/"))
-      (Path "C:\USERS\UUY\NIR_USB\DSN\NIR.DSN")
-      (Schematic "NIR")
-      (Page "0ADC_BUFFER"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
         (Placement "44 0 1 -1 -1 -8 -30 100 1455 100 572")
-        (Scroll "-168 0")
-        (Zoom "100")
+        (Scroll "980 684")
+        (Zoom "200")
         (Occurrence "/"))
       (Path "C:\USERS\UUY\NIR_USB\DSN\NIR.DSN")
       (Schematic "NIR")
-      (Page "DIGI_PWR"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 150 1505 150 622")
-        (Scroll "-168 0")
-        (Zoom "100")
-        (Occurrence "/"))
-      (Path "C:\USERS\UUY\NIR_USB\DSN\NIR.DSN")
-      (Schematic "NIR")
-      (Page "DIGI_5V")))
+      (Page "SENSOR_BUFFER")))
   (ISPCBBASICLICENSE "false"))

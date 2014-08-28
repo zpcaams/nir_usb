@@ -2,9 +2,9 @@
 (                                                                     )
 (    DRC Update                                                       )
 (                                                                     )
-(    Drawing          : 0603.dra                                      )
+(    Drawing          : NIR.brd                                       )
 (    Software Version : 16.5P003                                      )
-(    Date/Time        : Wed Aug 27 10:40:52 2014                      )
+(    Date/Time        : Thu Aug 28 11:24:39 2014                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -20,7 +20,7 @@
  ========= check standalone text              0:00:00
  ========= check standalone rectangles        0:00:00
 
- ..... Total number of DRC errors  0
+ ..... Total number of DRC errors  4
 
  ..... DRC update completed, total CPU time   0:00:00
  *************************************************************************
