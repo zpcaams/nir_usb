@@ -260,12 +260,10 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" "C:\Users\uuy\nir_usb\DSN\nir.dsn")
-      (Path "Design Resources" "C:\Users\uuy\nir_usb\DSN\nir.dsn" "NIR")
+      (Path "Design Resources" ".\nir.dsn")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library" "C:\Users\uuy\nir_usb\DSN\nir.olb")
       (Path "Outputs")
-      (Select "Design Resources" "C:\Users\uuy\nir_usb\DSN\nir.dsn"))
+      (Select "Design Resources" ".\nir.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
