@@ -261,6 +261,7 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources" ".\nir.dsn")
+      (Path "Design Resources" ".\nir.dsn" "NIR")
       (Path "Design Resources" "Library")
       (Path "Outputs")
       (Select "Design Resources" ".\nir.dsn"))
@@ -309,5 +310,15 @@
         (Occurrence "/"))
       (Path "C:\USERS\UUY\NIR_USB\DSN\NIR.DSN")
       (Schematic "NIR")
-      (Page "DIGI_5V")))
+      (Page "DIGI_5V"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 200 1555 200 672")
+        (Scroll "-168 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "C:\USERS\UUY\NIR_USB\DSN\NIR.DSN")
+      (Schematic "NIR")
+      (Page "DIGI_PWR")))
   (ISPCBBASICLICENSE "false"))
