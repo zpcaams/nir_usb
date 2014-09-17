@@ -1,0 +1,472 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    RENAME REFDES                                                    )
+(                                                                     )
+(    Drawing          : NIR.brd                                       )
+(    Software Version : 16.5P003                                      )
+(    Date/Time        : Wed Sep 17 22:14:48 2014                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Renaming components on BOTH_SIDES on entire BOARD
+    Extents: (-4330.173,-4330.409) (35039.906,35039.669)
+
+Sequencing the Reference Designators SEQUENTIALLY  
+Row processing direction : to the RIGHT, from the top down. 
+
+Processing TOP of board, C65 has AUTO_RENAME property but is on BOTTOM, component ignored.
+Processing TOP of board, C71 has AUTO_RENAME property but is on BOTTOM, component ignored.
+Processing TOP of board, C56 has AUTO_RENAME property but is on BOTTOM, component ignored.
+Processing TOP of board, C66 has AUTO_RENAME property but is on BOTTOM, component ignored.
+Processing TOP of board, C70 has AUTO_RENAME property but is on BOTTOM, component ignored.
+Processing TOP of board, C58 has AUTO_RENAME property but is on BOTTOM, component ignored.
+Processing TOP of board, C55 has AUTO_RENAME property but is on BOTTOM, component ignored.
+Processing TOP of board, C74 has AUTO_RENAME property but is on BOTTOM, component ignored.
+Processing TOP of board, C64 has AUTO_RENAME property but is on BOTTOM, component ignored.
+Processing TOP of board, C63 has AUTO_RENAME property but is on BOTTOM, component ignored.
+Processing TOP of board, C69 has AUTO_RENAME property but is on BOTTOM, component ignored.
+Processing TOP of board, C62 has AUTO_RENAME property but is on BOTTOM, component ignored.
+Processing TOP of board, C73 has AUTO_RENAME property but is on BOTTOM, component ignored.
+Processing TOP of board, C57 has AUTO_RENAME property but is on BOTTOM, component ignored.
+Processing TOP of board, C54 has AUTO_RENAME property but is on BOTTOM, component ignored.
+Processing TOP of board, C72 has AUTO_RENAME property but is on BOTTOM, component ignored.
+Processing TOP of board, C59 has AUTO_RENAME property but is on BOTTOM, component ignored.
+Processing TOP of board, C19 has AUTO_RENAME property but is on BOTTOM, component ignored.
+OLD J16    NEW RET1
+OLD J8    NEW RET2
+OLD J5    NEW DET1
+OLD J7    NEW RET3
+OLD J6    NEW RET4
+OLD R8    NEW RET5
+OLD R17    NEW RET6
+OLD R10    NEW RET7
+OLD R13    NEW RET8
+OLD C14    NEW RET9
+OLD R11    NEW RET10
+OLD C97    NEW RET11
+OLD R14    NEW RET12
+OLD R18    NEW RET13
+OLD C11    NEW RET14
+OLD R12    NEW RET15
+OLD R15    NEW RET16
+OLD J15    NEW RET17
+OLD C15    NEW RET18
+OLD IC2    NEW RET19
+OLD J13    NEW DET2
+OLD U13    NEW RET20
+OLD R16    NEW RET21
+OLD R9    NEW RET22
+OLD C1    NEW RET23
+OLD C2    NEW RET24
+OLD C16    NEW RET25
+OLD C3    NEW RET26
+OLD C96    NEW RET27
+OLD C13    NEW RET28
+OLD C10    NEW RET29
+OLD R28    NEW RET30
+OLD C27    NEW RET31
+OLD R31    NEW RET32
+OLD C30    NEW RET33
+OLD C12    NEW RET34
+OLD R26    NEW RET35
+OLD R29    NEW RET36
+OLD R32    NEW RET37
+OLD R36    NEW RET38
+OLD C4    NEW RET39
+OLD C5    NEW RET40
+OLD C98    NEW RET41
+OLD R30    NEW RET42
+OLD R33    NEW RET43
+OLD R35    NEW RET44
+OLD J17    NEW RET45
+OLD R48    NEW RET46
+OLD R49    NEW RET47
+OLD J14    NEW RET48
+OLD R1    NEW RET49
+OLD IC1    NEW RET50
+OLD C7    NEW RET51
+OLD C31    NEW RET52
+OLD IC4    NEW RET53
+OLD C6    NEW RET54
+OLD D4    NEW RET55
+OLD D5    NEW RET56
+OLD U12    NEW RET57
+OLD C8    NEW RET58
+OLD R7    NEW RET59
+OLD R6    NEW RET60
+OLD R27    NEW RET61
+OLD R34    NEW RET62
+OLD C9    NEW RET63
+OLD C95    NEW RET64
+OLD C17    NEW RET65
+OLD C18    NEW RET66
+OLD C32    NEW RET67
+OLD C29    NEW RET68
+OLD C26    NEW RET69
+OLD C28    NEW RET70
+OLD J2    NEW DET3
+OLD J4    NEW DET4
+OLD C20    NEW RET71
+OLD C21    NEW RET72
+OLD C38    NEW RET73
+OLD C22    NEW RET74
+OLD R19    NEW RET75
+OLD J3    NEW DET5
+OLD J1    NEW DET6
+OLD C37    NEW RET76
+OLD IC3    NEW RET77
+OLD R2    NEW RET78
+OLD R3    NEW RET79
+OLD U3    NEW RET80
+OLD C23    NEW RET81
+OLD U11    NEW RET82
+OLD R80    NEW RET83
+OLD R79    NEW RET84
+OLD C24    NEW RET85
+OLD C94    NEW RET86
+OLD R24    NEW RET87
+OLD R25    NEW RET88
+OLD R67    NEW RET89
+OLD R4    NEW RET90
+OLD R5    NEW RET91
+OLD C25    NEW RET92
+OLD R66    NEW RET93
+OLD R64    NEW RET94
+OLD J10    NEW DET7
+OLD J12    NEW DET8
+OLD R63    NEW RET95
+OLD R62    NEW RET96
+OLD R46    NEW RET97
+OLD D2    NEW RET98
+OLD C100    NEW RET99
+OLD R47    NEW RET100
+OLD D3    NEW RET101
+OLD J11    NEW DET9
+OLD J9    NEW DET10
+OLD C36    NEW RET102
+OLD U2    NEW RET103
+OLD R81    NEW RET104
+OLD R38    NEW RET105
+OLD R82    NEW RET106
+OLD C53    NEW RET107
+OLD IC5    NEW RET108
+OLD R55    NEW RET109
+OLD R40    NEW RET110
+OLD S1    NEW RET111
+OLD R57    NEW RET112
+OLD R58    NEW RET113
+OLD R60    NEW RET114
+OLD R69    NEW RET115
+OLD D7    NEW RET116
+OLD R50    NEW RET117
+OLD R61    NEW RET118
+OLD R51    NEW RET119
+OLD R53    NEW RET120
+OLD U8    NEW RET121
+OLD C99    NEW RET122
+OLD D6    NEW RET123
+OLD R59    NEW RET124
+OLD R65    NEW RET125
+OLD R68    NEW RET126
+OLD R54    NEW RET127
+OLD C35    NEW RET128
+OLD R52    NEW RET129
+OLD R56    NEW RET130
+OLD U1    NEW RET131
+OLD R37    NEW RET132
+OLD R39    NEW RET133
+OLD R83    NEW RET134
+OLD C52    NEW RET135
+OLD C89    NEW RET136
+OLD C50    NEW RET137
+OLD C49    NEW RET138
+OLD R84    NEW RET139
+OLD C88    NEW RET140
+OLD U7    NEW RET141
+OLD U6    NEW RET142
+OLD U5    NEW RET143
+OLD C76    NEW RET144
+OLD R70    NEW RET145
+OLD C34    NEW RET146
+OLD C84    NEW RET147
+OLD U9    NEW RET148
+OLD C33    NEW RET149
+OLD C85    NEW RET150
+OLD C80    NEW RET151
+OLD C87    NEW RET152
+OLD C40    NEW RET153
+OLD C51    NEW RET154
+OLD C102    NEW RET155
+OLD C86    NEW RET156
+OLD C47    NEW RET157
+OLD C48    NEW RET158
+OLD C101    NEW RET159
+OLD C103    NEW RET160
+OLD R77    NEW RET161
+OLD R71    NEW RET162
+OLD R76    NEW RET163
+OLD IC6    NEW RET164
+OLD R75    NEW RET165
+OLD C81    NEW RET166
+OLD C41    NEW RET167
+OLD C90    NEW RET168
+OLD D1    NEW RET169
+OLD R78    NEW RET170
+OLD C82    NEW RET171
+OLD C92    NEW RET172
+OLD XTAL1    NEW RET173
+OLD C39    NEW RET174
+OLD C42    NEW RET175
+OLD C43    NEW RET176
+OLD R42    NEW RET177
+OLD R72    NEW RET178
+OLD L2    NEW RET179
+OLD R73    NEW RET180
+OLD C77    NEW RET181
+OLD C75    NEW RET182
+OLD L3    NEW RET183
+OLD C78    NEW RET184
+OLD R74    NEW RET185
+OLD C79    NEW RET186
+OLD C93    NEW RET187
+OLD U4    NEW RET188
+OLD U10    NEW RET189
+OLD R43    NEW RET190
+OLD C44    NEW RET191
+OLD P1    NEW RET192
+OLD L1    NEW RET193
+OLD R41    NEW RET194
+OLD R45    NEW RET195
+OLD C45    NEW RET196
+OLD C46    NEW RET197
+OLD R44    NEW RET198
+Sequencing the Reference Designators SEQUENTIALLY  
+Row processing direction : to the LEFT, from the top down. 
+
+Processing BOTTOM of board, RET111 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET187 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET173 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET144 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET172 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET148 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET45 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET170 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET163 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET162 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET161 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET166 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET145 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET152 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET156 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET150 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET147 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET140 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET136 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET124 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET86 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET82 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET64 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET57 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET27 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET20 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET1 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET184 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET186 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET183 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET171 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET164 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET119 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET117 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET181 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET185 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET180 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET178 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET182 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET139 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET134 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET129 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET95 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET96 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET189 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET179 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET151 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET130 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET108 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET89 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET78 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, DET3 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET56 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET55 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET46 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET47 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET168 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET165 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET84 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET79 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, DET4 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, DET5 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET59 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET40 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET39 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET49 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET50 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET51 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET54 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET23 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET28 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET3 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET9 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET194 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET175 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET159 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET169 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET143 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET157 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET126 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET123 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET94 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET93 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET83 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, DET6 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET63 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET60 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET58 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET25 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET24 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET26 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET34 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET29 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET21 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET18 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET13 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET14 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET16 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET12 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET8 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET6 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET11 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, DET1 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET197 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET198 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET188 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET176 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET174 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET141 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET138 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET116 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET115 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET114 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, DET9 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET91 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET90 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET88 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET71 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET72 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, DET7 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET75 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET22 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET19 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET15 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET10 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET7 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET5 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET191 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET190 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET196 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET155 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET154 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET127 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET135 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET125 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET120 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET118 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET113 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET106 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET104 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET92 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, DET10 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET87 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET77 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, DET8 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET74 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET81 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET70 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET66 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET65 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET52 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET69 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET68 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET44 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET38 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET33 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET4 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET195 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET193 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET177 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET142 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET160 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET121 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET109 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET107 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET101 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET100 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET99 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET98 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET85 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET97 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET67 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET62 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET61 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET53 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET43 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET37 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET32 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET36 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET30 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET42 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET31 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET41 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, DET2 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET167 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET158 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET153 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET137 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET128 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET112 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET122 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET102 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET76 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET35 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET2 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET192 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET149 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET146 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET133 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET132 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET110 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET105 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET80 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET131 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET103 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET48 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET17 has AUTO_RENAME property but is on TOP, component ignored.
+Processing BOTTOM of board, RET73 has AUTO_RENAME property but is on TOP, component ignored.
+OLD C19    NEW REB1
+OLD C73    NEW REB2
+OLD C57    NEW REB3
+OLD C55    NEW REB4
+OLD C58    NEW REB5
+OLD C59    NEW REB6
+OLD C72    NEW REB7
+OLD C56    NEW REB8
+OLD C62    NEW REB9
+OLD C63    NEW REB10
+OLD C70    NEW REB11
+OLD C69    NEW REB12
+OLD C71    NEW REB13
+OLD C54    NEW REB14
+OLD C65    NEW REB15
+OLD C64    NEW REB16
+OLD C66    NEW REB17
+OLD C74    NEW REB18
