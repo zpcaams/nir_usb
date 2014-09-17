@@ -1,0 +1,7 @@
+DEVICE-TYPE           BARCO_DPF
+OUTPUT-UNITS          INCHES
+FILM-SIZE             2400000 1600000
+FORMAT                2.5
+ABORT-ON-ERROR        NO
+SCALE                 1
+UNDEF-APT-CONT        NO
