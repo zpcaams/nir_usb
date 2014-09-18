@@ -4,11 +4,11 @@
 (                                                                     )
 (    Drawing          : NIR.brd                                       )
 (    Software Version : 16.5P003                                      )
-(    Date/Time        : Wed Sep 17 21:46:56 2014                      )
+(    Date/Time        : Thu Sep 18 08:26:08 2014                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
-Creating Dynamic split plane on layer "POWER"
+Creating Dynamic split plane on layer "GND"
 
 Split Plane Session Completed.
