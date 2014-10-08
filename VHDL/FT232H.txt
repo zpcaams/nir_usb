@@ -1,0 +1,127 @@
+----------------------------------------------------------------------------------
+-- Company: CAAMS
+-- Engineer: FANHX
+-- 
+-- Create Date:    10:12:13 10/05/2014 
+-- Design Name: 
+-- Module Name:    FT232H_FPGA - Behavioral 
+-- Project Name: 
+-- Target Devices: 
+-- Tool versions: 
+-- Description: 
+--
+-- Dependencies: 
+--
+-- Revision: 
+-- Revision 0.01 - File Created
+-- Additional Comments: 
+--
+----------------------------------------------------------------------------------
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+-- Uncomment the following library declaration if using
+-- arithmetic functions with Signed or Unsigned values
+--use IEEE.NUMERIC_STD.ALL;
+
+-- Uncomment the following library declaration if instantiating
+-- any Xilinx primitives in this code.
+--library UNISIM;
+--use UNISIM.VComponents.all;
+
+entity FT232H_FPGA is
+	GENERIC(TDATAlen:INTEGER :=8;
+	        RDATAlen:INTEGER :=8);
+    Port ( DATA : inout  STD_LOGIC_VECTOR (7 downto 0);
+           RXF : in  STD_LOGIC;
+			  TXE : in  STD_LOGIC;
+           RD : out  STD_LOGIC;
+			  WR : out  STD_LOGIC;
+           USB_CLK : in  STD_LOGIC;
+           OE : out  STD_LOGIC);
+end FT232H_FPGA;
+
+architecture Behavioral of FT232H_RXF is
+TYPE STATES IS(R_ST0,R_ST1,R_ST2,R_ST3,
+               T_ST0,T_ST1,T_ST2,T_ST3);
+SIGNAL R_BUF,T_BUF:STD_LOGIC_VECTOR(7 DOWNTO 0);
+SIGNAL R_C_S,R_N_S,T_C_S,T_N_S:STATES;
+VARIABLE Rpointer:INTEGER RDATAlen'RANGE :=0;
+VARIABLE Tpointer: INTEGER TDATAlen'RANGE :=TDATAlen;
+
+BEGIN
+
+PROCESS(USB_CLK)
+BEGIN
+	IF (USB_CLK'EVENT AND USB_CLK='1')THEN
+		R_C_S<=R_N_S;
+		T_C_S<=T_N_S;
+	END IF;
+END PROCESS;
+
+--FPGA从FT232H读取数据
+
+PROCESS(RXF,R_C_S)
+BEGIN
+	IF RXF<='0' THEN
+	 	CASE R_C_S IS
+				WHEN R_ST0=>
+					OE<='0';     --OE拉低，准备读取数据
+					RD<='1';
+					R_N_S<=R_ST1;
+				WHEN R_ST1=>
+					OE<='0';
+					RD<='0';     --RD拉低，读取数据
+				   Rbuf(Rpointer)<=DATA; --将databus的数据存入FPGA读缓存区
+				   R_N_S<=R_ST2;
+			   WHEN R_ST2=>
+					OE<='0';
+					WR<='0';
+					IF (Rpointer=RDATAlen-1) THEN --判断一次数据是否接收完毕
+					Rpointer<='0';  --接收完毕，指针清零
+				   R_N_S<=R_ST3;    --进入下一个状态
+					ELSE
+					R_N_S<=R_ST2;  --未接收完，继续接收
+					Rpointer<=Rpointer+1; --缓存区指针加1
+					END IF;
+				WHEN R_ST3=>
+					OE<='0';
+					WR<='0';
+					R_N_S<=R_ST0;			
+	          END CASE;		
+		ELSE 
+		  OE<='1';
+		  WR<='1';
+		END IF;
+END PROCESS;
+		
+--FPGA发送数据		
+
+	PROCESS(TXE,T_C_S)
+	BEGIN
+	IF RXF<='0' THEN
+		CASE T_C_S IS
+				WHEN T_ST0=>
+					WR<='0';     --WR拉低，向FT232H写数据
+					DATA<=Tbuf(Tpointer);  --databus开始读数据
+					T_N_S<=ST1;
+				WHEN T_ST1=>
+					WR<='0'; 
+					FOR Tpointer IN TDATAlen'RANGE LOOP
+				   IF (Tpointer=0) THEN
+					T_N_S<=ST2;
+					ELSE Tpointer<=Tpointer-1;
+				   T_N_S<=T_ST1;
+					END IF;
+					END LOOP;
+				WHEN T_ST2=>
+					WR<='0';
+					T_N_S<=T_ST0;
+			  END CASE;		
+	ELSE 
+		WR<='1';
+	END IF;
+	END PROCESS;
+
+end Behavioral;
+
