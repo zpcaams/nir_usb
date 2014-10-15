@@ -87,7 +87,7 @@ end process;
 --定义data_rd_rdy_o
 process(serial_read_done_s,adc_tcyc_cnt)
 begin
-	if (serial_read_done_s='1' and adc_tcyc_cnt=4)then
+	if adc_tcyc_cnt=15 then
 		data_rd_rdy_o<='1';
 		else
 		data_rd_rdy_o<='0';
@@ -128,8 +128,8 @@ end process;
 --adc_tcyc_cnt计数变化
 process(m_clk_i,m_rst_i)
 begin
-if rising_edge(m_clk_i) then
-		if rising_edge(sen_tri) then
+if rising_edge(m_clk_i) then		
+	 if rising_edge(sen_tri) then
 			adc_tcyc_cnt<=19;
 		end if;
 		if adc_tcyc_cnt>0 then

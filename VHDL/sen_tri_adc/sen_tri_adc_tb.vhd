@@ -104,9 +104,9 @@ BEGIN
    begin
 	  loop
 		m_clk_i <= '0';
-		wait for 5 ns;
+		wait for 10 ns;
 		m_clk_i <= '1';
-		wait for 5 ns;
+		wait for 10 ns;
 		end loop;
    end process;
   --定义数据转移时钟fast_clk 125MHz@8 ns
@@ -114,9 +114,9 @@ process
    begin
 		loop
 		fast_clk_i <= '1';
-		wait for 4 ns;
+		wait for 2.5 ns;
 		fast_clk_i <= '0';
-		wait for 4 ns;
+		wait for 2.5 ns;
 		end loop;
    end process;
  --定义传感器触发信号 
@@ -124,9 +124,9 @@ process
    begin
 		loop
 		sen_tri <= '1';
-		wait for 20 ns;
+		wait for 50 ns;
 		sen_tri <= '0';
-		wait for 180 ns;
+		wait for 350 ns;
 		end loop;
    end process;
 	
@@ -137,7 +137,7 @@ process
 		m_rst_i <='0';
       wait for 40 ns;	
 		m_rst_i <='1';
-      wait for 9999 ns;
+      wait for 999999 ns;
 
       -- insert stimulus here 
 
