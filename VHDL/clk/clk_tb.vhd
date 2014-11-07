@@ -62,7 +62,7 @@ ARCHITECTURE behavior OF clk_tb IS
    signal sen_rst : std_logic;
 	--others
 	signal cnt3 : integer range 0 to 7;
-	signal cnt4 : integer range 0 to 2079;
+	signal cnt4 : integer range 0 to 2269;
 	signal cnt5 : integer range 0 to 256;
 	Type states is(rst_state,tri_state,idle_state);
 	signal pr_state,nx_state:states;
@@ -123,7 +123,7 @@ BEGIN
 	begin
 		if falling_edge(sen_clk) then	
 			if tri_signal='1' then
-				if cnt3=6 then
+				if cnt3=7 then
 					sen_tri<='1';
 				else 
 					sen_tri<='0';
@@ -137,7 +137,7 @@ BEGIN
 	if falling_edge(sen_clk) then
 		if m_rst_i='0' then
 			cnt4<=0;
-			elsif cnt4=2079 then 
+			elsif cnt4=2269 then 
 					cnt4<=0;
 					else 
 					cnt4<=cnt4+1;
@@ -158,7 +158,7 @@ BEGIN
 					nx_state<=tri_state;
 				end if;
 			when tri_state =>
-				if cnt4=2059 then
+				if cnt4=2249 then
 					nx_state<=idle_state;
 				end if;
 			when idle_state =>

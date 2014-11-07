@@ -34,7 +34,7 @@ end clk;
 architecture Behavioral of clk is
 	 signal temp_clk1,temp_clk2 :std_logic:='0';
 	 signal cnt1,cnt2:integer range 0 to 255;
-	 signal M:integer range 0 to 51999;
+	 signal M:integer range 0 to 56749;
 	 
 begin
 process(m_clk_i,m_rst_i)
@@ -85,7 +85,7 @@ process(m_clk_i,m_rst_i)
 			M<=0;
 		else		 
 			M<=M+1;
-			if M=51999 then
+			if M=56749 then
 			   M<=0;
 			   elsif M<5000 then
 					sen_rst<='1';
