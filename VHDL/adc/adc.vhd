@@ -74,6 +74,7 @@ signal serial_pstate,serial_nstate:states;
 
 begin
 
+
 --¶¨Òåclk_s
 process(serial_read_done_s,sclk_cnt,buffer_reset_s)
 begin

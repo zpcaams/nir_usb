@@ -162,12 +162,22 @@ BEGIN
 			end if;
 		end if;
 	end process;
-
+--当ad_tri来临启动cnv转换
+process(adc_tcyc_cnt)  --启动转换，保持两个主时钟，
+begin
+	if m_rst_i='0' then
+		cnv_s<='0';
+	elsif (adc_tcyc_cnt=15)then
+			sen_tri<='1';
+			else
+			sen_tri<='0';
+		end if;
+end process;
 
 --定义buffer_reset_s
 process(adc_tcyc_cnt)  --过4个时钟后，buffer reset置零，准备发送数据
 begin
-	if (adc_tcyc_cnt=11)then
+	if (adc_tcyc_cnt=7)then
 		buffer_reset_s<='1';
 		else
 		buffer_reset_s<='0';
