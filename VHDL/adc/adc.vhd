@@ -67,7 +67,7 @@ signal buffer_reset_s : std_logic;
 signal sclk_cnt : integer range 0 to 17;
 signal sclk_echo_cnt : integer range 0 to 17;
 signal serial_read_done_s : std_logic;                        -- 126行
-signal adc_tcyc_cnt : integer range 0 to 19;    
+signal adc_tcyc_cnt : integer range 0 to 20;    
 TYPE states is(serial_idle,serial_read,serial_done);  --ADC控制引脚定义
 signal serial_pstate,serial_nstate:states;
  
@@ -97,7 +97,9 @@ end process;
 --定义cnv_s
 process(adc_tcyc_cnt)  --启动转换，保持两个主时钟，
 begin
-	if (adc_tcyc_cnt>17)then
+	if m_rst_i='0' then
+		cnv_s<='0';
+	elsif (adc_tcyc_cnt>17)then
 			cnv_s<='1';
 			else
 			cnv_s<='0';
@@ -129,10 +131,9 @@ end process;
 process(m_clk_i,m_rst_i)
 begin
 if rising_edge(m_clk_i) then		
-	 if rising_edge(sen_tri) then					--若需触发rising_edge(sen_tri)
-			adc_tcyc_cnt<=19;
-		end if;
-		if adc_tcyc_cnt>0 then
+	 if m_rst_i='0' then					--若需触发rising_edge(sen_tri)
+			adc_tcyc_cnt<=20;
+		elsif adc_tcyc_cnt>0 then
 			adc_tcyc_cnt<= adc_tcyc_cnt-1;
 		   else
 			adc_tcyc_cnt<=19;

@@ -142,7 +142,7 @@ BEGIN
    begin		
       -- hold reset state for 100 ns.
 		m_rst_i <='0';
-      wait for 100 ns;	
+      wait for 90 ns;	
 		m_rst_i <='1';
       wait for 999999 ns;
 
@@ -151,7 +151,7 @@ BEGIN
    end process;
 	
 	sclk_s<=(clk_s and fast_clk_i);
-	sdi_s<=(data_s and fast_clk_i);
+	sdi_s<=(data_s and fast_clk_i and m_rst_i);
 	
 	process(m_clk_i,clk_s)
 	begin
