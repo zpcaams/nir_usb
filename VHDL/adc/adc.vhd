@@ -100,7 +100,7 @@ process(adc_tcyc_cnt)  --启动转换，保持两个主时钟，
 begin
 	if m_rst_i='0' then
 		cnv_s<='0';
-	elsif (adc_tcyc_cnt>17)then
+	elsif (adc_tcyc_cnt>16)then
 			cnv_s<='1';
 			else
 			cnv_s<='0';

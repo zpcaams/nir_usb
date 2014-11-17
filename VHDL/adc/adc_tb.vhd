@@ -86,13 +86,13 @@ signal sdi_s : std_logic;
 signal sclk_s : std_logic;
 signal adc_clk,data_s: std_logic;
 signal serial_buffer:std_logic_vector(15 downto 0);
-signal clk_s : std_logic;
+signal clk_s: std_logic;
 signal tmsb_done_s : std_logic;
 signal buffer_reset_s : std_logic;
 signal sclk_cnt : integer range 0 to 17;
 signal sclk_echo_cnt : integer range 0 to 17;
 signal serial_read_done_s : std_logic;                        -- 126行
-signal adc_tcyc_cnt : integer range 0 to 19;    
+signal adc_tcyc_cnt : integer range 0 to 20;    
 TYPE states is(serial_idle,serial_read,serial_done);  --ADC控制引脚定义
 signal serial_pstate,serial_nstate:states;
    -- Clock period definitions
@@ -151,7 +151,7 @@ BEGIN
    end process;
 	
 	sclk_s<=(clk_s and fast_clk_i);
-	sdi_s<=(data_s and fast_clk_i and m_rst_i);
+	sdi_s<=(clk_s and fast_clk_i and m_rst_i);
 	
 	process(m_clk_i,clk_s)
 	begin
@@ -202,7 +202,7 @@ process(m_clk_i,m_rst_i)
 begin
 if rising_edge(m_clk_i) then		
 	 if rising_edge(sen_tri) then
-			adc_tcyc_cnt<=19;
+			adc_tcyc_cnt<=20;
 		end if;
 		if adc_tcyc_cnt>0 then
 			adc_tcyc_cnt<= adc_tcyc_cnt-1;
