@@ -57,6 +57,7 @@ ARCHITECTURE behavior OF adc_tb IS
          clk_pos_o : OUT  std_logic;
          clk_neg_o : OUT  std_logic;
          data_rd_rdy_o : OUT  std_logic;
+			
          data_o : OUT  std_logic_vector(15 downto 0)
         );
     END COMPONENT;
@@ -81,19 +82,19 @@ ARCHITECTURE behavior OF adc_tb IS
    signal data_o : std_logic_vector(15 downto 0);
 	
 	--
-signal cnv_s : std_logic;
-signal sdi_s : std_logic;
+signal cnv_s,data_s,fifo_wr: std_logic;
+signal sdi_s: std_logic;
 signal sclk_s : std_logic;
-signal adc_clk,data_s: std_logic;
+signal adc_clk : std_logic;
 signal serial_buffer:std_logic_vector(15 downto 0);
-signal clk_s: std_logic;
+signal clk_s : std_logic;
 signal tmsb_done_s : std_logic;
 signal buffer_reset_s : std_logic;
-signal sclk_cnt : integer range 0 to 17;
-signal sclk_echo_cnt : integer range 0 to 17;
-signal serial_read_done_s : std_logic;                        -- 126行
-signal adc_tcyc_cnt : integer range 0 to 20;    
-TYPE states is(serial_idle,serial_read,serial_done);  --ADC控制引脚定义
+signal sclk_cnt: integer range 0 to 16;
+signal sclk_echo_cnt : integer range 0 to 16;
+signal serial_read_done_s : std_logic;   
+signal adc_tcyc_cnt : integer range 0 to 80;    
+TYPE states is(serial_idle,serial_cnv,serial_read,fifo_state);  --ADC控制引脚定义
 signal serial_pstate,serial_nstate:states;
    -- Clock period definitions
    --constant clk_pos_o_period : time := 10 ns;
@@ -120,14 +121,6 @@ BEGIN
         );
 
    -- Clock process definitions
-   m_clk_i_process :process
-   begin
-		m_clk_i <= '0';
-		wait for 10 ns;
-		m_clk_i <= '1';
-		wait for 10 ns;
-   end process;
-	
 	--fast_clk_i
     fast_clk_i_process :process
    begin
@@ -149,25 +142,34 @@ BEGIN
       -- insert stimulus here 
       wait;
    end process;
-	
+
+		
+	process(adc_tcyc_cnt)
+		begin
+				if adc_tcyc_cnt=20 then
+				fifo_wr<='1';
+				else fifo_wr<='0';
+				end if;
+		end process;
 	sclk_s<=(clk_s and fast_clk_i);
 	sdi_s<=(clk_s and fast_clk_i and m_rst_i);
-	
-	process(m_clk_i,clk_s)
-	begin
-		if rising_edge(m_clk_i) then
-			if clk_s='1'then
-				data_s<='1';
-				else data_s<='0';
-			end if;
+--adc_tcyc_cnt计数变化
+process(fast_clk_i,clk_s)
+begin
+if rising_edge(fast_clk_i) then		
+	 if clk_s='1' then
+			data_s<='1';
+		else data_s<='0';
 		end if;
-	end process;
+end if;
+end process;
+
 --当ad_tri来临启动cnv转换
 process(adc_tcyc_cnt)  --启动转换，保持两个主时钟，
 begin
 	if m_rst_i='0' then
 		cnv_s<='0';
-	elsif (adc_tcyc_cnt=15)then
+	elsif (adc_tcyc_cnt=0)then
 			sen_tri<='1';
 			else
 			sen_tri<='0';
@@ -177,7 +179,7 @@ end process;
 --定义buffer_reset_s
 process(adc_tcyc_cnt)  --过4个时钟后，buffer reset置零，准备发送数据
 begin
-	if (adc_tcyc_cnt=7)then
+	if (adc_tcyc_cnt=41)then
 		buffer_reset_s<='1';
 		else
 		buffer_reset_s<='0';
@@ -193,65 +195,68 @@ begin
 		clk_s<='1';
 		else clk_s<='0';
 	end if;
+
 end process;
 
 
 
 --adc_tcyc_cnt计数变化
-process(m_clk_i,m_rst_i)
+process(fast_clk_i,m_rst_i)
 begin
-if rising_edge(m_clk_i) then		
-	 if rising_edge(sen_tri) then
-			adc_tcyc_cnt<=20;
-		end if;
-		if adc_tcyc_cnt>0 then
+if rising_edge(fast_clk_i) then		
+	 if m_rst_i='0' then					--若需触发rising_edge(sen_tri)
+			adc_tcyc_cnt<=80;
+		elsif adc_tcyc_cnt>0 then
 			adc_tcyc_cnt<= adc_tcyc_cnt-1;
 		   else
-			adc_tcyc_cnt<=19;
+			adc_tcyc_cnt<=79;
 		end if;
 end if;
 end process;
 
 
 --ADC状态转换条件
-process(serial_pstate,tmsb_done_s,sclk_echo_cnt,sclk_cnt)
+process(fast_clk_i,serial_pstate)
 begin
-	case serial_pstate is
+if rising_edge(fast_clk_i) then
+		serial_pstate<=serial_nstate;
+		 case serial_pstate is
 			when serial_idle => 
-				if tmsb_done_s <= '1' then
+				if adc_tcyc_cnt=1 then
+					serial_nstate<= serial_cnv;
+				end if;
+			when serial_cnv => 
+				if adc_tcyc_cnt=41 then
 					serial_nstate<= serial_read;
 				end if;
 			when serial_read =>
 				if (sclk_echo_cnt=0 and sclk_cnt=0) then
-					serial_nstate<= serial_done;
+					serial_nstate<= fifo_state;
 					else
 					serial_nstate<= serial_read; 
 				end if;
-			when serial_done => 
-				serial_nstate<= serial_idle;
+			when fifo_state => 
+					serial_nstate<= serial_idle;
 	end case;
+
+end if;
 end process;
 		
 --fast_clk条件下，状态转移指示
 process(fast_clk_i)
 begin
 	if rising_edge(fast_clk_i) then
-		if m_rst_i='0' then
-			serial_read_done_s<='0';
-			serial_pstate<=serial_idle;
-			else
-			serial_pstate<=serial_nstate;
+	
 			case serial_pstate is
 				when serial_idle => 
 					 serial_read_done_s<='1'; 
-				when serial_read =>
-					 serial_read_done_s<='0'; 
-            when serial_done => 
+				when serial_cnv =>
 					 serial_read_done_s<='1'; 
-            when others =>
+            when serial_read => 
 					 serial_read_done_s<='0'; 
+            when fifo_state =>
+					 serial_read_done_s<='1'; 
 			end case;
-		end if;
 	end if;
 end process;
 
@@ -259,12 +264,13 @@ process(fast_clk_i)             --FPGA读取计数器计数变化
 begin
 	if fast_clk_i'EVENT and fast_clk_i='1' then
 		if buffer_reset_s='1' then
-			sclk_cnt<=17;
+			sclk_cnt<=16;
 		elsif (sclk_cnt>0 and clk_s='1')then
 				sclk_cnt<=sclk_cnt-1;
 			end if;
 	end if;
 end process;
+
 
 
 
