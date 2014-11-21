@@ -46,6 +46,7 @@ ARCHITECTURE behavior OF ad_tb IS
          trig : IN  std_logic;
          data : IN  std_logic;
          dco : IN  std_logic;
+			fifo_wr : OUT std_logic;
          cnv : OUT  std_logic;
          sclk : OUT  std_logic;
          data_reg : OUT  std_logic_vector(15 downto 0)
@@ -61,10 +62,12 @@ ARCHITECTURE behavior OF ad_tb IS
    signal dco : std_logic := '0';
 
  	--Outputs
+	signal fifo_wr : std_logic;
    signal cnv : std_logic;
    signal sclk : std_logic;
    signal data_reg : std_logic_vector(15 downto 0);
-
+	
+	signal dco_s : std_logic;
 
  
 BEGIN
@@ -76,6 +79,7 @@ BEGIN
           trig => trig,
           data => data,
           dco => dco,
+			 fifo_wr => fifo_wr,
           cnv => cnv,
           sclk => sclk,
           data_reg => data_reg
@@ -93,14 +97,40 @@ BEGIN
 	   trig_process :process
    begin
 		wait for 200 ns;
+		loop
 		trig <= '1';
 		wait for 10 ns;
 		trig <= '0';
 		wait for 390 ns;
-		
+		end loop;
    end process;
  
+    data_process :process
+   begin
+		data <= '0';
+		wait for 5 ns;
+		data <= '1';
+		wait for 10 ns;
+		data <= '0';
+		wait for 8 ns;
+		data <= '1';
+		wait for 6 ns;
+	   end process;
 
+
+
+   dco_process :process
+   begin
+		dco_s <= '0';
+		wait for 310 ns;
+		loop
+		dco_s <= '1';
+		wait for 80 ns;
+		dco_s <= '0';
+		wait for 320 ns;
+		end loop;
+   end process;
+	dco<=dco_s and fast_clk;
 
    -- Stimulus process
    stim_proc: process

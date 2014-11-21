@@ -77,6 +77,7 @@ Architecture ad of ad is
 					trig : in STD_LOGIC;
 					data : in std_logic;
                dco : in std_logic;
+					fifo_wr : out std_logic;
 					cnv : out std_logic;
                sclk : out std_logic;
 					data_reg : out std_logic_vector(15 downto 0));
@@ -94,18 +95,18 @@ Architecture ad of ad is
 	    empty : OUT STD_LOGIC
 	  );
 	END COMPONENT;
-signal data,dco,cnv,sclk,wr_en,rd_en : std_logic;
-signal data_reg : std_logic_vector(15 downto 0);
+signal data_wire,dco_wire,cnv_wire,sclk_wire,wr_wire,rd : std_logic;
+signal reg_wire : std_logic_vector(15 downto 0);
     
 
 
 begin
-u1_d_buf    :   d_buf   port map(d_pos,d_neg,data);
-u2_dco_buf  :   dco_buf  port map(dco_pos,dco_neg,dco);
-u3_cnv_buf  :   cnv_buf  port map(cnv,cnv_pos,cnv_neg);
-u4_sclk_buf :   sclk_buf port map(sclk,clk_pos,clk_neg);
-u5_adc      :   adc      port map(fast_clk,reset,trig,data,dco,cnv,sclk,data_reg);
-u6_fifo     :   fifo     port map(fast_clk,data_reg,wr_en,rd_en,open,open,open);
+u1_d_buf    :   d_buf   port map(d_pos,d_neg,data_wire);
+u2_dco_buf  :   dco_buf  port map(dco_pos,dco_neg,dco_wire);
+u3_cnv_buf  :   cnv_buf  port map(cnv_wire,cnv_pos,cnv_neg);
+u4_sclk_buf :   sclk_buf port map(sclk_wire,clk_pos,clk_neg);
+u5_adc      :   adc      port map(fast_clk,reset,trig,data_wire,dco_wire,wr_wire,cnv_wire,sclk_wire,reg_wire);
+u6_fifo     :   fifo     port map(fast_clk,reg_wire,wr_wire,rd,open,open,open);
 
 end Architecture;
 

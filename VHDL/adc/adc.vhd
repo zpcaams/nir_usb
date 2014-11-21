@@ -38,6 +38,7 @@ entity adc is
 			  trig  : in STD_LOGIC;
            data : in  STD_LOGIC;
            dco : in  STD_LOGIC;
+			  fifo_wr :out STD_LOGIC;
            cnv : out  STD_LOGIC;
            sclk : out  STD_LOGIC;
 			  data_reg : out STD_LOGIC_vector(15 downto 0));
@@ -48,12 +49,14 @@ architecture Behavioral of adc is
 signal clk_s,buffer_reset,read_s : std_logic;
 signal tri_reg : std_logic_vector(1 downto 0);
 signal cnv_cnt : integer range 0 to 18;
-signal sclk_cnt,dco_cnt : integer range 0 to 16;
+signal dd_cnt : integer range 0 to 3;
+signal sclk_cnt,dco_cnt : integer range 0 to 17;
 signal serial_buf : std_logic_vector(15 downto 0); 
 type state_type is (serial_idle, serial_cnv,serial_read,serial_fifo); 
 signal pr_state, nx_state : state_type; 
    
 begin
+
 
 sclk<=(fast_clk and clk_s);
 
@@ -93,47 +96,61 @@ end if;
 end process;
 
 --状态机变化
- process (fast_clk,reset)
+ process (fast_clk,reset,pr_state)
    begin
       if rising_edge(fast_clk) then
          if reset = '0' then
 				read_s<='0';
             pr_state <= serial_idle;
+				--fifo_wr <='0';
          else
             pr_state <= nx_state;
 			case pr_state is 
 				when serial_idle =>
 					read_s<='0';
+					--fifo_wr <='0';
 				when serial_cnv =>
 					read_s<='0';
+					--fifo_wr <='0';
 				when serial_read =>
 					read_s<='1';
+					--fifo_wr <='0';
 				when serial_fifo =>
 					read_s<='0';
+					--fifo_wr <='1';
 				when others =>
 					read_s<='0';
+					--fifo_wr <='0';
 			end case;
 		
          end if;        
       end if;
    end process;
+process(pr_state,sclk_cnt)
+begin
+	if  sclk_cnt=0 and pr_state=serial_fifo then     --read状态16个adc_clk完成SCLK_CNT=0
+		fifo_wr<='1';
+	  else
+		 fifo_wr<='0';
+	 end if;
+end process;
 	
 --状态机变化条件
- process (pr_state, nx_state,cnv_cnt,sclk_cnt)
+ process (pr_state,tri_reg, nx_state,buffer_reset,dd_cnt)
    begin
-      nx_state <= serial_idle; 
+      nx_state <= pr_state; 
        case pr_state is
          when serial_idle =>
             if tri_reg = "01" then              --trig触发
                nx_state <= serial_cnv;
             end if;
          when serial_cnv =>
-            if cnv_cnt = 0 then
+            if buffer_reset='1' then             --buffer_reset触发改变
                nx_state <= serial_read;
             end if;
          when serial_read =>
-				if sclk_cnt = 0 then
-               nx_state <= serial_fifo;
+				if dd_cnt = 1 then                   --为了使fifo状态与read状态有时间差，引进新的计数器4
+               nx_state <= serial_fifo;          --dco记够16个，开始减数计3个时钟进入fifo
             end if;
 			when serial_fifo =>
 				nx_state <= serial_idle;
@@ -142,6 +159,7 @@ end process;
       end case;      
    end process;
 	
+
 --buffer_reset变化准备以为寄存器存储数据
 process(fast_clk,cnv_cnt)
 begin
@@ -166,27 +184,37 @@ if rising_edge(fast_clk) then
 end if;
 end process;
 --clks变化
-process(fast_clk ,sclk_cnt,buffer_reset)
+process(fast_clk ,sclk_cnt,buffer_reset,pr_state)
 begin
 if rising_edge(fast_clk) then
-	if (sclk_cnt>0 and buffer_reset='0') then
+	if (sclk_cnt>0 and buffer_reset='0' and pr_state=serial_read ) then
 		clk_s<='1';
 		else clk_s<='0';
 	end if;
+end if;
+end process;
+process(fast_clk,dco_cnt)
+begin
+if rising_edge(fast_clk) then
+	if dco_cnt =1 then
+		dd_cnt<=3;
+		elsif dd_cnt>0 then
+		dd_cnt<=dd_cnt-1;
+	 end if;
 end if;
 end process;
 				
 --移位寄存器存储
 process(dco,buffer_reset)
 begin
-if rising_edge(dco) then
 	if buffer_reset='1' then
 		serial_buf<="0000000000000000";
 		dco_cnt<=16;
-		elsif dco_cnt>0 then
+		elsif rising_edge(dco) then
+		if  dco_cnt>0 then
 		dco_cnt<=dco_cnt-1;
 		serial_buf<=serial_buf(14 downto 0)&data;
-	end if;
+	 end if;
 end if;
 end process;
 data_reg<=serial_buf;
