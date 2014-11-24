@@ -85,56 +85,21 @@ if rising_edge(fast_clk) then
 end if;
 end process;
 
---CNV上升沿变化
-process(cnv_cnt)
-begin
-if cnv_cnt>0 then
-	cnv<='1';
-	else 
-	cnv<='0';
-end if;
-end process;
+
+
 
 --状态机变化
  process (fast_clk,reset,pr_state)
    begin
       if rising_edge(fast_clk) then
          if reset = '0' then
-				read_s<='0';
-            pr_state <= serial_idle;
-				--fifo_wr <='0';
+			   pr_state <= serial_idle;
+
          else
             pr_state <= nx_state;
-			case pr_state is 
-				when serial_idle =>
-					read_s<='0';
-					--fifo_wr <='0';
-				when serial_cnv =>
-					read_s<='0';
-					--fifo_wr <='0';
-				when serial_read =>
-					read_s<='1';
-					--fifo_wr <='0';
-				when serial_fifo =>
-					read_s<='0';
-					--fifo_wr <='1';
-				when others =>
-					read_s<='0';
-					--fifo_wr <='0';
-			end case;
-		
          end if;        
       end if;
    end process;
-process(pr_state,sclk_cnt)
-begin
-	if  sclk_cnt=0 and pr_state=serial_fifo then     --read状态16个adc_clk完成SCLK_CNT=0
-		fifo_wr<='1';
-	  else
-		 fifo_wr<='0';
-	 end if;
-end process;
-	
 --状态机变化条件
  process (pr_state,tri_reg, nx_state,buffer_reset,dd_cnt)
    begin
@@ -145,11 +110,11 @@ end process;
                nx_state <= serial_cnv;
             end if;
          when serial_cnv =>
-            if buffer_reset='1' then             --buffer_reset触发改变
-               nx_state <= serial_read;
+            if cnv_cnt=0 then             --buffer_reset触发改变
+               nx_state <=serial_read;
             end if;
          when serial_read =>
-				if dd_cnt = 1 then                   --为了使fifo状态与read状态有时间差，引进新的计数器4
+				if dco_cnt =0 then                   --为了使fifo状态与read状态有时间差，引进新的计数器4
                nx_state <= serial_fifo;          --dco记够16个，开始减数计3个时钟进入fifo
             end if;
 			when serial_fifo =>
@@ -159,17 +124,32 @@ end process;
       end case;      
    end process;
 	
+--cnvS
+process(pr_state)
+begin
+	if pr_state=serial_cnv then
+			cnv<='1';
+		else cnv<='0';
+	end if;
+end process;
+--FIFO_WR变化
+process(pr_state)
+begin
+	if pr_state=serial_fifo then
+			fifo_wr<='1';
+		else fifo_wr<='0';
+	end if;
+end process;
+
 
 --buffer_reset变化准备以为寄存器存储数据
-process(fast_clk,cnv_cnt)
+process(cnv_cnt,pr_state)
 begin
-if rising_edge(fast_clk) then
-	if cnv_cnt=1 then
+	if (pr_state=serial_cnv and cnv_cnt=0) then
 		buffer_reset<='1';
 		else
 		buffer_reset<='0';
 		end if;
-	end if;
 end process;
 
 --SCLK_CNT
@@ -187,7 +167,7 @@ end process;
 process(fast_clk ,sclk_cnt,buffer_reset,pr_state)
 begin
 if rising_edge(fast_clk) then
-	if (sclk_cnt>0 and buffer_reset='0' and pr_state=serial_read ) then
+ if (sclk_cnt>0 and buffer_reset='0' and pr_state=serial_read ) then
 		clk_s<='1';
 		else clk_s<='0';
 	end if;
@@ -196,7 +176,7 @@ end process;
 process(fast_clk,dco_cnt)
 begin
 if rising_edge(fast_clk) then
-	if dco_cnt =1 then
+	if dco_cnt=1 then
 		dd_cnt<=3;
 		elsif dd_cnt>0 then
 		dd_cnt<=dd_cnt-1;
