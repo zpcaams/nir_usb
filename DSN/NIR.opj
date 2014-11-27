@@ -304,7 +304,7 @@
       (Path "Design Resources" ".\nir.dsn" "BUFFER")
       (Path "Design Resources" "Library")
       (Path "Outputs")
-      (Select "Design Resources" ".\nir.dsn" "NIR" "FPGA_IO"))
+      (Select "Design Resources" ".\nir.dsn" "BUFFER" "POWER"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -315,8 +315,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 100 1186 100 563")
-        (Scroll "193 608")
-        (Zoom "172"))
+        (Scroll "826 320")
+        (Zoom "344"))
       (Path "C:\USERS\FANHX\NIR_USB\DSN\NIR.DSN")
       (Schematic "BUFFER")
       (Page "POWER"))
@@ -339,5 +339,14 @@
         (Occurrence "/"))
       (Path "C:\USERS\FANHX\NIR_USB\DSN\NIR.DSN")
       (Schematic "NIR")
-      (Page "1ADC")))
+      (Page "1ADC"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 50 1131 50 513")
+        (Scroll "0 0")
+        (Zoom "100"))
+      (Path "C:\USERS\FANHX\NIR_USB\DSN\NIR.DSN")
+      (Schematic "BUFFER")
+      (Page "AD/BUFFER")))
   (ISPCBBASICLICENSE "false"))
