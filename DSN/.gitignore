@@ -1,0 +1,13 @@
+
+!*.gitignore
+!*.DSN
+!*.brd
+*.OLB
+*.opj
+*.dra
+*.psm
+*.pad
+*.txt
+*.log
+*.DBK
+*.jrl
